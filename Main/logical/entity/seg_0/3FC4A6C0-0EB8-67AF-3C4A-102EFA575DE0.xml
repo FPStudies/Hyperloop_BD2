@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FC4A6C0-0EB8-67AF-3C4A-102EFA575DE0" name="TubeSegment">
+<createdBy>mateusz</createdBy>
+<createdTime>2019-12-15 15:04:12 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Location" id="2F5D4AE4-1BA4-D2E5-E10A-16A7133439F0">
+<createdBy>mateusz</createdBy>
+<createdTime>2019-12-15 15:19:43 UTC</createdTime>
+<comment>geographical coordinates</comment>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

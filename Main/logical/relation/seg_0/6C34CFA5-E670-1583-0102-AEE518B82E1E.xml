@@ -3,9 +3,6 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:25:50 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
-</engineerTo>
 <arc>EAB39E7E-36EA-89B8-6724-5214A56B02C2</arc>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

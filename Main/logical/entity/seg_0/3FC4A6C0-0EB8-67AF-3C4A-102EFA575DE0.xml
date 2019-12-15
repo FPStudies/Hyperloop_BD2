@@ -3,9 +3,6 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 15:04:12 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -18,11 +15,8 @@
 <Attribute name="Location" id="2F5D4AE4-1BA4-D2E5-E10A-16A7133439F0">
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 15:19:43 UTC</createdTime>
-<comment>geographical coordinates</comment>
+<comment><![CDATA[geographical coordinates]]></comment>
 <ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>

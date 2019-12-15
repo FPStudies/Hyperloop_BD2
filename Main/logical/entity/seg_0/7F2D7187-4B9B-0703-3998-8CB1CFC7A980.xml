@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F2D7187-4B9B-0703-3998-8CB1CFC7A980" name="Platforms">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F2D7187-4B9B-0703-3998-8CB1CFC7A980" name="Platform">
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:58:37 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -14,4 +11,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D298D33A-ECF7-7356-550A-0EB5A81BC4DF" name="Platform PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-15 20:53:41 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+</identifier>
+</identifiers>
 </Entity>

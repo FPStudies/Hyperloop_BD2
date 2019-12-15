@@ -2,3 +2,5 @@
 Hyperloop infrastructure data base design
 
 Testing push - Izentar
+Testing push - aimona9 (Arthur Imona)
+Testing push - Filipterra

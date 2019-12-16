@@ -16,7 +16,7 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="046D62F9-19B6-3052-4D4B-AF7B08BE68BD" otype="Entity" vid="E30590DB-7D91-F855-EDF2-2DA258C811CC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1649" y="1042" width="195" height="122"/>
+<bounds x="1671" y="958" width="171" height="93"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="054D1124-424E-C096-7A5F-355C3F7397E2" otype="Entity" vid="F6B2436F-2FC2-0899-55FB-708A8F889211">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -56,8 +56,7 @@
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="2A485B0E-DF83-9CBF-596F-08D413EAB7DD" otype="Note" vid="61A6E1C7-E827-4474-CFA7-65D34A3B2AFD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1208" y="1182" width="132" height="103"/>
-<comment>Geographical coordinates
-Tube segment is a segment that was made in one piece in factory.</comment>
+<comment>Tube segment is a segment that was made in one piece in factory.</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3AE8EB90-461D-2650-20F2-64ABF76E64DD" otype="Entity" vid="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -70,12 +69,6 @@ Tube segment is a segment that was made in one piece in factory.</comment>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="41EBB80B-31B9-ABB3-D7C4-16545F3A117F" otype="Entity" vid="3228FCA0-6194-0E7C-A754-249B5F3F73F6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="833" y="864" width="188" height="108"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="527F4353-A681-C459-0782-2EF40FAA9D1F" otype="Note" vid="EC48F2B4-CBDD-146A-28DB-D4E8C7FE0A8C">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1027" y="1092" width="89" height="61"/>
-<comment>Propulsion should be shipped in Tube segment.
-Later we will create trigger that says fill all those non required fields or leave them NULL.</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5556CF4C-C628-5F1F-3926-53C987216625" otype="Entity" vid="68314D12-EBA7-54B7-0307-A8C7C7E7D087">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -94,6 +87,11 @@ Later we will create trigger that says fill all those non required fields or lea
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1098" y="873" width="145" height="104"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="78DF9D7D-C205-12A1-EE22-7C8F7D5738F6" otype="Note" vid="1EC602DB-F44C-BE9A-59D6-02ED1BD0C122">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1586" y="1064" width="356" height="81"/>
+<comment>This needs to be changed. We can&apos;t leave an N:N relation. But what do we do? &quot;Start&quot; and &quot;End&quot; entities? What about all the stations in-between?</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7F2D7187-4B9B-0703-3998-8CB1CFC7A980" otype="Entity" vid="831531E4-B920-F588-4ECC-DE3144712615">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="2002" y="788" width="237" height="113"/>
@@ -111,6 +109,19 @@ Later we will create trigger that says fill all those non required fields or lea
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1384" y="1003" width="91" height="52"/>
 <comment>One-way</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="949C3B0E-1565-2399-833B-9907312670A9" otype="Note" vid="A6B59BFD-8AE1-471C-E270-3C4BAEF64597">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="264" y="719" width="459" height="331"/>
+<comment>There is a lot of stuff that hypothetically can be broken or otherwise disconnected so there is plenty of non-mandatory relations and attributes. Don&apos;t know it it should be like that.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9C7D9635-B242-1F31-E3B0-67147A6C9E7D" otype="Entity" vid="799DA29E-A561-9F6F-E215-2602FD154D2D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2430" y="1239" width="154" height="111"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A4F36881-DEF3-D23F-E285-7AB82F438C16" otype="Entity" vid="86E1BE1B-13B0-C7F3-13AA-5C7A0111B690">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1016" y="1008" width="100" height="56"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="AD5D3146-4018-4027-5E52-02595A504E1F" otype="Note" vid="4187165C-4145-C6ED-7B98-D9BF40B6FDC6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -160,11 +171,20 @@ Later we will create trigger that says fill all those non required fields or lea
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="FB31BF6C-30B5-1E7F-7839-9EF17F5B0290" otype="Note" vid="AB9EBDC8-315D-F47F-74FE-D1A32454D3D1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2254" y="655" width="161" height="76"/>
+<bounds x="2254" y="648" width="195" height="83"/>
 <comment>Not sure how &quot;standalone&quot; those are.</comment>
 </OView>
 </objectViews>
 <connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="12DD156B-049E-309D-B871-46E9594C02FF" otype="Relation" vid_source="86E1BE1B-13B0-C7F3-13AA-5C7A0111B690" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1066" y="1064"/>
+<point x="1066" y="1177"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1C4729EE-0534-F84B-6082-61764DBB8242" otype="Relation" vid_source="09CF5F32-D3A5-341A-7550-5824B20CF813" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -172,6 +192,15 @@ Later we will create trigger that says fill all those non required fields or lea
 <points>
 <point x="1105" y="1375"/>
 <point x="1105" y="1280"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1FBFDA8E-D088-4174-7C54-9E33764FC72D" otype="Relation" vid_source="F08488F4-14E4-3772-A2FC-749FB6499046" vid_target="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1521" y="1154"/>
+<point x="1964" y="1154"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="253E160F-9E2F-6688-17A8-B3A00ED6907B" otype="Relation" vid_source="579C6D57-BE2D-9635-99B4-DC05169A7947" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
@@ -220,6 +249,15 @@ Later we will create trigger that says fill all those non required fields or lea
 <point x="1107" y="1440"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="48700E66-9AC0-C578-4BC0-6EFF763E2C08" otype="Relation" vid_source="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="663" y="1217"/>
+<point x="972" y="1217"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4CF1CA3B-D093-1C0F-9F6F-250B99DFAAA3" otype="Relation" vid_source="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D" vid_target="831531E4-B920-F588-4ECC-DE3144712615">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -239,6 +277,15 @@ Later we will create trigger that says fill all those non required fields or lea
 <point x="1169" y="1177"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5F7A3806-7560-C9EF-E3BF-C526F6E0151F" otype="Relation" vid_source="D66684E1-02C2-4CE4-A75D-43C3D3C16566" vid_target="799DA29E-A561-9F6F-E215-2602FD154D2D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2507" y="1158"/>
+<point x="2507" y="1239"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="69C0B6F5-6B2C-B42B-CA57-115C03882667" otype="Relation" vid_source="D4CFACCB-3936-BC26-2661-7D517BD7EA37" vid_target="F2B5AE95-5175-350F-79BE-0F0B69880FDF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -255,15 +302,6 @@ Later we will create trigger that says fill all those non required fields or lea
 <points>
 <point x="972" y="1178"/>
 <point x="922" y="1093"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="816ABCC6-9350-8098-29AD-A6A84B1E40FC" otype="Relation" vid_source="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C" vid_target="7E17D3A8-1CB5-A751-20AF-3E52C6E6EF10">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="507" y="1202"/>
-<point x="433" y="1202"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="84F4BD32-4B12-8095-B39F-973B58EA8288" otype="Relation" vid_source="179369AF-67EE-9B43-969F-CD7E69BFE610" vid_target="F6B2436F-2FC2-0899-55FB-708A8F889211">
@@ -298,8 +336,8 @@ Later we will create trigger that says fill all those non required fields or lea
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1844" y="1100"/>
-<point x="1964" y="1100"/>
+<point x="1842" y="1047"/>
+<point x="1964" y="1047"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9649C5C1-93AA-20ED-FADA-A4A5F44F2DC8" otype="Relation" vid_source="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D" vid_target="D66684E1-02C2-4CE4-A75D-43C3D3C16566">
@@ -338,6 +376,15 @@ Later we will create trigger that says fill all those non required fields or lea
 <point x="1497" y="1060"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CEF548FC-72B2-F433-FE55-BACDA9B5E742" otype="Relation" vid_source="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C" vid_target="7E17D3A8-1CB5-A751-20AF-3E52C6E6EF10">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="507" y="1187"/>
+<point x="433" y="1187"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D52C029A-791F-0BFA-18B7-934B77DF25A0" otype="Relation" vid_source="831531E4-B920-F588-4ECC-DE3144712615" vid_target="29716542-E2E1-CA36-CD27-D30D0DD66461">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -345,15 +392,6 @@ Later we will create trigger that says fill all those non required fields or lea
 <points>
 <point x="2239" y="854"/>
 <point x="2418" y="854"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D73B2689-C91B-B9E6-620C-BEEB364CBBE3" otype="Relation" vid_source="E30590DB-7D91-F855-EDF2-2DA258C811CC" vid_target="F08488F4-14E4-3772-A2FC-749FB6499046">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="1649" y="1112"/>
-<point x="1521" y="1112"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DD008DA5-DA4F-4769-ECAD-28DBA5F3DB88" otype="Relation" vid_source="68314D12-EBA7-54B7-0307-A8C7C7E7D087" vid_target="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D">
@@ -372,15 +410,6 @@ Later we will create trigger that says fill all those non required fields or lea
 <points>
 <point x="1505" y="1164"/>
 <point x="1756" y="1338"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F6D8B022-8F81-3DB6-FC40-2848FFAD43C5" otype="Relation" vid_source="D4CFACCB-3936-BC26-2661-7D517BD7EA37" vid_target="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="972" y="1232"/>
-<point x="663" y="1232"/>
 </points>
 </Connector>
 </connectors>

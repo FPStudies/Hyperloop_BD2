@@ -23,5 +23,35 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Start" id="12D5B4CE-39BD-59D1-9055-700F7F5D1636">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:59 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End" id="ABC6045A-AC77-DF05-BE27-86AB4C2A9E00">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:59:54 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A588C43E-A823-F734-19C7-A99D46475681" name="Route PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:00:10 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ABC6045A-AC77-DF05-BE27-86AB4C2A9E00</attributeRef>
+<attributeRef>12D5B4CE-39BD-59D1-9055-700F7F5D1636</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

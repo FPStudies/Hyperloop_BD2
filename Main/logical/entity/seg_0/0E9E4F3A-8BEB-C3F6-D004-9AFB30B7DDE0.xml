@@ -11,4 +11,38 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Serial Number" id="B4EAE304-0783-9B0B-7926-B7A837BCF41D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:44:30 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number1" id="BE6F035D-E1EE-70D2-18F7-0E81408C6E66">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:45:45 UTC</createdTime>
+<generatorID>CEF548FC-72B2-F433-FE55-BACDA9B5E742</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>455C898D-928C-5EE2-3CB7-E84F89603F56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94487A45-545C-9CB9-292B-8B30FD8636A8" name="Battery PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:44:40 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4EAE304-0783-9B0B-7926-B7A837BCF41D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

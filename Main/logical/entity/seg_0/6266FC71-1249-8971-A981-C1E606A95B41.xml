@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6266FC71-1249-8971-A981-C1E606A95B41" name="SolarPanel">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6266FC71-1249-8971-A981-C1E606A95B41" name="Solar Panel">
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 15:18:47 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
@@ -11,4 +11,38 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Serial Number" id="0C4BA168-31EA-39F7-3559-7392EA716B12">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:45:58 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number1" id="513078CE-330E-C74B-0BD1-9225EED26182">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:11 UTC</createdTime>
+<generatorID>253E160F-9E2F-6688-17A8-B3A00ED6907B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7018867F-BE96-3F8F-2D71-EF0C7225B73E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3255EAA-5A5E-C763-232C-7D346E0A8183" name="Solar Panel PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:46:03 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C4BA168-31EA-39F7-3559-7392EA716B12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

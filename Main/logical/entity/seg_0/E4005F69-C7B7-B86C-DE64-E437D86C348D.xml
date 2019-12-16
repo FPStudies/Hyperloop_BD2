@@ -11,4 +11,50 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="F6A15DA8-8F6A-D30A-FCBF-3EC72C8EC61F">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:46:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="9578120B-1C81-F758-03E6-843AD114B2D5">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:47:15 UTC</createdTime>
+<generatorID>428797A7-8696-4D58-E785-04B9270744D8</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DC4C5A81-57DE-F49F-4CBB-B87A8AC11AC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number1" id="8709D191-3823-138D-AD6C-02C2D556E22D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:11 UTC</createdTime>
+<generatorID>1C4729EE-0534-F84B-6082-61764DBB8242</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7018867F-BE96-3F8F-2D71-EF0C7225B73E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94376983-4D20-7F5F-327D-F6D94816F757" name="Pylon PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:46:57 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6A15DA8-8F6A-D30A-FCBF-3EC72C8EC61F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

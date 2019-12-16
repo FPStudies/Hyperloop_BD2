@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FC4A6C0-0EB8-67AF-3C4A-102EFA575DE0" name="TubeSegment">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FC4A6C0-0EB8-67AF-3C4A-102EFA575DE0" name="Tube Segment">
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 15:04:12 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
@@ -12,14 +12,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Location" id="2F5D4AE4-1BA4-D2E5-E10A-16A7133439F0">
-<createdBy>mateusz</createdBy>
-<createdTime>2019-12-15 15:19:43 UTC</createdTime>
-<comment><![CDATA[geographical coordinates]]></comment>
+<Attribute name="Serial Number" id="7018867F-BE96-3F8F-2D71-EF0C7225B73E">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:04 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Chainage" id="2F5D4AE4-1BA4-D2E5-E10A-16A7133439F0">
+<createdBy>mateusz</createdBy>
+<createdTime>2019-12-15 15:19:43 UTC</createdTime>
+<comment><![CDATA[geographical coordinates]]></comment>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Type" id="331305D8-C1C0-F124-6FB2-4043150A6BE8">
@@ -55,5 +66,63 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Unit" id="2902599E-7C34-3E93-DC1F-466CB8DCE2AD">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:40:06 UTC</createdTime>
+<generatorID>12DD156B-049E-309D-B871-46E9594C02FF</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>C1D75422-4D90-3C97-CA57-869F7C19296E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number1" id="77C447F7-68AE-AD78-E3BB-E838EF08DCB1">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:14 UTC</createdTime>
+<generatorID>48700E66-9AC0-C578-4BC0-6EFF763E2C08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>455C898D-928C-5EE2-3CB7-E84F89603F56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End" id="E0EEFD19-9BA5-DFCF-9471-844056304821">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:00:20 UTC</createdTime>
+<generatorID>4D4F87D2-44A8-0C32-A2D4-72F337C8A690</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ABC6045A-AC77-DF05-BE27-86AB4C2A9E00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start" id="03422E00-E172-C1CB-3250-2883C86CFE3F">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:00:20 UTC</createdTime>
+<generatorID>4D4F87D2-44A8-0C32-A2D4-72F337C8A690</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>12D5B4CE-39BD-59D1-9055-700F7F5D1636</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F03771B-F7B1-2529-2532-C2D444E87443" name="Tube Segment PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:10 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7018867F-BE96-3F8F-2D71-EF0C7225B73E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

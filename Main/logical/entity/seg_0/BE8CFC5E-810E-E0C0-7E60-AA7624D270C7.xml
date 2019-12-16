@@ -11,4 +11,27 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="417934EF-E01E-5599-A663-A70C9DD6724F">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:02:47 UTC</createdTime>
+<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="B4EBC379-ED6B-6E67-BED2-7BCA4F2656F0">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:03:04 UTC</createdTime>
+<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

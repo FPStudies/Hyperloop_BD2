@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F2D7187-4B9B-0703-3998-8CB1CFC7A980" name="Platform">
-<createdBy>mateusz</createdBy>
-<createdTime>2019-12-15 14:58:37 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C7D9635-B242-1F31-E3B0-67147A6C9E7D" name="Radio">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:04:55 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,36 +12,36 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A">
+<Attribute name="Serial Number" id="D5C16C11-0231-3C44-87EB-EAFEE13169ED">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:55:17 UTC</createdTime>
-<generatorID>4CF1CA3B-D093-1C0F-9F6F-250B99DFAAA3</generatorID>
+<createdTime>2019-12-16 01:05:02 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<referedAttribute>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Number" id="32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D">
+<Attribute name="Name" id="8DB02BF4-83C9-2B75-465B-697AE9E39497">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 01:02:40 UTC</createdTime>
+<createdTime>2019-12-16 01:05:38 UTC</createdTime>
+<generatorID>5F7A3806-7560-C9EF-E3BF-C526F6E0151F</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7E201AE0-EDBC-843B-6B6B-9AA23236AFCF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D298D33A-ECF7-7356-550A-0EB5A81BC4DF" name="Platform PK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-15 20:53:41 UTC</createdTime>
+<identifier id="0936A04C-CAB6-980E-66CF-4076B9CEBF69" name="Radio PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:05:08 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</attributeRef>
-<attributeRef>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</attributeRef>
+<attributeRef>D5C16C11-0231-3C44-87EB-EAFEE13169ED</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

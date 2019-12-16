@@ -23,5 +23,25 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Name" id="87DCDB1E-C1C8-9921-3445-158A4BBA7CFA">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:55:07 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74B69F84-6CCC-88BE-E1D4-0D8DA186A507" name="Station PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:55:16 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

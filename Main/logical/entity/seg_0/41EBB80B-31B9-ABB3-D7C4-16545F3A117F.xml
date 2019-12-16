@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41EBB80B-31B9-ABB3-D7C4-16545F3A117F" name="Terrain type">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41EBB80B-31B9-ABB3-D7C4-16545F3A117F" name="Terrain Type">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-15 23:54:58 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>

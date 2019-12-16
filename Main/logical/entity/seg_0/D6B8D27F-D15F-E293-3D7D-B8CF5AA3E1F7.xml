@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6B8D27F-D15F-E293-3D7D-B8CF5AA3E1F7" name="Capsule status">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6B8D27F-D15F-E293-3D7D-B8CF5AA3E1F7" name="Capsule Status">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:06:40 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>

@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3AE8EB90-461D-2650-20F2-64ABF76E64DD" name="Linear Electric Motor">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4F36881-DEF3-D23F-E285-7AB82F438C16" name="Chainage Unit">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-15 23:59:57 UTC</createdTime>
+<createdTime>2019-12-16 00:38:16 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<typeID>4</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,9 +13,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Serial Number" id="455C898D-928C-5EE2-3CB7-E84F89603F56">
+<Attribute name="Unit" id="C1D75422-4D90-3C97-CA57-869F7C19296E">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:44:03 UTC</createdTime>
+<createdTime>2019-12-16 00:38:23 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,13 +24,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="90244986-E64A-214B-3F28-60C404A2DFF5" name="Linear Electric Motor PK">
+<identifier id="8A40EADE-8466-ED61-E476-D3C880E7DFAE" name="Chainage PK">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:44:19 UTC</createdTime>
+<createdTime>2019-12-16 00:39:56 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>455C898D-928C-5EE2-3CB7-E84F89603F56</attributeRef>
+<attributeRef>C1D75422-4D90-3C97-CA57-869F7C19296E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

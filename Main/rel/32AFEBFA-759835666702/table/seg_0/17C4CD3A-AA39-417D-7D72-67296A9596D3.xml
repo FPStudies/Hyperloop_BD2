@@ -20,6 +20,17 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Capacity" id="CD92763C-7564-1496-3237-860C0B79B508">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>1BF4105E-841A-0E9A-4A80-70E8340525FB</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Serial_Number" id="4B70B043-93A3-352D-09AB-6FC34479ECA0">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -35,17 +46,6 @@
 <associations>
 <colAssociation fkAssociation="5717CC24-F180-515E-3279-BC80B828B3BA" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
 </associations>
-</Column>
-<Column name="Capacity" id="CD92763C-7564-1496-3237-860C0B79B508">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>1BF4105E-841A-0E9A-4A80-70E8340525FB</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Element_Status_Status" id="ACE38F54-AAD4-2736-022C-BC0BFFCCC434">
 <createdBy>Matizbychu</createdBy>

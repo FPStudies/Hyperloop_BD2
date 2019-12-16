@@ -29,12 +29,29 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
+<dataTypeSize>60 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="2C2B16DE-427C-4686-B4A8-847C0A07B70B" referredColumn="5E3BFCE2-E097-D299-F1A2-A1300331B599"/>
+</associations>
+</Column>
+<Column name="Radio_Station_ID" id="648FD291-FFA2-428F-2545-11EE74A89CE7">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>CCC40EDF-7C5F-5E80-9A76-627BD65DFDB2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C2B16DE-427C-4686-B4A8-847C0A07B70B" referredColumn="566702C0-B78D-1333-8665-51A9292B235E"/>
 </associations>
 </Column>
 <Column name="Serial_Number1" id="C0FA6405-6B68-4CDD-49D4-5D67DC498D9F">
@@ -67,23 +84,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E03CD69A-CBAB-1DBF-F741-E09C33339146" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
-</associations>
-</Column>
-<Column name="Radio_Station_ID" id="648FD291-FFA2-428F-2545-11EE74A89CE7">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>CCC40EDF-7C5F-5E80-9A76-627BD65DFDB2</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>6 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2C2B16DE-427C-4686-B4A8-847C0A07B70B" referredColumn="566702C0-B78D-1333-8665-51A9292B235E"/>
 </associations>
 </Column>
 <Column name="Producent_ID" id="590494FB-2DB9-7F6C-E608-9B1448962B19">

@@ -20,6 +20,29 @@
 <ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Avg_turn_time" id="9629C6F4-6754-FB69-02EA-2DD2A331C1D3">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>FA25EB72-2023-805A-88AF-A1256F08F2B8</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Weight_limit" id="7DB5277D-6635-B518-DC14-431668DC7A9D">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>63B1C8F4-6FE7-B9FE-1986-77941F4553D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Platform_name" id="E5E500A6-28EE-BFFD-6F25-9E39D7A5362A">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -67,29 +90,6 @@
 <associations>
 <colAssociation fkAssociation="B904D282-3173-E78D-9234-6E75427FD87F" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
 </associations>
-</Column>
-<Column name="Avg_turn_time" id="9629C6F4-6754-FB69-02EA-2DD2A331C1D3">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>FA25EB72-2023-805A-88AF-A1256F08F2B8</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Weight_limit" id="7DB5277D-6635-B518-DC14-431668DC7A9D">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>63B1C8F4-6FE7-B9FE-1986-77941F4553D2</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Measurment_Unit" id="82F4BB00-7819-CFAB-5B12-5A9964B3ABC2">
 <createdBy>Admin</createdBy>

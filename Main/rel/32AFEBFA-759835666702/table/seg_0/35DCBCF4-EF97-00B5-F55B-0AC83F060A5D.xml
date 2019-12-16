@@ -20,6 +20,30 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Power" id="08B49869-905E-B6D4-A591-47F007F46BA0">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>BDC018A8-7CA2-E28F-50EC-5FBDDB028ED6</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Target_pressure" id="D8A5EB3F-F9E3-0379-A00D-28237372DC62">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>19526410-CBED-616B-1405-008D9DF449B4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Tube_Segment_ID" id="90C9ECFA-81D2-28C7-0755-3CD471132904">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -68,30 +92,6 @@
 <associations>
 <colAssociation fkAssociation="B2E7A23A-6934-E74C-2859-59DCD0B5C244" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
 </associations>
-</Column>
-<Column name="Power" id="08B49869-905E-B6D4-A591-47F007F46BA0">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>BDC018A8-7CA2-E28F-50EC-5FBDDB028ED6</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Target_pressure" id="D8A5EB3F-F9E3-0379-A00D-28237372DC62">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>19526410-CBED-616B-1405-008D9DF449B4</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Producent_ID" id="769DC303-D7E5-8E70-9BDD-D359E43F4E6C">
 <createdBy>Admin</createdBy>

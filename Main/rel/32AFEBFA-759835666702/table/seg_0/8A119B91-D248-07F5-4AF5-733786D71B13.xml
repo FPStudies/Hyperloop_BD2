@@ -34,6 +34,17 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Limit" id="635C0235-348B-B0D2-388D-D74068408ADA">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>086F3B79-5550-3C47-B92D-1683C4F298EF</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Serial_Number" id="3E522A8C-064A-97C3-2E62-C4A9A3EB97C5">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -65,17 +76,6 @@
 <associations>
 <colAssociation fkAssociation="B7D85BF5-DAFA-1CAD-6D6F-00C7C144CAB2" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
 </associations>
-</Column>
-<Column name="Limit" id="635C0235-348B-B0D2-388D-D74068408ADA">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>086F3B79-5550-3C47-B92D-1683C4F298EF</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Measurment_Unit" id="2BD14FBD-1E5E-A69F-49DF-864D17C4E1A7">
 <createdBy>Admin</createdBy>

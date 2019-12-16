@@ -20,6 +20,42 @@
 <ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Seats" id="AA81A5DB-AB47-A536-6647-A9336FDFA48F">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>D869C72A-57B0-FCCD-C386-F9E2E4F998A2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Carry-on_limit" id="E7D07B14-1AD6-8E37-402C-4EC8296B6525">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>44502759-C402-FBB3-605A-C5E936B80C8D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Luggage_compartment_ID" id="D5625D6A-0E92-CD66-5F1E-CF2461B7884B">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>2A3759A5-7CBF-F7BA-C422-00E9634D58A9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Capsule_Type" id="ED35E09E-0A87-A8B4-5915-6484E4090CDD">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -61,7 +97,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
+<dataTypeSize>60 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -117,42 +153,6 @@
 <associations>
 <colAssociation fkAssociation="023B295F-DA11-016A-6D09-9C79A91752B5" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
 </associations>
-</Column>
-<Column name="Seats" id="AA81A5DB-AB47-A536-6647-A9336FDFA48F">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>D869C72A-57B0-FCCD-C386-F9E2E4F998A2</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Carry-on_limit" id="E7D07B14-1AD6-8E37-402C-4EC8296B6525">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>44502759-C402-FBB3-605A-C5E936B80C8D</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Luggage_compartment_ID" id="D5625D6A-0E92-CD66-5F1E-CF2461B7884B">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>2A3759A5-7CBF-F7BA-C422-00E9634D58A9</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>6 CHAR</dataTypeSize>
-<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Measurment_Unit" id="23C43222-9433-E629-AB96-BAB857CEB0F6">
 <createdBy>Admin</createdBy>
@@ -301,4 +301,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="OnePLaceOnly" directorySegmentName="seg_0" id="F4B8A4AE-B9A6-E606-2CF0-587C8F810BBE">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 22:03:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Route_ID==NULL || Station_name==NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

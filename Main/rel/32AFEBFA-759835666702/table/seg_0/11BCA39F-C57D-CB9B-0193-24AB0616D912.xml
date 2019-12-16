@@ -20,6 +20,18 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Avg_output" id="14887565-952D-0A29-F6BC-54417F97DDA9">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>911CA161-39A8-AB08-C284-D0A76C7D0057</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Tube_Segment_ID" id="7AAA7E03-A94D-55B0-A265-3C32D42C7778">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -52,18 +64,6 @@
 <associations>
 <colAssociation fkAssociation="DD5FEC31-5AB9-B7A8-C3C2-21F07266B6EF" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
 </associations>
-</Column>
-<Column name="Avg_output" id="14887565-952D-0A29-F6BC-54417F97DDA9">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>911CA161-39A8-AB08-C284-D0A76C7D0057</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Status" id="A09E3640-E441-E8A7-C5DF-BE90695A1AB4">
 <createdBy>Matizbychu</createdBy>

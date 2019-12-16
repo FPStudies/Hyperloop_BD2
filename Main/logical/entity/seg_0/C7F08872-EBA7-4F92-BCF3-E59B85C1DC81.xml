@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7F08872-EBA7-4F92-BCF3-E59B85C1DC81" name="Station on route">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 12:00:30 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="F2854ED8-A8DB-0B2E-F167-6AAF327CBCBD">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 12:01:57 UTC</createdTime>
+<generatorID>C4EA7C0E-7382-84E6-D712-AD61775A7524</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="FED14113-7E23-C555-0C0B-FB5A2895BF82">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 12:02:36 UTC</createdTime>
+<generatorID>E65C4471-B166-146C-C538-E59CCC6C1E5D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>9F3BBDD9-D939-8803-99F8-27CB4D1970A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A83F684-6941-BE1E-B937-BFC346856FC0" name="Station on route PK">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 12:03:27 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FED14113-7E23-C555-0C0B-FB5A2895BF82</attributeRef>
+<attributeRef>F2854ED8-A8DB-0B2E-F167-6AAF327CBCBD</attributeRef>
+<attributeRef>F2854ED8-A8DB-0B2E-F167-6AAF327CBCBD</attributeRef>
+<attributeRef>FED14113-7E23-C555-0C0B-FB5A2895BF82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

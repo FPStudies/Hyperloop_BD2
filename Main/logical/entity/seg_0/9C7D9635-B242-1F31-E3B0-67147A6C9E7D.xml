@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C7D9635-B242-1F31-E3B0-67147A6C9E7D" name="Radio">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:04:55 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D5C16C11-0231-3C44-87EB-EAFEE13169ED">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:05:02 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="8DB02BF4-83C9-2B75-465B-697AE9E39497">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:05:38 UTC</createdTime>
+<generatorID>5F7A3806-7560-C9EF-E3BF-C526F6E0151F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7E201AE0-EDBC-843B-6B6B-9AA23236AFCF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="402FC18B-3289-C4B1-8CB5-0ECBA4A4FA82">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:27:56 UTC</createdTime>
+<generatorID>6909D5DC-3F65-966E-A371-6B508880C53E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="35CCDCA2-DB85-B169-BB64-8D12EB13AC9C">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:27:56 UTC</createdTime>
+<generatorID>6909D5DC-3F65-966E-A371-6B508880C53E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Index" id="A943F2BB-E2F4-0466-EA99-99469E115BBC">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:27:56 UTC</createdTime>
+<generatorID>6909D5DC-3F65-966E-A371-6B508880C53E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>37B585C9-C633-1EEB-8775-64A76D78E083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="730B00FF-C8A0-906F-4D79-9D287B31EFC9">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:38:01 UTC</createdTime>
+<generatorID>573499AE-8603-F974-B9D9-49715A90AC88</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0936A04C-CAB6-980E-66CF-4076B9CEBF69" name="Radio PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:05:08 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5C16C11-0231-3C44-87EB-EAFEE13169ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

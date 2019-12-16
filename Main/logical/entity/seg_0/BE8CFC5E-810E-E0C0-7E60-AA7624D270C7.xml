@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE8CFC5E-810E-E0C0-7E60-AA7624D270C7" name="Airlock">
+<createdBy>mateusz</createdBy>
+<createdTime>2019-12-15 14:59:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="417934EF-E01E-5599-A663-A70C9DD6724F">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:02:47 UTC</createdTime>
+<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="B4EBC379-ED6B-6E67-BED2-7BCA4F2656F0">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:03:04 UTC</createdTime>
+<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="416F4B62-40BE-9A17-9AF5-109355F5BCEB">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:38:53 UTC</createdTime>
+<generatorID>8946CA41-2A5D-F533-540E-38D52111EF1F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Avg (de)pressurization time" id="7DA58CF3-6BA9-D106-1D3F-626864596437">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:53:54 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

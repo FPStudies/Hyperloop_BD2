@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A70E95D5-06CF-FE03-92D5-5A77C6DF3785" name="Luggage compartment">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 11:56:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_1" id="C98822D4-8A91-F7C2-84C3-E4C42C675390">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 11:57:12 UTC</createdTime>
+<generatorID>111C9815-1791-4C82-BF49-585A2E2F459A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5BDD9796-6FE2-6CCD-CE87-99C59A68E3E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="831F3528-9510-0028-98BD-7400F8F0F9EE">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:27:40 UTC</createdTime>
+<generatorID>405D08F6-2882-39EF-1B16-3A39327D04D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="8339DD6F-ADE9-73F6-EA93-CE71CD5CA341">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:27:40 UTC</createdTime>
+<generatorID>405D08F6-2882-39EF-1B16-3A39327D04D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Index" id="6B65ABE9-6EB2-E771-5EBE-70105EBE7F82">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:27:40 UTC</createdTime>
+<generatorID>405D08F6-2882-39EF-1B16-3A39327D04D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>37B585C9-C633-1EEB-8775-64A76D78E083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="0CBAEE64-C62A-56C9-E766-87D301401945">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:37:54 UTC</createdTime>
+<generatorID>CCA22114-05DA-4EA7-4636-B3FAD96CE425</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Limit" id="086F3B79-5550-3C47-B92D-1683C4F298EF">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:33:08 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

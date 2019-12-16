@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E9E4F3A-8BEB-C3F6-D004-9AFB30B7DDE0" name="Battery">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:00:05 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B4EAE304-0783-9B0B-7926-B7A837BCF41D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:44:30 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="2ABD3C59-351F-579B-CDC1-0A95BDA0E9E4">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:05 UTC</createdTime>
+<generatorID>6830837D-2495-1007-11F1-466A971443C9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="40396F77-34AF-D962-8BD3-ED2C48976AF6">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:05 UTC</createdTime>
+<generatorID>6830837D-2495-1007-11F1-466A971443C9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Index" id="A32A3DA9-DDD4-E808-13A8-94057FBE7F58">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:05 UTC</createdTime>
+<generatorID>6830837D-2495-1007-11F1-466A971443C9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>37B585C9-C633-1EEB-8775-64A76D78E083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacity" id="1BF4105E-841A-0E9A-4A80-70E8340525FB">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:20:57 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="B1BEAA61-7A7C-077B-E531-6625AE2BE540">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:36:58 UTC</createdTime>
+<generatorID>E82936AE-14FB-ABE7-9D42-80AB37A04BAA</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94487A45-545C-9CB9-292B-8B30FD8636A8" name="Battery PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:44:40 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4EAE304-0783-9B0B-7926-B7A837BCF41D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

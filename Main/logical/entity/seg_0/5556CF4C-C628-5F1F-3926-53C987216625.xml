@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5556CF4C-C628-5F1F-3926-53C987216625" name="Status">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:11:14 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<typeID>4</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Status" id="FEA9D947-79E6-C156-A99A-D9EA2A399EE9">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:11:19 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5682D6E7-D55D-5D6E-0894-11AEFFF0439C" name="Status PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:11:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D965B737-2BD7-E273-5167-C91029464FB0" name="Pressure Sensor">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:00:27 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="BFD61FB6-4BDF-AEB1-BD30-41A4363A7039">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:01:15 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_2" id="016526B8-524B-EFA2-A0C8-FF8A8B87B4C5">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:11 UTC</createdTime>
+<generatorID>69C0B6F5-6B2C-B42B-CA57-115C03882667</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7018867F-BE96-3F8F-2D71-EF0C7225B73E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="92E83206-DAF1-9ADE-F84A-05D46D9B345A">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:21 UTC</createdTime>
+<generatorID>37BD275A-D27A-634B-0C43-B73EF05D8824</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="928FDCBE-79B1-0BD2-9DDE-87998A415757">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:21 UTC</createdTime>
+<generatorID>37BD275A-D27A-634B-0C43-B73EF05D8824</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Index" id="8AA7AFD4-3C05-FF54-F655-5B0DEF6A6789">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:21 UTC</createdTime>
+<generatorID>37BD275A-D27A-634B-0C43-B73EF05D8824</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>37B585C9-C633-1EEB-8775-64A76D78E083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="A671AED6-735A-9BAD-BF25-962E6A4372A9">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:36:38 UTC</createdTime>
+<generatorID>162A4AFF-417B-F616-D7AF-0BD0FA6AC798</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CE07AE8-C838-80DF-DAC7-F13F79689BA2" name="Pressure sensor PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:01:27 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFD61FB6-4BDF-AEB1-BD30-41A4363A7039</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

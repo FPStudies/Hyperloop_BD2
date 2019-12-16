@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52B428F7-FD87-A146-34B4-BB5E876DDFCC" name="Producent data">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:11:03 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<typeID>4</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:11:53 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Localization" id="135DF104-6919-FF2D-12BC-91588E296C13">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:14:09 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Index" id="37B585C9-C633-1EEB-8775-64A76D78E083">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:14:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="9A270FE0-586F-6726-7531-E101516F7664">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:14:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08" name="Producent PK">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:11:59 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</attributeRef>
+<attributeRef>9A270FE0-586F-6726-7531-E101516F7664</attributeRef>
+<attributeRef>37B585C9-C633-1EEB-8775-64A76D78E083</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

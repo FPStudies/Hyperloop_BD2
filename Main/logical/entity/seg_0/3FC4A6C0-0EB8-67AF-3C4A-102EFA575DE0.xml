@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FC4A6C0-0EB8-67AF-3C4A-102EFA575DE0" name="Tube Segment">
+<createdBy>mateusz</createdBy>
+<createdTime>2019-12-15 15:04:12 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_2" id="7018867F-BE96-3F8F-2D71-EF0C7225B73E">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:04 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="331305D8-C1C0-F124-6FB2-4043150A6BE8">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-15 23:55:22 UTC</createdTime>
+<generatorID>35733764-B973-6DFD-0929-A3BF90848366</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>3DE0678A-69AA-E5FD-0CC8-B3FAFF625E90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="F0A1977C-663A-9DE8-1A50-A756250DBB73">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-15 23:56:05 UTC</createdTime>
+<generatorID>2E246714-3450-B7C5-B9B7-947F43A5F65A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type1" id="03F71493-5BB8-146D-ACED-87210F1770BB">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:05:38 UTC</createdTime>
+<generatorID>41AA3F3A-FDB2-1F6A-9464-6715A9CE071B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>C0A030E6-258B-A81A-ABC4-635A0D7C7C9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="77C447F7-68AE-AD78-E3BB-E838EF08DCB1">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:14 UTC</createdTime>
+<generatorID>48700E66-9AC0-C578-4BC0-6EFF763E2C08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>455C898D-928C-5EE2-3CB7-E84F89603F56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C238488C-E2B8-AF85-BB90-04B1EA65FD63">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:23:27 UTC</createdTime>
+<generatorID>852C925C-02DB-D74A-F4C7-2F7D956EB40F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="40D42C44-7EB4-9FC2-9218-34D416BB87AB">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:23:27 UTC</createdTime>
+<generatorID>852C925C-02DB-D74A-F4C7-2F7D956EB40F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Index" id="B541196B-4F55-AA4D-0A82-C71851AD1904">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:23:27 UTC</createdTime>
+<generatorID>852C925C-02DB-D74A-F4C7-2F7D956EB40F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>37B585C9-C633-1EEB-8775-64A76D78E083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location" id="DE3BB0A7-C146-3C3F-ED8C-97F545693ACB">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:30:14 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Emergency exit" id="741BA4C0-187C-8633-E113-530A86F9C794">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 16:05:00 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F03771B-F7B1-2529-2532-C2D444E87443" name="Tube Segment PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:10 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7018867F-BE96-3F8F-2D71-EF0C7225B73E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

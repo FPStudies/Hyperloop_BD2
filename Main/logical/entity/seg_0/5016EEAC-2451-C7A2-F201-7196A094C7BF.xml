@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5016EEAC-2451-C7A2-F201-7196A094C7BF" name="Version">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:00:21 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<typeID>4</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Version" id="0A977A0A-7B49-2BB5-5CC1-A990AA3DAD45">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:00:27 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="A8BDD59C-7752-FCC8-E47A-3EDAAB6451A5">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:00:48 UTC</createdTime>
+<generatorID>9589B9D2-3FD6-94DF-F479-536A28EC534B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>B88927B0-C66A-DBC2-91BB-944CD2DB1E30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1F4C0FE-2F46-B694-0D05-C4C08B35D656" name="Version PK">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:00:36 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A977A0A-7B49-2BB5-5CC1-A990AA3DAD45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

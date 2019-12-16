@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E61A488F-2ED6-3A65-1080-B04E03A241EE" name="Damper">
+<createdBy>mateusz</createdBy>
+<createdTime>2019-12-15 15:02:38 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="DC4C5A81-57DE-F49F-4CBB-B87A8AC11AC8">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:47:03 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="6AABC7B0-3D07-512C-BC1C-C75DF940BB08">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:32 UTC</createdTime>
+<generatorID>FC4B1169-9A60-E03E-1B23-40DE35073AD9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="A8A9A29D-AD14-AD00-15F4-1CFB6D830A00">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:32 UTC</createdTime>
+<generatorID>FC4B1169-9A60-E03E-1B23-40DE35073AD9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Index" id="32009F3C-E2F0-1FEF-38CA-7177CD5EA0CA">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 13:26:32 UTC</createdTime>
+<generatorID>FC4B1169-9A60-E03E-1B23-40DE35073AD9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>37B585C9-C633-1EEB-8775-64A76D78E083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Next maintanance" id="44529B31-F26F-E985-26C6-AA89858ECE33">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:01:13 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Installation" id="3BDDD8C4-2B8C-24E5-2A52-3F3D41A82CD2">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:02:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="195C7FC2-391D-16F4-4AC9-4F81BB207274">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:37:39 UTC</createdTime>
+<generatorID>F676F7FC-8E07-2CC4-1211-6046D97A1950</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6DC8945-6215-5C1B-9755-21E5374B0571" name="Damper PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:47:14 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC4C5A81-57DE-F49F-4CBB-B87A8AC11AC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

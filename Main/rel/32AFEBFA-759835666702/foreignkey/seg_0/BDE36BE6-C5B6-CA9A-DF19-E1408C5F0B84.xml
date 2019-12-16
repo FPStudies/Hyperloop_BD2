@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDE36BE6-C5B6-CA9A-DF19-E1408C5F0B84" containerWithKeyObject="30826F38-A217-8224-0784-6FD9AB88042A" localFKIndex="91BFD129-7E22-3855-95CB-6AC371BD70C7" name="Airlock_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8946CA41-2A5D-F533-540E-38D52111EF1F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Status</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1407D13C-5A83-55F8-CC0A-194A1A5BB547</referredTableID>
+<keyObject>92299AC0-BD9F-1074-CBCB-68F0C461A0A5</keyObject>
+<referredKeyID>92299AC0-BD9F-1074-CBCB-68F0C461A0A5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Status</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

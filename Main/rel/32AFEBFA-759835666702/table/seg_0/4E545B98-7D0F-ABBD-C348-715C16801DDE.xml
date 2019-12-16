@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E545B98-7D0F-ABBD-C348-715C16801DDE" name="Chainage_Unit">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>A4F36881-DEF3-D23F-E285-7AB82F438C16</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<typeID>4</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Unit" id="C233462C-D000-0FC1-6E5D-2A802E77E60C">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>C1D75422-4D90-3C97-CA57-869F7C19296E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7" name="Chainage_Unit_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8A40EADE-8466-ED61-E476-D3C880E7DFAE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

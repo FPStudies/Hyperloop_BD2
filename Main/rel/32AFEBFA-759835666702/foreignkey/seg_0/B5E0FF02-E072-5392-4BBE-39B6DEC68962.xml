@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5E0FF02-E072-5392-4BBE-39B6DEC68962" containerWithKeyObject="A34E6955-7788-41FD-54AF-74B176A859B6" localFKIndex="DE67C3EB-137D-2746-3244-76353CE8B61E" name="Pressure_Sensor_Producent_data_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>37BD275A-D27A-634B-0C43-B73EF05D8824</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Producent_data</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85D3BB26-4804-3D90-AD12-20C853DD0DD7</referredTableID>
+<keyObject>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</keyObject>
+<referredKeyID>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Name,Serial_Number,Index</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

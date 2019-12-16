@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E0DDB7F-157D-3B6A-AA8C-E0C928CD0402" containerWithKeyObject="09BD07BE-D7D3-D23F-EA4E-1AC43B6E36BD" localFKIndex="A127C18B-6894-73D0-6C95-A0067E3AB129" name="Linear_Electric_Motor_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8FA09340-80CA-08B8-46CA-1C3F5D474FCD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Element_Status</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18AA2BF7-62FB-7EED-82F1-35C5B83C54F9</referredTableID>
+<keyObject>947E0A85-4904-E444-72B9-3918BBAA162C</keyObject>
+<referredKeyID>947E0A85-4904-E444-72B9-3918BBAA162C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Status</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

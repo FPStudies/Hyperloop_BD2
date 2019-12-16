@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBDFF086-912D-DD93-E5DA-BA318602D856" name="Platform">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>7F2D7187-4B9B-0703-3998-8CB1CFC7A980</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Platform_name" id="3D6EF172-EAD6-B92F-8E9D-0CB16E26E12C">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Station_Station_name" id="C5165A96-F386-402A-3D57-A530D5CC761F">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F858A514-257C-BC28-6F75-C7D8AA95AC27" referredColumn="87B0D52F-0580-886C-7B5D-D97391EF352C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9076B26-7ED3-46C5-2FAD-C30E71B13B58" name="Platform_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>D298D33A-ECF7-7356-550A-0EB5A81BC4DF</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D6EF172-EAD6-B92F-8E9D-0CB16E26E12C"/>
+<colUsage columnID="C5165A96-F386-402A-3D57-A530D5CC761F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08556FB6-4496-BA33-765F-DD0D1428D9EA" name="Platform_Station_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>4CF1CA3B-D093-1C0F-9F6F-250B99DFAAA3</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5165A96-F386-402A-3D57-A530D5CC761F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

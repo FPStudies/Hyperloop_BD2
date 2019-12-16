@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B1930024-734A-3FEA-0AF7-A95013156CF0" containerWithKeyObject="35DCBCF4-EF97-00B5-F55B-0AC83F060A5D" localFKIndex="CCCB847E-6EDB-FC05-9E1B-444F287C4DC7" name="Vacuum_Pump_Tube_Segment_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8043ABE3-184A-704A-0C3A-D87E4FE1642B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Tube_Segment</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF4FE357-5069-A58E-D0A2-03115C65734C</referredTableID>
+<keyObject>47F528CE-4231-4723-0931-EA7B26800846</keyObject>
+<referredKeyID>47F528CE-4231-4723-0931-EA7B26800846</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TS-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

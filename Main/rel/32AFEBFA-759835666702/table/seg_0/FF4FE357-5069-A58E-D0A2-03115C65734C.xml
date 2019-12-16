@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF4FE357-5069-A58E-D0A2-03115C65734C" name="Tube_Segment">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>3FC4A6C0-0EB8-67AF-3C4A-102EFA575DE0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TS-ID" id="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>7018867F-BE96-3F8F-2D71-EF0C7225B73E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Terrain_Type_Type" id="6AA4634D-8874-6ECC-CFB3-51A54671FF53">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>331305D8-C1C0-F124-6FB2-4043150A6BE8</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE2919DC-42CB-5BDE-EC61-CF78FF67176A" referredColumn="BC50831E-2B12-A690-BB54-7B38F16A637C"/>
+</associations>
+</Column>
+<Column name="Element_Status_Status" id="9E06126B-4B9D-AC43-0E6A-A6537A66150A">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>F0A1977C-663A-9DE8-1A50-A756250DBB73</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="743A65E6-B724-1E7B-0069-80DE1662A6F9" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+</associations>
+</Column>
+<Column name="Tube_Type_Type" id="B9A9D719-C80E-A229-0BE6-9CC983F847E7">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>03F71493-5BB8-146D-ACED-87210F1770BB</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CE41979-8E7A-CD2D-65A7-536588DDC84B" referredColumn="2F567844-7A51-DCB0-8A64-4A47D64DFFAF"/>
+</associations>
+</Column>
+<Column name="Linear_Electric_Motor_LEM-ID" id="6E71CD1F-E3F9-B31C-4AD7-0546D8E52AF0">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>77C447F7-68AE-AD78-E3BB-E838EF08DCB1</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB5D0639-6337-90EB-EAAC-060494687602" referredColumn="5F6185E5-FE92-7398-9502-7E594A585690"/>
+</associations>
+</Column>
+<Column name="Producent_data_Name" id="CF9B1E67-C445-D5E2-649D-E01EC7D4A72A">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>C238488C-E2B8-AF85-BB90-04B1EA65FD63</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A678824-9AED-17C0-F300-959B1076FD17" referredColumn="5FD44652-D0E7-3FE0-A595-7274C6FA7540"/>
+</associations>
+</Column>
+<Column name="Producent_data_Serial_Number" id="D53BE901-99DD-0DB8-F4E7-2E711FC4277A">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>40D42C44-7EB4-9FC2-9218-34D416BB87AB</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A678824-9AED-17C0-F300-959B1076FD17" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Producent_data_Index" id="2A3DF214-EC9A-3203-5E42-003C24BE941D">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>B541196B-4F55-AA4D-0A82-C71851AD1904</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A678824-9AED-17C0-F300-959B1076FD17" referredColumn="BBEAD5D5-D182-F3B4-5E2E-44300CD630E0"/>
+</associations>
+</Column>
+<Column name="Location" id="F943EC86-B79F-00D0-F066-66C658A13D69">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>DE3BB0A7-C146-3C3F-ED8C-97F545693ACB</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Emergency_exit" id="CE846DD8-E511-A126-2D6E-9003B0646C3F">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>741BA4C0-187C-8633-E113-530A86F9C794</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47F528CE-4231-4723-0931-EA7B26800846" name="Tube_Segment_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>2F03771B-F7B1-2529-2532-C2D444E87443</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56E68962-DA23-924E-8D49-40F0207B2DDB" name="Tube_Segment_Terrain_Type_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>35733764-B973-6DFD-0929-A3BF90848366</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AA4634D-8874-6ECC-CFB3-51A54671FF53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EC5A827-C521-6316-4885-033974447A65" name="Tube_Segment_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>2E246714-3450-B7C5-B9B7-947F43A5F65A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E06126B-4B9D-AC43-0E6A-A6537A66150A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE9FA29A-CAB2-64D7-9A5A-939D9EDF36B3" name="Tube_Segment_Tube_Type_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>41AA3F3A-FDB2-1F6A-9464-6715A9CE071B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A9D719-C80E-A229-0BE6-9CC983F847E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7479B843-09B9-8435-D484-C86ACCFF73B0" name="Tube_Segment_Linear_Electric_Motor_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>48700E66-9AC0-C578-4BC0-6EFF763E2C08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E71CD1F-E3F9-B31C-4AD7-0546D8E52AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7ECC5BA-E10F-6E6E-832B-604F04ECB7A3" name="Tube_Segment_Producent_data_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>852C925C-02DB-D74A-F4C7-2F7D956EB40F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF9B1E67-C445-D5E2-649D-E01EC7D4A72A"/>
+<colUsage columnID="D53BE901-99DD-0DB8-F4E7-2E711FC4277A"/>
+<colUsage columnID="2A3DF214-EC9A-3203-5E42-003C24BE941D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

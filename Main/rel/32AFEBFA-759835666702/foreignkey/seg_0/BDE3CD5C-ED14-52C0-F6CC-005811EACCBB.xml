@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDE3CD5C-ED14-52C0-F6CC-005811EACCBB" containerWithKeyObject="17C4CD3A-AA39-417D-7D72-67296A9596D3" localFKIndex="96298CC6-9448-6FDC-383D-EE7863CFDA52" name="Battery_Energy_Grid_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>D21EAE3B-4766-004F-D093-A6C52876EBB5</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Energy_Grid</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21D7C6D5-9E7D-103D-E710-A96047F71279</referredTableID>
+<keyObject>EAFDA92B-66B2-BBCA-CD27-EFA5DDE42528</keyObject>
+<referredKeyID>EAFDA92B-66B2-BBCA-CD27-EFA5DDE42528</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EG-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

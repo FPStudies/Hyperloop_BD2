@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A119B91-D248-07F5-4AF5-733786D71B13" name="Luggage_compartment">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>A70E95D5-06CF-FE03-92D5-5A77C6DF3785</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LC-ID" id="D44FB6C7-0E81-4FD9-B604-99E4D8A487D8">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>93FA6E7E-A149-1C7D-E893-44F5C3056320</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capsule_C-ID" id="B64EB3E0-DEBA-FC80-8649-202EF28084F0">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>C98822D4-8A91-F7C2-84C3-E4C42C675390</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD86E28E-B7D9-270A-D807-8757787BC354" referredColumn="1289012E-1726-2BFF-5D4E-CF9BAB80E01A"/>
+</associations>
+</Column>
+<Column name="Producent_data_Name" id="A605607D-BE20-C75E-E7B6-853E74CAAD80">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>831F3528-9510-0028-98BD-7400F8F0F9EE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0CE2814-FC16-EBB4-217A-04F357380DD7" referredColumn="5FD44652-D0E7-3FE0-A595-7274C6FA7540"/>
+</associations>
+</Column>
+<Column name="Producent_data_Serial_Number" id="3E522A8C-064A-97C3-2E62-C4A9A3EB97C5">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8339DD6F-ADE9-73F6-EA93-CE71CD5CA341</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0CE2814-FC16-EBB4-217A-04F357380DD7" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Producent_data_Index" id="7B0D0A9F-9C28-9610-CE56-BB9EA3DAE6AE">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>6B65ABE9-6EB2-E771-5EBE-70105EBE7F82</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0CE2814-FC16-EBB4-217A-04F357380DD7" referredColumn="BBEAD5D5-D182-F3B4-5E2E-44300CD630E0"/>
+</associations>
+</Column>
+<Column name="Element_Status_Status" id="BD7B28C2-5452-F19F-E4B1-FBE84D3696D8">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>0CBAEE64-C62A-56C9-E766-87D301401945</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7D85BF5-DAFA-1CAD-6D6F-00C7C144CAB2" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+</associations>
+</Column>
+<Column name="Limit" id="635C0235-348B-B0D2-388D-D74068408ADA">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>086F3B79-5550-3C47-B92D-1683C4F298EF</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97AC3674-AC51-9346-AAD7-FA10A1BD6EFB" name="Luggage_compartment_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>25E63B39-550E-E1C4-9EBC-44CFFCBC7DE7</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D44FB6C7-0E81-4FD9-B604-99E4D8A487D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83670D53-25F2-89CF-2E4E-B66EEE04FEED" name="Luggage_compartment__IDX">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>111C9815-1791-4C82-BF49-585A2E2F459A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B64EB3E0-DEBA-FC80-8649-202EF28084F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D518BCD-5A4E-34A2-1573-4EB614F0D3CF" name="Luggage_compartment_Capsule_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>111C9815-1791-4C82-BF49-585A2E2F459A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B64EB3E0-DEBA-FC80-8649-202EF28084F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A87F0D8-87D0-D010-235C-6DB885F65658" name="Luggage_compartment_Producent_data_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>405D08F6-2882-39EF-1B16-3A39327D04D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A605607D-BE20-C75E-E7B6-853E74CAAD80"/>
+<colUsage columnID="3E522A8C-064A-97C3-2E62-C4A9A3EB97C5"/>
+<colUsage columnID="7B0D0A9F-9C28-9610-CE56-BB9EA3DAE6AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B9A56F4-1DE0-EDBC-B8B7-C8CCF8CC4985" name="Luggage_compartment_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>CCA22114-05DA-4EA7-4636-B3FAD96CE425</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD7B28C2-5452-F19F-E4B1-FBE84D3696D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

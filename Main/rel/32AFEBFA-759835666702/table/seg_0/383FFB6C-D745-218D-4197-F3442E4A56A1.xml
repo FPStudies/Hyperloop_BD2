@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="383FFB6C-D745-218D-4197-F3442E4A56A1" name="Radio">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9C7D9635-B242-1F31-E3B0-67147A6C9E7D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="R-ID" id="0749493F-0072-7EDE-689C-8037E0D7B04B">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>D5C16C11-0231-3C44-87EB-EAFEE13169ED</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Emergency_Radio_Station_Station_Station_name" id="0572CF6A-8811-1281-A683-47A1D309CACD">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8DB02BF4-83C9-2B75-465B-697AE9E39497</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C2B16DE-427C-4686-B4A8-847C0A07B70B" referredColumn="5E3BFCE2-E097-D299-F1A2-A1300331B599"/>
+</associations>
+</Column>
+<Column name="Producent_data_Name" id="5887A3BB-DBCB-D8A5-E678-1BC2BA3A8D00">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>402FC18B-3289-C4B1-8CB5-0ECBA4A4FA82</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20851B82-3E40-07F0-8650-71431EED6BCF" referredColumn="5FD44652-D0E7-3FE0-A595-7274C6FA7540"/>
+</associations>
+</Column>
+<Column name="Producent_data_Serial_Number" id="C0FA6405-6B68-4CDD-49D4-5D67DC498D9F">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>35CCDCA2-DB85-B169-BB64-8D12EB13AC9C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20851B82-3E40-07F0-8650-71431EED6BCF" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Producent_data_Index" id="62EEA187-8E30-3D2B-F32E-4BA310EA33DB">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>A943F2BB-E2F4-0466-EA99-99469E115BBC</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20851B82-3E40-07F0-8650-71431EED6BCF" referredColumn="BBEAD5D5-D182-F3B4-5E2E-44300CD630E0"/>
+</associations>
+</Column>
+<Column name="Element_Status_Status" id="3B882152-6E53-F5DF-05DE-5B2296F123D9">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>730B00FF-C8A0-906F-4D79-9D287B31EFC9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E03CD69A-CBAB-1DBF-F741-E09C33339146" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+</associations>
+</Column>
+<Column name="Emergency_Radio_Station_ERS-ID" id="648FD291-FFA2-428F-2545-11EE74A89CE7">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>CCC40EDF-7C5F-5E80-9A76-627BD65DFDB2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C2B16DE-427C-4686-B4A8-847C0A07B70B" referredColumn="566702C0-B78D-1333-8665-51A9292B235E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81F912AB-AFF5-FFA3-9243-CFBB5CC91D28" name="Radio_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>0936A04C-CAB6-980E-66CF-4076B9CEBF69</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0749493F-0072-7EDE-689C-8037E0D7B04B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21C92FA5-2801-38F9-E1F5-4F7D13808C79" name="Radio_Emergency_Radio_Station_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>5F7A3806-7560-C9EF-E3BF-C526F6E0151F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0572CF6A-8811-1281-A683-47A1D309CACD"/>
+<colUsage columnID="648FD291-FFA2-428F-2545-11EE74A89CE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7CD8A82-C0E4-51DB-C182-6DA7346CA160" name="Radio_Producent_data_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>6909D5DC-3F65-966E-A371-6B508880C53E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5887A3BB-DBCB-D8A5-E678-1BC2BA3A8D00"/>
+<colUsage columnID="C0FA6405-6B68-4CDD-49D4-5D67DC498D9F"/>
+<colUsage columnID="62EEA187-8E30-3D2B-F32E-4BA310EA33DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0889FA82-90B7-847A-510D-DA88736C195A" name="Radio_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>573499AE-8603-F974-B9D9-49715A90AC88</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B882152-6E53-F5DF-05DE-5B2296F123D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

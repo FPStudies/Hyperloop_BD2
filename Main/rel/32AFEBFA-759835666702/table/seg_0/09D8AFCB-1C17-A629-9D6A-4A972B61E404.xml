@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09D8AFCB-1C17-A629-9D6A-4A972B61E404" name="Tube_on_route">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>4772DA51-36CD-811F-69EA-DFD239F8EFE1</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TOR-ID" id="7B7D3A0A-5840-AA50-81F7-D7FBD23D9004">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9600E0F3-9FA1-C21F-5D78-55A3AEE12F06</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Route_R-ID" id="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>57454B4E-201C-9959-F127-8BC2D52DA76E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF802F62-3F1B-0B52-28F1-EF6987B36E83" referredColumn="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F6EB361-3900-5087-A342-6D32AC58B66A" name="Tube_on_route_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>919D69E3-7168-E378-5990-CB8E4F2D87C6</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF"/>
+<colUsage columnID="7B7D3A0A-5840-AA50-81F7-D7FBD23D9004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30D738D5-0D17-0B97-FBBD-1074661E4438" name="Tube_on_route_Route_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9A2F41E8-99C1-EC67-C2BE-F88BF4B7E9CD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E15FEEB-4DA9-237A-2411-7D256967BF94" name="Tube_on_route_Installed_tube_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>B178BDFB-B6B2-6375-103D-2508240C8838</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

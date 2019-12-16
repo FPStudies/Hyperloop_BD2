@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F203051-B06A-4835-4136-4FED6CA3D6DE" name="Tube type">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:05:13 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<typeID>4</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type" id="C0A030E6-258B-A81A-ABC4-635A0D7C7C9D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:05:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F5DDD0C-D7C1-BE59-057F-28C40E48BE48" name="Tube type PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:05:31 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0A030E6-258B-A81A-ABC4-635A0D7C7C9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

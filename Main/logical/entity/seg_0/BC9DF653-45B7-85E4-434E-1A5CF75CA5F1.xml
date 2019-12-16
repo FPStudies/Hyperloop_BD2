@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="046D62F9-19B6-3052-4D4B-AF7B08BE68BD" name="Telescopic tube">
-<createdBy>mateusz</createdBy>
-<createdTime>2019-12-15 14:56:16 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC9DF653-45B7-85E4-434E-1A5CF75CA5F1" name="Emergency radio station">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:10:27 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>

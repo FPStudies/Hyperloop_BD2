@@ -3,12 +3,9 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 15:02:53 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
-</engineerTo>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E61A488F-2ED6-3A65-1080-B04E03A241EE</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

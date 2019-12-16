@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="054D1124-424E-C096-7A5F-355C3F7397E2" name="Capsule">
-<createdBy>mateusz</createdBy>
-<createdTime>2019-12-15 14:39:52 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D965B737-2BD7-E273-5167-C91029464FB0" name="Pressure sensor">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:00:27 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,27 +12,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Type" id="0843403E-917B-0481-0221-0AF6DD2270B6">
+<Attribute name="Id" id="BFD61FB6-4BDF-AEB1-BD30-41A4363A7039">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:07:12 UTC</createdTime>
-<generatorID>C239624B-598F-4530-6A8E-839E0963EE2F</generatorID>
+<createdTime>2019-12-16 00:01:15 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<referedAttribute>B88927B0-C66A-DBC2-91BB-944CD2DB1E30</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Status" id="0CADB628-9D78-60B6-591F-2665191B8539">
+<Attribute name="Value" id="A16134EF-5C45-1BCA-77EF-008A2E2D13D0">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:07:16 UTC</createdTime>
-<generatorID>84F4BD32-4B12-8095-B39F-973B58EA8288</generatorID>
+<createdTime>2019-12-16 00:01:16 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<referedAttribute>42AD0E29-BBF8-2EBA-BFEE-A56AC2F0D742</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CE07AE8-C838-80DF-DAC7-F13F79689BA2" name="Pressure sensor PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:01:27 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFD61FB6-4BDF-AEB1-BD30-41A4363A7039</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

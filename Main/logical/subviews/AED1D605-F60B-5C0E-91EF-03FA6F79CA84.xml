@@ -16,37 +16,60 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="046D62F9-19B6-3052-4D4B-AF7B08BE68BD" otype="Entity" vid="E30590DB-7D91-F855-EDF2-2DA258C811CC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1482" y="782" width="195" height="122"/>
+<bounds x="1649" y="1042" width="195" height="122"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="054D1124-424E-C096-7A5F-355C3F7397E2" otype="Entity" vid="F6B2436F-2FC2-0899-55FB-708A8F889211">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1530" y="1541" width="199" height="105"/>
+<bounds x="1733" y="1338" width="199" height="105"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="05688335-CEA9-6809-DFF6-A9B37176D62D" otype="Note" vid="2A14CA10-023E-9BEA-C2EA-B3434D34C226">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1288" y="1483" width="173" height="89"/>
+<comment>Passenger/Passenger+Vehicle etc.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0E9E4F3A-8BEB-C3F6-D004-9AFB30B7DDE0" otype="Entity" vid="7E17D3A8-1CB5-A751-20AF-3E52C6E6EF10">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="318" y="1162" width="115" height="80"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="0EC7C3F9-381F-FEB8-9EEE-23CF1D27D13D" otype="Note" vid="79F09534-616F-9936-DAAC-2B3EE3A77F5E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1254" y="877" width="136" height="81"/>
+<comment>This could be to any standalone element. Didn&apos;t want to clutter the diagram for now.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="1A880FB8-94F9-1FB8-DD30-0A01C6E8DF44" otype="Note" vid="40819CF7-CBDD-8FE3-7D9E-E0A6CD93B707">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="850" y="784" width="134" height="64"/>
+<comment>Flat/Tunnel/Bridge etc.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1E83A8D9-93D7-E580-C5CA-40D7BD708410" otype="Entity" vid="B6025B72-F891-7D63-B9B3-2DBC1823D06C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1523" y="1343" width="151" height="108"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1F203051-B06A-4835-4136-4FED6CA3D6DE" otype="Entity" vid="CA3A7B2E-5121-16E3-B434-98ADFCC38ACC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1283" y="1376" width="177" height="94"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2376F73E-1DC9-A41F-1111-060CB1FAC29A" otype="Entity" vid="F08488F4-14E4-3772-A2FC-749FB6499046">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1340" y="1060" width="181" height="104"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="271EDB4F-CA40-1972-DA3A-E2E5E3E299AA" otype="Entity" vid="F7D8CA86-742E-4318-EF57-BF9955CCDB49">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="866" y="955" width="128" height="59"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="2A485B0E-DF83-9CBF-596F-08D413EAB7DD" otype="Note" vid="61A6E1C7-E827-4474-CFA7-65D34A3B2AFD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1204" y="1217" width="132" height="103"/>
+<bounds x="1208" y="1182" width="132" height="103"/>
 <comment>Geographical coordinates
 Tube segment is a segment that was made in one piece in factory.</comment>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3D80678F-43C5-9844-F41C-64838AD58F2D" otype="Entity" vid="D0FCD92A-5E22-D739-9D8F-712A7A10E6D2">
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3AE8EB90-461D-2650-20F2-64ABF76E64DD" otype="Entity" vid="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="686" y="940" width="154" height="79"/>
+<bounds x="507" y="1157" width="156" height="100"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3FC4A6C0-0EB8-67AF-3C4A-102EFA575DE0" otype="Entity" vid="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="972" y="1177" width="228" height="103"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4CB7B571-CB0B-4221-3E1E-3D43EB396432" otype="Entity" vid="84211365-8B33-1496-FB57-81259537B3DD">
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="41EBB80B-31B9-ABB3-D7C4-16545F3A117F" otype="Entity" vid="3228FCA0-6194-0E7C-A754-249B5F3F73F6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2174" y="1770" width="194" height="93"/>
+<bounds x="833" y="864" width="188" height="108"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="527F4353-A681-C459-0782-2EF40FAA9D1F" otype="Note" vid="EC48F2B4-CBDD-146A-28DB-D4E8C7FE0A8C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -54,45 +77,103 @@ Tube segment is a segment that was made in one piece in factory.</comment>
 <comment>Propulsion should be shipped in Tube segment.
 Later we will create trigger that says fill all those non required fields or leave them NULL.</comment>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="56570130-636B-B70C-CFD9-FA5B0D1E32D8" otype="Entity" vid="58B288AF-CFE0-5476-42A8-26E4AA77E485">
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5556CF4C-C628-5F1F-3926-53C987216625" otype="Entity" vid="68314D12-EBA7-54B7-0307-A8C7C7E7D087">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="521" y="947" width="118" height="71"/>
+<bounds x="1609" y="822" width="247" height="113"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="568A04E9-67A1-F53D-61CE-657EB1058099" otype="Note" vid="CFBB904F-A8B3-AED8-1EFE-D28885D74DAA">
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="5742B60F-6469-5EDE-390C-C03840853F55" otype="Note" vid="CD82F672-3B49-397F-44E1-CD3676C30567">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1713" y="1300" width="203" height="106"/>
-<comment>Section below to change.</comment>
+<bounds x="2010" y="1476" width="145" height="86"/>
+<comment>In production/In transit/Stationed/On route/Stranded/In maintanance etc.</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6266FC71-1249-8971-A981-C1E606A95B41" otype="Entity" vid="579C6D57-BE2D-9635-99B4-DC05169A7947">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="725" y="1366" width="170" height="86"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="628A420B-B313-E0CF-2C96-19F047FB9DD2" otype="Entity" vid="9F19006E-4141-CCE5-2918-5AEA026007B9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1098" y="873" width="145" height="104"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7F2D7187-4B9B-0703-3998-8CB1CFC7A980" otype="Entity" vid="831531E4-B920-F588-4ECC-DE3144712615">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1780" y="781" width="237" height="113"/>
+<bounds x="2002" y="788" width="237" height="113"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="91AFEF4F-9216-3FDF-89AC-E350E587F35A" otype="Entity" vid="BA6E0AEC-1CFD-B541-2109-8D8AB59CDA03">
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="8524EF43-3C4B-0BC7-C225-6DAF9A37A65D" otype="Note" vid="74969971-70D1-211F-8557-6AC9627BAED1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1941" y="1570" width="201" height="92"/>
+<bounds x="1118" y="799" width="121" height="62"/>
+<comment>In production/In transit/Working/In maintanance etc.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="8915C050-C1DC-0DFB-580C-F60F06E5CB5E" otype="Entity" vid="81879EE5-B43C-3409-653B-845B2D7B850E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="668" y="1265" width="116" height="79"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="8A4A57DA-996E-7B57-D790-C05F03441022" otype="Note" vid="1C0E7C9A-7FBF-634A-8877-9F857A404361">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1384" y="1003" width="91" height="52"/>
+<comment>One-way</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="AD5D3146-4018-4027-5E52-02595A504E1F" otype="Note" vid="4187165C-4145-C6ED-7B98-D9BF40B6FDC6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1629" y="713" width="204" height="101"/>
+<comment>In planning/Working/Closed etc.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BC9DF653-45B7-85E4-434E-1A5CF75CA5F1" otype="Entity" vid="D66684E1-02C2-4CE4-A75D-43C3D3C16566">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2412" y="1035" width="198" height="123"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BE8CFC5E-810E-E0C0-7E60-AA7624D270C7" otype="Entity" vid="EAA60A92-BDD0-795F-6771-77098357470E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1773" y="520" width="233" height="81"/>
+<bounds x="1991" y="528" width="233" height="81"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C21A8B6C-1EC0-60FA-DDB2-FC7CC6461B78" otype="Entity" vid="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1639" y="1050" width="467" height="115"/>
+<bounds x="1964" y="1043" width="337" height="115"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C2224039-7D12-FF7E-6627-97E7B75FEDBE" otype="Entity" vid="51EAFB70-3F4E-2201-B202-135848D4F919">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="817" y="1018" width="120" height="75"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="CC3AA827-2A02-DECA-E429-7903C8E86B89" otype="Note" vid="D50E3778-B15B-8316-254B-CB4E2687CAE0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1536" y="1467" width="142" height="92"/>
+<comment>Passenger/Passenger+Vehicle/Luggage etc.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D6B8D27F-D15F-E293-3D7D-B8CF5AA3E1F7" otype="Entity" vid="179369AF-67EE-9B43-969F-CD7E69BFE610">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1979" y="1334" width="198" height="122"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D965B737-2BD7-E273-5167-C91029464FB0" otype="Entity" vid="F2B5AE95-5175-350F-79BE-0F0B69880FDF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="687" y="1084" width="117" height="70"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E4005F69-C7B7-B86C-DE64-E437D86C348D" otype="Entity" vid="09CF5F32-D3A5-341A-7550-5824B20CF813">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="971" y="1553" width="218" height="65"/>
+<bounds x="981" y="1375" width="218" height="65"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E61A488F-2ED6-3A65-1080-B04E03A241EE" otype="Entity" vid="16445D47-D056-B981-8AFA-34FED2A5000D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="973" y="1365" width="219" height="90"/>
+<bounds x="986" y="1530" width="219" height="90"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F21AECA6-149F-B336-EFC3-B0C5E7FB084D" otype="Entity" vid="29716542-E2E1-CA36-CD27-D30D0DD66461">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2418" y="789" width="211" height="100"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="FB31BF6C-30B5-1E7F-7839-9EF17F5B0290" otype="Note" vid="AB9EBDC8-315D-F47F-74FE-D1A32454D3D1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2254" y="655" width="161" height="76"/>
+<comment>Not sure how &quot;standalone&quot; those are.</comment>
 </OView>
 </objectViews>
 <connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1C4729EE-0534-F84B-6082-61764DBB8242" otype="Relation" vid_source="09CF5F32-D3A5-341A-7550-5824B20CF813" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1105" y="1375"/>
+<point x="1105" y="1280"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="253E160F-9E2F-6688-17A8-B3A00ED6907B" otype="Relation" vid_source="579C6D57-BE2D-9635-99B4-DC05169A7947" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -103,13 +184,31 @@ Later we will create trigger that says fill all those non required fields or lea
 <point x="972" y="1255"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="32520C91-F63F-4220-709A-7CEE8F174449" otype="Relation" vid_source="D4CFACCB-3936-BC26-2661-7D517BD7EA37" vid_target="16445D47-D056-B981-8AFA-34FED2A5000D">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2E246714-3450-B7C5-B9B7-947F43A5F65A" otype="Relation" vid_source="9F19006E-4141-CCE5-2918-5AEA026007B9" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1082" y="1280"/>
-<point x="1082" y="1365"/>
+<point x="1149" y="977"/>
+<point x="1149" y="1177"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="35733764-B973-6DFD-0929-A3BF90848366" otype="Relation" vid_source="3228FCA0-6194-0E7C-A754-249B5F3F73F6" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="996" y="972"/>
+<point x="996" y="1177"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="41AA3F3A-FDB2-1F6A-9464-6715A9CE071B" otype="Relation" vid_source="CA3A7B2E-5121-16E3-B434-98ADFCC38ACC" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1302" y="1376"/>
+<point x="1161" y="1280"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="428797A7-8696-4D58-E785-04B9270744D8" otype="Relation" vid_source="16445D47-D056-B981-8AFA-34FED2A5000D" vid_target="09CF5F32-D3A5-341A-7550-5824B20CF813">
@@ -117,8 +216,8 @@ Later we will create trigger that says fill all those non required fields or lea
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1081" y="1455"/>
-<point x="1081" y="1553"/>
+<point x="1107" y="1530"/>
+<point x="1107" y="1440"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4CF1CA3B-D093-1C0F-9F6F-250B99DFAAA3" otype="Relation" vid_source="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D" vid_target="831531E4-B920-F588-4ECC-DE3144712615">
@@ -126,8 +225,8 @@ Later we will create trigger that says fill all those non required fields or lea
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1898" y="1050"/>
-<point x="1898" y="894"/>
+<point x="2120" y="1043"/>
+<point x="2120" y="901"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4D4F87D2-44A8-0C32-A2D4-72F337C8A690" otype="Relation" vid_source="F08488F4-14E4-3772-A2FC-749FB6499046" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
@@ -140,45 +239,49 @@ Later we will create trigger that says fill all those non required fields or lea
 <point x="1169" y="1177"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6C34CFA5-E670-1583-0102-AEE518B82E1E" otype="Relation" vid_source="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D" vid_target="BA6E0AEC-1CFD-B541-2109-8D8AB59CDA03">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="69C0B6F5-6B2C-B42B-CA57-115C03882667" otype="Relation" vid_source="D4CFACCB-3936-BC26-2661-7D517BD7EA37" vid_target="F2B5AE95-5175-350F-79BE-0F0B69880FDF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2023" y="1165"/>
-<point x="2023" y="1570"/>
+<point x="972" y="1191"/>
+<point x="804" y="1137"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8CC2B7A0-FA52-20C7-5B31-14165B26D6D8" otype="Relation" vid_source="58B288AF-CFE0-5476-42A8-26E4AA77E485" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8043ABE3-184A-704A-0C3A-D87E4FE1642B" otype="Relation" vid_source="D4CFACCB-3936-BC26-2661-7D517BD7EA37" vid_target="51EAFB70-3F4E-2201-B202-135848D4F919">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="591" y="1018"/>
-<point x="591" y="1220"/>
-<point x="972" y="1220"/>
+<point x="972" y="1178"/>
+<point x="922" y="1093"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8D597B32-41F1-B124-4DF0-8D6B365E459C" otype="Relation" vid_source="F08488F4-14E4-3772-A2FC-749FB6499046" vid_target="F6B2436F-2FC2-0899-55FB-708A8F889211">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="816ABCC6-9350-8098-29AD-A6A84B1E40FC" otype="Relation" vid_source="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C" vid_target="7E17D3A8-1CB5-A751-20AF-3E52C6E6EF10">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1382" y="1164"/>
-<point x="1382" y="1257"/>
-<point x="1554" y="1452"/>
-<point x="1554" y="1541"/>
+<point x="507" y="1202"/>
+<point x="433" y="1202"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="911A301D-B48A-D5C8-BC5C-C39C353F2CE2" otype="Relation" vid_source="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D" vid_target="84211365-8B33-1496-FB57-81259537B3DD">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="84F4BD32-4B12-8095-B39F-973B58EA8288" otype="Relation" vid_source="179369AF-67EE-9B43-969F-CD7E69BFE610" vid_target="F6B2436F-2FC2-0899-55FB-708A8F889211">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2079" y="1165"/>
-<point x="2079" y="1287"/>
-<point x="2214" y="1543"/>
-<point x="2214" y="1770"/>
+<point x="1979" y="1390"/>
+<point x="1932" y="1390"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8D472E2C-558A-B36B-0771-5F8AF32460A4" otype="Relation" vid_source="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D" vid_target="F6B2436F-2FC2-0899-55FB-708A8F889211">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2073" y="1158"/>
+<point x="1886" y="1338"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="91AF8596-D307-B7C6-ADE9-A48C9D5F1565" otype="Relation" vid_source="831531E4-B920-F588-4ECC-DE3144712615" vid_target="EAA60A92-BDD0-795F-6771-77098357470E">
@@ -186,8 +289,8 @@ Later we will create trigger that says fill all those non required fields or lea
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1893" y="781"/>
-<point x="1893" y="601"/>
+<point x="2113" y="788"/>
+<point x="2113" y="609"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="94D7F785-5871-6B05-994A-945677B6D138" otype="Relation" vid_source="E30590DB-7D91-F855-EDF2-2DA258C811CC" vid_target="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D">
@@ -195,37 +298,53 @@ Later we will create trigger that says fill all those non required fields or lea
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1658" y="904"/>
-<point x="1658" y="1050"/>
+<point x="1844" y="1100"/>
+<point x="1964" y="1100"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AA8F2311-FE09-2891-767E-214C71A6F0CD" otype="Relation" vid_source="F7D8CA86-742E-4318-EF57-BF9955CCDB49" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9649C5C1-93AA-20ED-FADA-A4A5F44F2DC8" otype="Relation" vid_source="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D" vid_target="D66684E1-02C2-4CE4-A75D-43C3D3C16566">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="983" y="1014"/>
-<point x="983" y="1177"/>
+<point x="2301" y="1100"/>
+<point x="2412" y="1100"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B80BF22E-B069-A429-C338-9849263A86BE" otype="Relation" vid_source="BA6E0AEC-1CFD-B541-2109-8D8AB59CDA03" vid_target="84211365-8B33-1496-FB57-81259537B3DD">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B55E0A9E-3F61-DF28-B836-401E510BB2FB" otype="Relation" vid_source="D4CFACCB-3936-BC26-2661-7D517BD7EA37" vid_target="81879EE5-B43C-3409-653B-845B2D7B850E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2098" y="1662"/>
-<point x="2098" y="1799"/>
-<point x="2174" y="1799"/>
+<point x="972" y="1272"/>
+<point x="784" y="1272"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="BB39E4A4-3DEB-520F-08AC-1C2222A3D6FE" otype="Relation" vid_source="D0FCD92A-5E22-D739-9D8F-712A7A10E6D2" vid_target="D4CFACCB-3936-BC26-2661-7D517BD7EA37">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C239624B-598F-4530-6A8E-839E0963EE2F" otype="Relation" vid_source="B6025B72-F891-7D63-B9B3-2DBC1823D06C" vid_target="F6B2436F-2FC2-0899-55FB-708A8F889211">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="686" y="1019"/>
-<point x="683" y="1194"/>
-<point x="972" y="1194"/>
+<point x="1674" y="1393"/>
+<point x="1733" y="1393"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C7D071DE-F341-E35F-CD5C-FC7CFA412E5D" otype="Relation" vid_source="68314D12-EBA7-54B7-0307-A8C7C7E7D087" vid_target="F08488F4-14E4-3772-A2FC-749FB6499046">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1659" y="935"/>
+<point x="1497" y="1060"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D52C029A-791F-0BFA-18B7-934B77DF25A0" otype="Relation" vid_source="831531E4-B920-F588-4ECC-DE3144712615" vid_target="29716542-E2E1-CA36-CD27-D30D0DD66461">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2239" y="854"/>
+<point x="2418" y="854"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D73B2689-C91B-B9E6-620C-BEEB364CBBE3" otype="Relation" vid_source="E30590DB-7D91-F855-EDF2-2DA258C811CC" vid_target="F08488F4-14E4-3772-A2FC-749FB6499046">
@@ -233,32 +352,42 @@ Later we will create trigger that says fill all those non required fields or lea
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1501" y="904"/>
-<point x="1501" y="1060"/>
+<point x="1649" y="1112"/>
+<point x="1521" y="1112"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DB29216A-B093-E604-8941-CBAD47C20929" otype="Relation" vid_source="F6B2436F-2FC2-0899-55FB-708A8F889211" vid_target="BA6E0AEC-1CFD-B541-2109-8D8AB59CDA03">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DD008DA5-DA4F-4769-ECAD-28DBA5F3DB88" otype="Relation" vid_source="68314D12-EBA7-54B7-0307-A8C7C7E7D087" vid_target="52FD9FE3-9E13-D9CD-7C18-A2F0AEE7787D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1729" y="1608"/>
-<point x="1941" y="1608"/>
+<point x="1834" y="935"/>
+<point x="2028" y="1043"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E41F3113-D511-4DFE-8187-36DFB6F17825" otype="Relation" vid_source="F08488F4-14E4-3772-A2FC-749FB6499046" vid_target="F6B2436F-2FC2-0899-55FB-708A8F889211">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1505" y="1164"/>
+<point x="1756" y="1338"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F6D8B022-8F81-3DB6-FC40-2848FFAD43C5" otype="Relation" vid_source="D4CFACCB-3936-BC26-2661-7D517BD7EA37" vid_target="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="972" y="1232"/>
+<point x="663" y="1232"/>
 </points>
 </Connector>
 </connectors>
 <arcs>
-<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="879ABB50-CD2C-AA04-9AC2-8FE9D57A9CCC" otype="Arc" vid="D2534316-97E7-472E-96B2-F33A992ABF3B">
+<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="CBDA42C6-BB9F-0ADE-203B-C92CE0506B55" otype="Arc" vid="D804B58E-8B48-8247-F0D6-577DEC45F2D7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="952" y="1157" width="268" height="143"/>
-</Arc>
-<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="EAB39E7E-36EA-89B8-6724-5214A56B02C2" otype="Arc" vid="68EEBB8A-CC32-8729-F254-402250FBBE55">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1921" y="1550" width="241" height="132"/>
-</Arc>
-<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="FC002F5D-3DC4-E406-657A-1A4AE6668C32" otype="Arc" vid="431E8073-9FE6-E979-766F-907BA69AA2E4">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2154" y="1750" width="234" height="133"/>
+<bounds x="1713" y="1318" width="239" height="145"/>
 </Arc>
 </arcs>
 </Diagram>

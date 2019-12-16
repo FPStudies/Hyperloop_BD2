@@ -3,6 +3,9 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:10:27 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,22 +19,26 @@
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 18:03:17 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Station name" id="7E201AE0-EDBC-843B-6B6B-9AA23236AFCF">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:55:17 UTC</createdTime>
+<Attribute name="STATION-ID" id="D34C555F-C06F-4442-41B5-3022076DDBAC">
+<createdBy>arthur.imona</createdBy>
+<createdTime>2019-12-16 20:19:26 UTC</createdTime>
 <generatorID>9649C5C1-93AA-20ED-FADA-A4A5F44F2DC8</generatorID>
 <ownerDesignName>Main</ownerDesignName>
-<referedAttribute>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>F943197A-E28F-E25F-6F78-2CCF422FAE86</referedAttribute>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -40,10 +47,13 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 01:05:38 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7E201AE0-EDBC-843B-6B6B-9AA23236AFCF</attributeRef>
 <attributeRef>E5D25918-FF52-4436-AD2B-686A09C4F971</attributeRef>
+<attributeRef>D34C555F-C06F-4442-41B5-3022076DDBAC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

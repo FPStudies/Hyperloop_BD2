@@ -3,6 +3,9 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:04:18 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,10 +15,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STATION-ID" id="F943197A-E28F-E25F-6F78-2CCF422FAE86">
+<createdBy>arthur.imona</createdBy>
+<createdTime>2019-12-16 20:18:58 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Station name" id="87DCDB1E-C1C8-9921-3445-158A4BBA7CFA">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:55:07 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -27,6 +45,9 @@
 <createdTime>2019-12-16 00:11:34 UTC</createdTime>
 <generatorID>DD008DA5-DA4F-4769-ECAD-28DBA5F3DB88</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,9 +60,12 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:55:16 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</attributeRef>
+<attributeRef>F943197A-E28F-E25F-6F78-2CCF422FAE86</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

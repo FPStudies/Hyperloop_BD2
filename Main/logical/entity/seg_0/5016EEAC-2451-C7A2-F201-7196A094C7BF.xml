@@ -3,6 +3,9 @@
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 15:00:21 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <typeID>4</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -17,6 +20,9 @@
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 15:00:27 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -27,10 +33,26 @@
 <createdTime>2019-12-16 15:00:48 UTC</createdTime>
 <generatorID>9589B9D2-3FD6-94DF-F479-536A28EC534B</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>B88927B0-C66A-DBC2-91BB-944CD2DB1E30</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="release date" id="A3273331-785F-798C-EA52-82AD0597FA34">
+<createdBy>arthur.imona</createdBy>
+<createdTime>2019-12-16 20:22:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -39,6 +61,9 @@
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 15:00:36 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0A977A0A-7B49-2BB5-5CC1-A990AA3DAD45</attributeRef>

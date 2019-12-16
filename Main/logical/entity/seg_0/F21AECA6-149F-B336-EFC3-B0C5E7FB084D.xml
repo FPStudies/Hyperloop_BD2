@@ -3,6 +3,9 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:09:33 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 17:59:04 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -27,30 +33,24 @@
 <createdTime>2019-12-16 01:02:47 UTC</createdTime>
 <generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Station name" id="4BAB954C-46AF-1563-FFF1-714B94536CAE">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 01:03:04 UTC</createdTime>
-<generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<referedAttribute>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Status" id="A6184DCF-7D7E-4BCA-7883-8E116E21D34A">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 14:39:04 UTC</createdTime>
 <generatorID>8CB4AAFE-2752-EFF3-F850-143972E522F3</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,6 +61,9 @@
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 15:54:53 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,7 +74,23 @@
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 15:55:07 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATION-ID" id="4DA67498-57C2-C2AD-B46F-849B647E936A">
+<createdBy>arthur.imona</createdBy>
+<createdTime>2019-12-16 20:19:26 UTC</createdTime>
+<generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C638B471-740E-222B-89C0-96AB43B2D8A2</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -82,6 +101,9 @@
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 17:59:14 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F2550C28-4CC8-8742-CE9E-66CD388AD7F7</attributeRef>

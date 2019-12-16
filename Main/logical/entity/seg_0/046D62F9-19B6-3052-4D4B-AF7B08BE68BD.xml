@@ -3,6 +3,9 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:56:16 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,30 +19,23 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 01:02:21 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Station name" id="16060129-5DA6-413C-C674-5F09B13F2045">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:55:17 UTC</createdTime>
-<generatorID>94D7F785-5871-6B05-994A-945677B6D138</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Name1" id="59335FFC-1BFE-5C22-E722-217ABC6DCA14">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 13:27:46 UTC</createdTime>
 <generatorID>A2CE93F7-3504-2FD9-E673-CD9644ABD25E</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>2D3EAFE4-AFD4-8236-E7D9-79BA00F0E8AD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,6 +47,9 @@
 <createdTime>2019-12-16 13:27:46 UTC</createdTime>
 <generatorID>A2CE93F7-3504-2FD9-E673-CD9644ABD25E</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,10 +61,27 @@
 <createdTime>2019-12-16 13:27:46 UTC</createdTime>
 <generatorID>A2CE93F7-3504-2FD9-E673-CD9644ABD25E</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>37B585C9-C633-1EEB-8775-64A76D78E083</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATION-ID" id="A492CF60-4185-1BCE-401A-811F23478C7A">
+<createdBy>arthur.imona</createdBy>
+<createdTime>2019-12-16 20:19:26 UTC</createdTime>
+<generatorID>94D7F785-5871-6B05-994A-945677B6D138</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F943197A-E28F-E25F-6F78-2CCF422FAE86</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -74,6 +90,9 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 01:02:28 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B8FFE61D-09DA-90EC-4FAF-F20A702E1685</attributeRef>

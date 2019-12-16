@@ -3,6 +3,9 @@
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 12:00:30 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,34 +19,41 @@
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 18:24:12 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Station name" id="F2854ED8-A8DB-0B2E-F167-6AAF327CBCBD">
-<createdBy>filip</createdBy>
-<createdTime>2019-12-16 12:01:57 UTC</createdTime>
-<generatorID>C4EA7C0E-7382-84E6-D712-AD61775A7524</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<referedAttribute>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="R-ID" id="FED14113-7E23-C555-0C0B-FB5A2895BF82">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 12:02:36 UTC</createdTime>
 <generatorID>E65C4471-B166-146C-C538-E59CCC6C1E5D</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>9F3BBDD9-D939-8803-99F8-27CB4D1970A5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATION-ID" id="97C82A3E-8214-AA00-6464-105D74A50065">
+<createdBy>arthur.imona</createdBy>
+<createdTime>2019-12-16 20:19:26 UTC</createdTime>
+<generatorID>C4EA7C0E-7382-84E6-D712-AD61775A7524</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>F943197A-E28F-E25F-6F78-2CCF422FAE86</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -52,11 +62,14 @@
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 12:03:27 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FED14113-7E23-C555-0C0B-FB5A2895BF82</attributeRef>
-<attributeRef>F2854ED8-A8DB-0B2E-F167-6AAF327CBCBD</attributeRef>
 <attributeRef>69E02249-147B-92B5-5657-EFA6556E0630</attributeRef>
+<attributeRef>97C82A3E-8214-AA00-6464-105D74A50065</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

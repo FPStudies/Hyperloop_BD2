@@ -12,14 +12,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="455C898D-928C-5EE2-3CB7-E84F89603F56">
+<Attribute name="LEM-ID" id="455C898D-928C-5EE2-3CB7-E84F89603F56">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:44:03 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="3BF9F74C-CD7B-D8F4-01C4-7DC444F0B33B">
 <createdBy>filip</createdBy>
@@ -63,6 +64,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EG-ID" id="97F255DB-40FC-BD68-9FE2-E36969D76B4A">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:23:03 UTC</createdTime>
+<generatorID>E1BA7526-4A84-4B6D-9DDD-7DD9DDBF227A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6B62051C-3937-9079-DB72-64F24E2CF1BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

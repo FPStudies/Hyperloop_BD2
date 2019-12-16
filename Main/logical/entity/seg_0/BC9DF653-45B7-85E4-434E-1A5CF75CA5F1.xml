@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="7E201AE0-EDBC-843B-6B6B-9AA23236AFCF">
+<Attribute name="ERS-ID" id="E5D25918-FF52-4436-AD2B-686A09C4F971">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:03:17 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Station name" id="7E201AE0-EDBC-843B-6B6B-9AA23236AFCF">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:55:17 UTC</createdTime>
 <generatorID>9649C5C1-93AA-20ED-FADA-A4A5F44F2DC8</generatorID>
@@ -21,6 +31,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -32,7 +43,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7E201AE0-EDBC-843B-6B6B-9AA23236AFCF</attributeRef>
-<attributeRef>7E201AE0-EDBC-843B-6B6B-9AA23236AFCF</attributeRef>
+<attributeRef>E5D25918-FF52-4436-AD2B-686A09C4F971</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A">
+<Attribute name="Platform name" id="32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:02:40 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Station name" id="FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:55:17 UTC</createdTime>
 <generatorID>4CF1CA3B-D093-1C0F-9F6F-250B99DFAAA3</generatorID>
@@ -21,15 +31,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Number" id="32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 01:02:40 UTC</createdTime>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -12,16 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="D70AAB74-1D54-3D6F-1BB0-1FD8161EDB0B">
+<Attribute name="VP-ID" id="D70AAB74-1D54-3D6F-1BB0-1FD8161EDB0B">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:43:32 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_2" id="9E01B8AE-515B-DC48-C442-3094ACC49A3F">
+<Attribute name="TS-ID" id="9E01B8AE-515B-DC48-C442-3094ACC49A3F">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:48:11 UTC</createdTime>
 <generatorID>8043ABE3-184A-704A-0C3A-D87E4FE1642B</generatorID>
@@ -31,6 +32,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="57E03DC5-55C0-FC44-697D-D2E6F9F6EE97">

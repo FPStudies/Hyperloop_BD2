@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_1" id="C98822D4-8A91-F7C2-84C3-E4C42C675390">
+<Attribute name="LC-ID" id="93FA6E7E-A149-1C7D-E893-44F5C3056320">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:08:48 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C-ID" id="C98822D4-8A91-F7C2-84C3-E4C42C675390">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 11:57:12 UTC</createdTime>
 <generatorID>111C9815-1791-4C82-BF49-585A2E2F459A</generatorID>
@@ -22,6 +32,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="831F3528-9510-0028-98BD-7400F8F0F9EE">
@@ -78,4 +89,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25E63B39-550E-E1C4-9EBC-44CFFCBC7DE7" name="Luggage compartment PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:09:14 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93FA6E7E-A149-1C7D-E893-44F5C3056320</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

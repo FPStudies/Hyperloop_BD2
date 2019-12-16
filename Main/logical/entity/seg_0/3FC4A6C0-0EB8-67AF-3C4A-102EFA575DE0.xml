@@ -12,14 +12,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_2" id="7018867F-BE96-3F8F-2D71-EF0C7225B73E">
+<Attribute name="TS-ID" id="7018867F-BE96-3F8F-2D71-EF0C7225B73E">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:48:04 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Type" id="331305D8-C1C0-F124-6FB2-4043150A6BE8">
 <createdBy>Admin</createdBy>
@@ -54,7 +55,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="77C447F7-68AE-AD78-E3BB-E838EF08DCB1">
+<Attribute name="LEM-ID" id="77C447F7-68AE-AD78-E3BB-E838EF08DCB1">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:48:14 UTC</createdTime>
 <generatorID>48700E66-9AC0-C578-4BC0-6EFF763E2C08</generatorID>
@@ -64,6 +65,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="C238488C-E2B8-AF85-BB90-04B1EA65FD63">

@@ -12,16 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="D5C16C11-0231-3C44-87EB-EAFEE13169ED">
+<Attribute name="R-ID" id="D5C16C11-0231-3C44-87EB-EAFEE13169ED">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 01:05:02 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name" id="8DB02BF4-83C9-2B75-465B-697AE9E39497">
+<Attribute name="Station name" id="8DB02BF4-83C9-2B75-465B-697AE9E39497">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 01:05:38 UTC</createdTime>
 <generatorID>5F7A3806-7560-C9EF-E3BF-C526F6E0151F</generatorID>
@@ -31,6 +32,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name1" id="402FC18B-3289-C4B1-8CB5-0ECBA4A4FA82">
@@ -75,6 +77,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERS-ID" id="CCC40EDF-7C5F-5E80-9A76-627BD65DFDB2">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:03:31 UTC</createdTime>
+<generatorID>5F7A3806-7560-C9EF-E3BF-C526F6E0151F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E5D25918-FF52-4436-AD2B-686A09C4F971</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

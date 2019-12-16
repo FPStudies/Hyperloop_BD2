@@ -12,14 +12,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_1" id="5BDD9796-6FE2-6CCD-CE87-99C59A68E3E9">
+<Attribute name="C-ID" id="5BDD9796-6FE2-6CCD-CE87-99C59A68E3E9">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 01:03:44 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Type" id="0843403E-917B-0481-0221-0AF6DD2270B6">
 <createdBy>Admin</createdBy>
@@ -43,7 +44,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name" id="01D13254-7884-2B3E-B55B-27DFE9955B65">
+<Attribute name="Station name" id="01D13254-7884-2B3E-B55B-27DFE9955B65">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:55:17 UTC</createdTime>
 <generatorID>8D472E2C-558A-B36B-0771-5F8AF32460A4</generatorID>
@@ -53,17 +54,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="C38A55A3-A352-26CA-C896-471E71B40CA5">
+<Attribute name="R-ID" id="C38A55A3-A352-26CA-C896-471E71B40CA5">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 12:02:36 UTC</createdTime>
 <generatorID>E41F3113-D511-4DFE-8187-36DFB6F17825</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>9F3BBDD9-D939-8803-99F8-27CB4D1970A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name1" id="AC0197BC-CBCE-3626-BE27-AE40C359B699">
@@ -126,6 +130,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LC-ID" id="2A3759A5-7CBF-F7BA-C422-00E9634D58A9">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:09:15 UTC</createdTime>
+<generatorID>111C9815-1791-4C82-BF49-585A2E2F459A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>93FA6E7E-A149-1C7D-E893-44F5C3056320</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -12,14 +12,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="DC4C5A81-57DE-F49F-4CBB-B87A8AC11AC8">
+<Attribute name="D-ID" id="DC4C5A81-57DE-F49F-4CBB-B87A8AC11AC8">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:47:03 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="6AABC7B0-3D07-512C-BC1C-C75DF940BB08">
 <createdBy>filip</createdBy>

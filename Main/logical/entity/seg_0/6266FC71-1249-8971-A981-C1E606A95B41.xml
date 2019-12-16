@@ -12,16 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="0C4BA168-31EA-39F7-3559-7392EA716B12">
+<Attribute name="SP-ID" id="0C4BA168-31EA-39F7-3559-7392EA716B12">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:45:58 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_2" id="513078CE-330E-C74B-0BD1-9225EED26182">
+<Attribute name="TS-ID" id="513078CE-330E-C74B-0BD1-9225EED26182">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:48:11 UTC</createdTime>
 <generatorID>253E160F-9E2F-6688-17A8-B3A00ED6907B</generatorID>
@@ -31,6 +32,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="F6D5C85E-A3AB-2312-8683-E8D7D6518986">
@@ -85,6 +87,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EG-ID" id="BDC04F2E-704C-CF0A-6955-9457FBC8823B">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:23:03 UTC</createdTime>
+<generatorID>20E643DD-4E6B-4C20-27B9-8FB72BB735C4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6B62051C-3937-9079-DB72-64F24E2CF1BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

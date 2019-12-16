@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="AE576170-807C-15FB-449F-63FF774EE822" containerWithKeyObject="C117C6C4-99CF-9368-12EB-ACCB663BEB6A" localFKIndex="66D4E6D2-4148-6738-4D08-D2A77BDF9DDD" name="Route_Measurment_Unit_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:33:46 UTC</createdTime>
+<generatorID>E189DD3D-7141-037A-2EBC-F9066C64F5A2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Measurment_Unit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E545B98-7D0F-ABBD-C348-715C16801DDE</referredTableID>
+<keyObject>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</keyObject>
+<referredKeyID>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Unit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5EB005D6-0D0A-D7E5-EA2F-4EB5E0AA4D68" containerWithKeyObject="17C4CD3A-AA39-417D-7D72-67296A9596D3" localFKIndex="06D3D5E9-1213-0212-1064-49E1643F8DCB" name="Battery_Measurment_Unit_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>919AFBAE-A1C1-87CD-0F00-04C79CB8F08B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Measurment_Unit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E545B98-7D0F-ABBD-C348-715C16801DDE</referredTableID>
+<keyObject>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</keyObject>
+<referredKeyID>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Unit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

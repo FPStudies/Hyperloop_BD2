@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11BCA39F-C57D-CB9B-0193-24AB0616D912" name="Solar_Panel">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>6266FC71-1249-8971-A981-C1E606A95B41</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SP-ID" id="D03F2288-5F39-2686-8341-0927382AFFE1">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>0C4BA168-31EA-39F7-3559-7392EA716B12</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tube_Segment_ID" id="7AAA7E03-A94D-55B0-A265-3C32D42C7778">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>513078CE-330E-C74B-0BD1-9225EED26182</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="481822DD-1DD6-69A1-5B12-C2D98C95A921" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
+</associations>
+</Column>
+<Column name="Serial_Number" id="76A3FEBF-D567-0C13-E05E-C25601E5A807">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>1DC7C2C2-CA3C-263A-5C33-51BE9C1A1849</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD5FEC31-5AB9-B7A8-C3C2-21F07266B6EF" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Avg_output" id="14887565-952D-0A29-F6BC-54417F97DDA9">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>911CA161-39A8-AB08-C284-D0A76C7D0057</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="A09E3640-E441-E8A7-C5DF-BE90695A1AB4">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9B1BB1C8-F53B-7C73-88F1-BBDFD6353532</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="646F3D96-C49D-B9A9-5D1B-22D3D50FF1E3" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+</associations>
+</Column>
+<Column name="Energy_Grid_ID" id="37CDF737-6E80-FC7B-5CE0-1FDF1973F891">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>BDC04F2E-704C-CF0A-6955-9457FBC8823B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B209008-1A27-AFB7-F3EF-B5920D5681D6" referredColumn="74CAAD39-A4BF-3A11-47C3-9C3FE4428122"/>
+</associations>
+</Column>
+<Column name="Measurment_Unit" id="28E8203E-676D-53FA-7203-20F7CA86E212">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>C6641572-1356-E844-F007-9DC239E24396</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85531EE7-3DEF-184E-7E20-1DF12FD08BA0" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
+<Column name="Producent_ID" id="9AC3AA1D-5906-BB36-3F3A-78228C1507C6">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:08 UTC</createdTime>
+<generatorID>0D97223B-2B66-2397-0571-1ECA935C8E82</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD5FEC31-5AB9-B7A8-C3C2-21F07266B6EF" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C633EBA-CE9C-4B4B-DA2A-2AB3FFD11ED8" name="Solar_Panel_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>A3255EAA-5A5E-C763-232C-7D346E0A8183</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D03F2288-5F39-2686-8341-0927382AFFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A5C9F9A-F497-6072-9F87-EE45509E3001" name="Solar_Panel_Energy_Grid_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>20E643DD-4E6B-4C20-27B9-8FB72BB735C4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37CDF737-6E80-FC7B-5CE0-1FDF1973F891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA393E5E-BD4B-624D-E8EF-098E0FE3AAB9" name="Solar_Panel_Producent_Serial_Number_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>23A2CA8C-463E-0241-F473-9C2B49A0B33E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76A3FEBF-D567-0C13-E05E-C25601E5A807"/>
+<colUsage columnID="9AC3AA1D-5906-BB36-3F3A-78228C1507C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA3186DF-2723-5B1A-6592-DF9D07376F28" name="Solar_Panel_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9AD18D26-778B-A13E-447C-7E9C124478B4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09E3640-E441-E8A7-C5DF-BE90695A1AB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00F36EDB-3856-5F67-6BC9-74547DAEFC1E" name="Solar_Panel_Measurment_Unit_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>E8419E46-5845-9637-FC79-6C0A45A9F678</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28E8203E-676D-53FA-7203-20F7CA86E212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EDF3B15-498F-470F-E051-854476D05F71" name="Solar_Panel_Tube_Segment_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:57 UTC</createdTime>
+<generatorID>253E160F-9E2F-6688-17A8-B3A00ED6907B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAA7E03-A94D-55B0-A265-3C32D42C7778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

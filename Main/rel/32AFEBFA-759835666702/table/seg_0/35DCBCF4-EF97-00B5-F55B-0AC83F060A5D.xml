@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35DCBCF4-EF97-00B5-F55B-0AC83F060A5D" name="Vacuum_Pump">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>C2224039-7D12-FF7E-6627-97E7B75FEDBE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VP-ID" id="0CE4F690-346C-6AC8-5950-D5B8DEA94A0B">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>D70AAB74-1D54-3D6F-1BB0-1FD8161EDB0B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tube_Segment_ID" id="90C9ECFA-81D2-28C7-0755-3CD471132904">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9E01B8AE-515B-DC48-C442-3094ACC49A3F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1930024-734A-3FEA-0AF7-A95013156CF0" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
+</associations>
+</Column>
+<Column name="Serial_Number1" id="7AA2241D-168C-CF74-EED2-788CEEC6F3B2">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>F28F3543-8BA2-E17F-C592-A7F2D815CC29</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89159D3F-B3AE-617D-FFCE-1D41B5C369BB" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Status" id="2774BB6D-ADF9-BD9A-CBB5-7931016B887E">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>94BA50B9-5AB3-F470-C30F-CE2A9A16DBEA</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2E7A23A-6934-E74C-2859-59DCD0B5C244" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+</associations>
+</Column>
+<Column name="Power" id="08B49869-905E-B6D4-A591-47F007F46BA0">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>BDC018A8-7CA2-E28F-50EC-5FBDDB028ED6</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Target_pressure" id="D8A5EB3F-F9E3-0379-A00D-28237372DC62">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>19526410-CBED-616B-1405-008D9DF449B4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producent_ID" id="769DC303-D7E5-8E70-9BDD-D359E43F4E6C">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:08 UTC</createdTime>
+<generatorID>D2A1DD87-098C-0C80-554E-6AA24DFB7703</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89159D3F-B3AE-617D-FFCE-1D41B5C369BB" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+</associations>
+</Column>
+<Column name="Power_Measurment_Unit" id="B93A8BDA-BA4F-54DA-41C5-016458F789E4">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 21:31:06 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C079F52-FB03-0A89-3C8B-32D39EC9C506" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
+<Column name="Pressure_Measurment_Unit" id="22DE209A-7AF9-1261-0879-6D54E2EA651E">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 21:31:56 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E92F1D5-EFC0-01F3-5495-A40344F53E9B" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFFAD337-ABD0-E9E9-98D1-B152252E5825" name="Vacuum_Pump_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>C102042B-11D2-3088-6216-77CDB24CEBA3</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CE4F690-346C-6AC8-5950-D5B8DEA94A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCCB847E-6EDB-FC05-9E1B-444F287C4DC7" name="Vacuum_Pump_Tube_Segment_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8043ABE3-184A-704A-0C3A-D87E4FE1642B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90C9ECFA-81D2-28C7-0755-3CD471132904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C74DA821-B84C-C805-55D3-A215EC99EA97" name="Vacuum_Pump_Producent_Serial_Number_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>1E33FFE1-65F0-F6AE-19AA-C9D39EF3D097</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AA2241D-168C-CF74-EED2-788CEEC6F3B2"/>
+<colUsage columnID="769DC303-D7E5-8E70-9BDD-D359E43F4E6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07646DBD-1563-17AB-9454-7257AFF87495" name="Vacuum_Pump_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>AE01636A-6686-1B11-6FC4-27CD62EAF567</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2774BB6D-ADF9-BD9A-CBB5-7931016B887E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="932C167F-6482-801E-CAD4-650CCE5673B2" name="Power_Measurment_Unit">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 21:31:06 UTC</createdTime>
+<generatorID>8A40EADE-8466-ED61-E476-D3C880E7DFAE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B93A8BDA-BA4F-54DA-41C5-016458F789E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD3535AF-84BC-67F5-26B4-CC4A7C357ED4" name="Pressure">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 21:31:56 UTC</createdTime>
+<generatorID>8A40EADE-8466-ED61-E476-D3C880E7DFAE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22DE209A-7AF9-1261-0879-6D54E2EA651E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

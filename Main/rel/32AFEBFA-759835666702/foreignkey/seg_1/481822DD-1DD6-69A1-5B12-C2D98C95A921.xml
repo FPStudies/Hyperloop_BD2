@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="481822DD-1DD6-69A1-5B12-C2D98C95A921" containerWithKeyObject="11BCA39F-C57D-CB9B-0193-24AB0616D912" localFKIndex="3EDF3B15-498F-470F-E051-854476D05F71" name="Solar_Panel_Tube_Segment_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:57 UTC</createdTime>
+<generatorID>253E160F-9E2F-6688-17A8-B3A00ED6907B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Tube_Segment</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF4FE357-5069-A58E-D0A2-03115C65734C</referredTableID>
+<keyObject>47F528CE-4231-4723-0931-EA7B26800846</keyObject>
+<referredKeyID>47F528CE-4231-4723-0931-EA7B26800846</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TS-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

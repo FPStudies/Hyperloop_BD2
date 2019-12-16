@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30826F38-A217-8224-0784-6FD9AB88042A" name="Airlock">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>BE8CFC5E-810E-E0C0-7E60-AA7624D270C7</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="A-ID" id="786FE401-EBA0-3737-4CF9-9CDAB7AAEBB5">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>BD003709-6EF4-B634-8809-FC147C8BE922</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Platform_name" id="1044E3D0-2C32-0393-F266-6F911B7FD448">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>417934EF-E01E-5599-A663-A70C9DD6724F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B5A5FD5-9F4E-74BD-27B2-63A61BAC6284" referredColumn="3D6EF172-EAD6-B92F-8E9D-0CB16E26E12C"/>
+</associations>
+</Column>
+<Column name="Station_name" id="86D1AED0-14FD-DE9C-41E6-E954F5C3AF67">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>B4EBC379-ED6B-6E67-BED2-7BCA4F2656F0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B5A5FD5-9F4E-74BD-27B2-63A61BAC6284" referredColumn="C5165A96-F386-402A-3D57-A530D5CC761F"/>
+</associations>
+</Column>
+<Column name="Status" id="D36A575F-2AD5-B4BE-92BB-CF02E894519F">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>416F4B62-40BE-9A17-9AF5-109355F5BCEB</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDE36BE6-C5B6-CA9A-DF19-E1408C5F0B84" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
+</Column>
+<Column name="Avg_(de)pressurization_time" id="BB5A2B5D-9944-F57C-5F11-9F20D1E2A74C">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>7DA58CF3-6BA9-D106-1D3F-626864596437</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B4A887F-9456-1F2C-4E73-29F3D3457C8C" name="Airlock_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>A79FF767-C0E2-7F94-6F1B-87712C1B1167</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="786FE401-EBA0-3737-4CF9-9CDAB7AAEBB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43E513F3-410A-59D8-EB88-968013D0AA21" name="Airlock_Platform_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1044E3D0-2C32-0393-F266-6F911B7FD448"/>
+<colUsage columnID="86D1AED0-14FD-DE9C-41E6-E954F5C3AF67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91BFD129-7E22-3855-95CB-6AC371BD70C7" name="Airlock_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8946CA41-2A5D-F533-540E-38D52111EF1F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36A575F-2AD5-B4BE-92BB-CF02E894519F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

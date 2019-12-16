@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A70E95D5-06CF-FE03-92D5-5A77C6DF3785" name="Luggage compartment">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 11:56:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LC-ID" id="93FA6E7E-A149-1C7D-E893-44F5C3056320">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:08:48 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C-ID" id="C98822D4-8A91-F7C2-84C3-E4C42C675390">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 11:57:12 UTC</createdTime>
+<generatorID>111C9815-1791-4C82-BF49-585A2E2F459A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5BDD9796-6FE2-6CCD-CE87-99C59A68E3E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="0CBAEE64-C62A-56C9-E766-87D301401945">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:37:54 UTC</createdTime>
+<generatorID>CCA22114-05DA-4EA7-4636-B3FAD96CE425</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Limit" id="086F3B79-5550-3C47-B92D-1683C4F298EF">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:33:08 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unit" id="E89402CF-169B-6C78-BAB3-2DF0722B2FE1">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:23:56 UTC</createdTime>
+<generatorID>9FFCB425-D7A1-80E5-28D7-7AD906EC1253</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C1D75422-4D90-3C97-CA57-869F7C19296E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="FEDAA3BD-1335-5890-38A4-7C52A9CED3F2">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:49:37 UTC</createdTime>
+<generatorID>405D08F6-2882-39EF-1B16-3A39327D04D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR-ID" id="2427A7E4-70DC-538B-B11A-139855F9A9D4">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:54:44 UTC</createdTime>
+<generatorID>405D08F6-2882-39EF-1B16-3A39327D04D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>130629D3-FDFB-463D-0E00-673ADAD14410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25E63B39-550E-E1C4-9EBC-44CFFCBC7DE7" name="Luggage compartment PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:09:14 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93FA6E7E-A149-1C7D-E893-44F5C3056320</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

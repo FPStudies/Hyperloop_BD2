@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF815FEC-4E6D-E404-9697-501A8CD5C3A0" containerWithKeyObject="EB843B1C-2B33-8A92-EC45-2F2E3807203D" localFKIndex="079AD9C1-80E7-C29E-EF6F-C2D9605441DD" name="Pylon_Damper_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>428797A7-8696-4D58-E785-04B9270744D8</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Damper</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB17546A-C927-AEB8-0A0F-BD530F5E7529</referredTableID>
+<keyObject>89F8ED6F-DB9F-9F28-DDAA-0A69B48ACF00</keyObject>
+<referredKeyID>89F8ED6F-DB9F-9F28-DDAA-0A69B48ACF00</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>D-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

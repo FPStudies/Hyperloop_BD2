@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D13DEFFB-616D-7A45-FE6D-E5E47311E8C4" containerWithKeyObject="09BD07BE-D7D3-D23F-EA4E-1AC43B6E36BD" localFKIndex="3510D526-FCB7-ECB1-3B89-D1B867ADCE0D" name="Linear_Electric_Motor_Energy_Grid_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>E1BA7526-4A84-4B6D-9DDD-7DD9DDBF227A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Energy_Grid</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21D7C6D5-9E7D-103D-E710-A96047F71279</referredTableID>
+<keyObject>EAFDA92B-66B2-BBCA-CD27-EFA5DDE42528</keyObject>
+<referredKeyID>EAFDA92B-66B2-BBCA-CD27-EFA5DDE42528</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EG-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

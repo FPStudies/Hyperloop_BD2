@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="646F3D96-C49D-B9A9-5D1B-22D3D50FF1E3" containerWithKeyObject="11BCA39F-C57D-CB9B-0193-24AB0616D912" localFKIndex="BA3186DF-2723-5B1A-6592-DF9D07376F28" name="Solar_Panel_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9AD18D26-778B-A13E-447C-7E9C124478B4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Element_Status</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18AA2BF7-62FB-7EED-82F1-35C5B83C54F9</referredTableID>
+<keyObject>947E0A85-4904-E444-72B9-3918BBAA162C</keyObject>
+<referredKeyID>947E0A85-4904-E444-72B9-3918BBAA162C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Status</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

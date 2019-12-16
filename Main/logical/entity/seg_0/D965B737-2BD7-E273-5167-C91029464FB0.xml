@@ -3,6 +3,9 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:00:27 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,35 +15,78 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Serial Number" id="BFD61FB6-4BDF-AEB1-BD30-41A4363A7039">
+<Attribute name="PS-ID" id="BFD61FB6-4BDF-AEB1-BD30-41A4363A7039">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:01:15 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Value" id="A16134EF-5C45-1BCA-77EF-008A2E2D13D0">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 00:01:16 UTC</createdTime>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Serial Number1" id="016526B8-524B-EFA2-A0C8-FF8A8B87B4C5">
+<Attribute name="TS-ID" id="016526B8-524B-EFA2-A0C8-FF8A8B87B4C5">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:48:11 UTC</createdTime>
 <generatorID>69C0B6F5-6B2C-B42B-CA57-115C03882667</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>7018867F-BE96-3F8F-2D71-EF0C7225B73E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="A671AED6-735A-9BAD-BF25-962E6A4372A9">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:36:38 UTC</createdTime>
+<generatorID>162A4AFF-417B-F616-D7AF-0BD0FA6AC798</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="1C28E4DD-9AC3-8C9C-E96E-84B1DB3A30E6">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:49:37 UTC</createdTime>
+<generatorID>37BD275A-D27A-634B-0C43-B73EF05D8824</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR-ID" id="4B372896-2892-5080-61F6-55212B07FE09">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:54:44 UTC</createdTime>
+<generatorID>37BD275A-D27A-634B-0C43-B73EF05D8824</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>130629D3-FDFB-463D-0E00-673ADAD14410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -49,6 +95,10 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:01:27 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>BFD61FB6-4BDF-AEB1-BD30-41A4363A7039</attributeRef>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9CBDF08-06CF-F58E-B25E-BFA18B2073A2" containerWithKeyObject="A4BB19CA-4F6F-1F20-49E2-2C35A8C13690" localFKIndex="6F35F141-035C-700F-935D-691C1C1F9E98" name="Turntable_Measurment_Unit_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>2C88B11A-347A-D49A-D18E-3096045208DD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Measurment_Unit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E545B98-7D0F-ABBD-C348-715C16801DDE</referredTableID>
+<keyObject>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</keyObject>
+<referredKeyID>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Unit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

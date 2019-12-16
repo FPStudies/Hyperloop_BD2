@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB843B1C-2B33-8A92-EC45-2F2E3807203D" name="Pylon">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>E4005F69-C7B7-B86C-DE64-E437D86C348D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="P-ID" id="CD3DD97F-C64E-E845-D5E1-A3C15E65AC45">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>F6A15DA8-8F6A-D30A-FCBF-3EC72C8EC61F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Length" id="728EBC26-8CC9-2807-2BC9-909B74451B44">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9DA0C05E-C12D-3954-F946-C21C414A5A50</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Damper_ID" id="2DEA123A-F0EC-2858-AE90-2901D867C82B">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>5B72FCD8-6DD0-8F53-B196-2F51432D2097</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF815FEC-4E6D-E404-9697-501A8CD5C3A0" referredColumn="A3B37855-7B1F-5281-283F-5FA8B72D5405"/>
+</associations>
+</Column>
+<Column name="Tube_ID" id="1EFCA2DC-EEF9-8F8A-4967-2FF028AD8DFA">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>F6A15473-60BF-B3A7-1C66-9C5957290237</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="224BF028-805F-B7CC-04C1-C4901923EC89" referredColumn="3B2DA59D-10FA-FB8C-43A1-4C3F942183D4"/>
+</associations>
+</Column>
+<Column name="Measurment_Unit" id="83EB8F41-72CD-209C-B056-2BF4820751C4">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>C7A8D93D-D288-E40E-90BE-960C2D319676</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09738BCC-AC42-4514-A6DB-7893D7A17ABF" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E126F94-3D70-0DD7-E1CA-DF43DA5A3809" name="Pylon_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>94376983-4D20-7F5F-327D-F6D94816F757</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD3DD97F-C64E-E845-D5E1-A3C15E65AC45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AB40D59-B90B-0C2E-AA08-3670738E66AF" name="Pylon__IDX">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>428797A7-8696-4D58-E785-04B9270744D8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2DEA123A-F0EC-2858-AE90-2901D867C82B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="079AD9C1-80E7-C29E-EF6F-C2D9605441DD" name="Pylon_Damper_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>428797A7-8696-4D58-E785-04B9270744D8</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DEA123A-F0EC-2858-AE90-2901D867C82B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5969F159-3C19-4A1A-4329-9F41AB34FF01" name="Pylon_Installed_tube_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>6DD64A4A-9B01-A0A7-7DB9-CDED7ADEDE44</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EFCA2DC-EEF9-8F8A-4967-2FF028AD8DFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAE0F3FB-97CA-619A-188F-1DC140D88FC9" name="Pylon_Measurment_Unit_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>DC3FF741-478E-D452-1978-78C2619CC24A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83EB8F41-72CD-209C-B056-2BF4820751C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

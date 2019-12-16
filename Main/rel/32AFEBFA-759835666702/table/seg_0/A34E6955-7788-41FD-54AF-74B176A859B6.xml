@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A34E6955-7788-41FD-54AF-74B176A859B6" name="Pressure_Sensor">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>D965B737-2BD7-E273-5167-C91029464FB0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PS-ID" id="5E9F1E72-7731-0128-7E98-0E389145FE62">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>BFD61FB6-4BDF-AEB1-BD30-41A4363A7039</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tube_Segment_ID" id="574CB0CF-054A-54EF-722B-8EF84D9624D8">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>016526B8-524B-EFA2-A0C8-FF8A8B87B4C5</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D70B536-F09A-E432-E45C-70FD2D421DB7" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
+</associations>
+</Column>
+<Column name="Serial_Number1" id="F20B05B4-7D85-1522-AD13-94212FD21572">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>928FDCBE-79B1-0BD2-9DDE-87998A415757</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E0FF02-E072-5392-4BBE-39B6DEC68962" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Status" id="ABF74301-1042-1903-4EDD-1C66F275260B">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>A671AED6-735A-9BAD-BF25-962E6A4372A9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE90A48F-EEA5-6DAE-F4DC-A8A2D96610E8" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+</associations>
+</Column>
+<Column name="Producent_ID" id="4CFA95BC-55E9-A144-6C37-D78256875FF2">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:08 UTC</createdTime>
+<generatorID>4B372896-2892-5080-61F6-55212B07FE09</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E0FF02-E072-5392-4BBE-39B6DEC68962" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D574DE7-3D32-53AE-CC15-EE3FDCF3265B" name="Pressure_Sensor_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>6CE07AE8-C838-80DF-DAC7-F13F79689BA2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E9F1E72-7731-0128-7E98-0E389145FE62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E84EEF34-7AD9-8A7D-8ECD-2198642D679A" name="Pressure_Sensor_Tube_Segment_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>69C0B6F5-6B2C-B42B-CA57-115C03882667</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="574CB0CF-054A-54EF-722B-8EF84D9624D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE67C3EB-137D-2746-3244-76353CE8B61E" name="Pressure_Sensor_Producent_Serial_Number_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>37BD275A-D27A-634B-0C43-B73EF05D8824</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F20B05B4-7D85-1522-AD13-94212FD21572"/>
+<colUsage columnID="4CFA95BC-55E9-A144-6C37-D78256875FF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AE4BAF2-3E15-2C89-C950-61299673B183" name="Pressure_Sensor_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>162A4AFF-417B-F616-D7AF-0BD0FA6AC798</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF74301-1042-1903-4EDD-1C66F275260B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

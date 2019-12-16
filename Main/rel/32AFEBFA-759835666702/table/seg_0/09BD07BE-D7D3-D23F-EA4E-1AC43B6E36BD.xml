@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09BD07BE-D7D3-D23F-EA4E-1AC43B6E36BD" name="Linear_Electric_Motor">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>3AE8EB90-461D-2650-20F2-64ABF76E64DD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LEM-ID" id="5F6185E5-FE92-7398-9502-7E594A585690">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>455C898D-928C-5EE2-3CB7-E84F89603F56</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serial_Number1" id="5A6BD7BD-66AD-6270-3FA2-B92FD05C53CB">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9F0EE858-E887-B103-9D76-6D84A220C795</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A027836A-5E34-D1C6-4409-9FA39A337245" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Status" id="16DB5350-5B5A-5BFB-FBC0-F0FBCF8FD4EF">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>64B6DE50-0B8C-8EC0-C394-8AE037A48F02</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E0DDB7F-157D-3B6A-AA8C-E0C928CD0402" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+</associations>
+</Column>
+<Column name="Energy_Grid_ID" id="8CD8A0E2-DEF4-73B5-2847-55D95FA2C4D7">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>97F255DB-40FC-BD68-9FE2-E36969D76B4A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D13DEFFB-616D-7A45-FE6D-E5E47311E8C4" referredColumn="74CAAD39-A4BF-3A11-47C3-9C3FE4428122"/>
+</associations>
+</Column>
+<Column name="Producent_ID" id="AC711DF2-CC4D-F4F8-031B-0162C5E1BEBF">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:08 UTC</createdTime>
+<generatorID>A3DE11BA-4FEB-17FA-B618-8D3BD35ABF9C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A027836A-5E34-D1C6-4409-9FA39A337245" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27C9A937-FE94-9050-9297-ACE986E5EADD" name="Linear_Electric_Motor_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>90244986-E64A-214B-3F28-60C404A2DFF5</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F6185E5-FE92-7398-9502-7E594A585690"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3510D526-FCB7-ECB1-3B89-D1B867ADCE0D" name="Linear_Electric_Motor_Energy_Grid_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>E1BA7526-4A84-4B6D-9DDD-7DD9DDBF227A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD8A0E2-DEF4-73B5-2847-55D95FA2C4D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3577766C-5E59-CEAE-4754-88A4DB71B42A" name="Linear_Electric_Motor_Producent_Serial_Number_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>2253B4FF-4E1B-8801-54CE-461F6FB22065</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A6BD7BD-66AD-6270-3FA2-B92FD05C53CB"/>
+<colUsage columnID="AC711DF2-CC4D-F4F8-031B-0162C5E1BEBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A127C18B-6894-73D0-6C95-A0067E3AB129" name="Linear_Electric_Motor_Element_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8FA09340-80CA-08B8-46CA-1C3F5D474FCD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16DB5350-5B5A-5BFB-FBC0-F0FBCF8FD4EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

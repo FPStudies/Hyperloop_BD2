@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4BB19CA-4F6F-1F20-49E2-2C35A8C13690" name="Turntable">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>F21AECA6-149F-B336-EFC3-B0C5E7FB084D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T-ID" id="8CCC4CAD-B127-C9F5-92D3-3A81C0BC4212">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>F2550C28-4CC8-8742-CE9E-66CD388AD7F7</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Platform_name" id="E5E500A6-28EE-BFFD-6F25-9E39D7A5362A">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>2B1457B7-8655-32B0-9AEB-9FC95A3B84C6</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96EEC21B-0541-CDC7-BDC1-45AB430C3C2A" referredColumn="3D6EF172-EAD6-B92F-8E9D-0CB16E26E12C"/>
+</associations>
+</Column>
+<Column name="Station_name" id="F5331978-0DA7-EDB7-DF7D-73C03BE39A30">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>4BAB954C-46AF-1563-FFF1-714B94536CAE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96EEC21B-0541-CDC7-BDC1-45AB430C3C2A" referredColumn="C5165A96-F386-402A-3D57-A530D5CC761F"/>
+</associations>
+</Column>
+<Column name="Status" id="80F12EF4-E92D-9E3B-8DCB-499D4533B473">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>A6184DCF-7D7E-4BCA-7883-8E116E21D34A</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B904D282-3173-E78D-9234-6E75427FD87F" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
+</Column>
+<Column name="Avg_turn_time" id="9629C6F4-6754-FB69-02EA-2DD2A331C1D3">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>FA25EB72-2023-805A-88AF-A1256F08F2B8</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Weight_limit" id="7DB5277D-6635-B518-DC14-431668DC7A9D">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>63B1C8F4-6FE7-B9FE-1986-77941F4553D2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Measurment_Unit" id="82F4BB00-7819-CFAB-5B12-5A9964B3ABC2">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>DF11FB5E-A92D-03C9-EE1B-608A33F30F43</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9CBDF08-06CF-F58E-B25E-BFA18B2073A2" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1F9914E-ACA1-98C8-7DE2-1F6F99D1D187" name="Turntable_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>2A271710-954B-40FD-5D9E-152DD12E4C2E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CCC4CAD-B127-C9F5-92D3-3A81C0BC4212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2023D68-EC73-B6B2-7623-9357B3874B62" name="Turntable_Platform_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5E500A6-28EE-BFFD-6F25-9E39D7A5362A"/>
+<colUsage columnID="F5331978-0DA7-EDB7-DF7D-73C03BE39A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="497B37FE-0D92-BC4C-6A31-706B7A689982" name="Turntable_Status_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>8CB4AAFE-2752-EFF3-F850-143972E522F3</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80F12EF4-E92D-9E3B-8DCB-499D4533B473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F35F141-035C-700F-935D-691C1C1F9E98" name="Turntable_Measurment_Unit_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>2C88B11A-347A-D49A-D18E-3096045208DD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82F4BB00-7819-CFAB-5B12-5A9964B3ABC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -3,6 +3,9 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:56:16 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,25 +15,63 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="16060129-5DA6-413C-C674-5F09B13F2045">
+<Attribute name="TT-ID" id="B8FFE61D-09DA-90EC-4FAF-F20A702E1685">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:02:21 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Station name" id="16060129-5DA6-413C-C674-5F09B13F2045">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:55:17 UTC</createdTime>
 <generatorID>94D7F785-5871-6B05-994A-945677B6D138</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>87DCDB1E-C1C8-9921-3445-158A4BBA7CFA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Serial Number" id="B8FFE61D-09DA-90EC-4FAF-F20A702E1685">
+<Attribute name="Serial Number" id="D2C14A4C-F052-D55F-1F07-B74A179263A9">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 01:02:21 UTC</createdTime>
+<createdTime>2019-12-16 20:49:37 UTC</createdTime>
+<generatorID>A2CE93F7-3504-2FD9-E673-CD9644ABD25E</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR-ID" id="77C8BEFB-097E-8BF1-4316-8D266341BCB3">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:54:44 UTC</createdTime>
+<generatorID>A2CE93F7-3504-2FD9-E673-CD9644ABD25E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>130629D3-FDFB-463D-0E00-673ADAD14410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -39,6 +80,10 @@
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 01:02:28 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B8FFE61D-09DA-90EC-4FAF-F20A702E1685</attributeRef>

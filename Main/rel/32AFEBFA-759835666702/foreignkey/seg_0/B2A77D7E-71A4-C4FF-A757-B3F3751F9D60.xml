@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2A77D7E-71A4-C4FF-A757-B3F3751F9D60" containerWithKeyObject="8A119B91-D248-07F5-4AF5-733786D71B13" localFKIndex="6CB5182C-40C9-52BB-8713-24DB8D7D09D5" name="Luggage_compartment_Measurment_Unit_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>9FFCB425-D7A1-80E5-28D7-7AD906EC1253</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Measurment_Unit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E545B98-7D0F-ABBD-C348-715C16801DDE</referredTableID>
+<keyObject>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</keyObject>
+<referredKeyID>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Unit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

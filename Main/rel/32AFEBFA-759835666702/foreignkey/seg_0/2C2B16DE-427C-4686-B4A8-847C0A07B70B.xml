@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C2B16DE-427C-4686-B4A8-847C0A07B70B" containerWithKeyObject="383FFB6C-D745-218D-4197-F3442E4A56A1" localFKIndex="21C92FA5-2801-38F9-E1F5-4F7D13808C79" name="Radio_Emergency_Radio_Station_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>5F7A3806-7560-C9EF-E3BF-C526F6E0151F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Emergency_Radio_Station</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>51B50078-1402-B7A1-3429-242A331C38EB</referredTableID>
+<keyObject>02DA3E46-7B81-EE7C-B10B-F55764817F1B</keyObject>
+<referredKeyID>02DA3E46-7B81-EE7C-B10B-F55764817F1B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Station_Station_name,ERS-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

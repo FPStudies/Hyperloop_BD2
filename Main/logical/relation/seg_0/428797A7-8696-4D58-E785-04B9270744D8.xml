@@ -7,7 +7,7 @@
 <targetPk>94376983-4D20-7F5F-327D-F6D94816F757</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E61A488F-2ED6-3A65-1080-B04E03A241EE</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

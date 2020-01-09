@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B209008-1A27-AFB7-F3EF-B5920D5681D6" containerWithKeyObject="11BCA39F-C57D-CB9B-0193-24AB0616D912" localFKIndex="3A5C9F9A-F497-6072-9F87-EE45509E3001" name="Solar_Panel_Energy_Grid_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>20E643DD-4E6B-4C20-27B9-8FB72BB735C4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Energy_Grid</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21D7C6D5-9E7D-103D-E710-A96047F71279</referredTableID>
+<keyObject>EAFDA92B-66B2-BBCA-CD27-EFA5DDE42528</keyObject>
+<referredKeyID>EAFDA92B-66B2-BBCA-CD27-EFA5DDE42528</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EG-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

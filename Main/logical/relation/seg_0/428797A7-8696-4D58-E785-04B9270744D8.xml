@@ -3,11 +3,10 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 15:02:53 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
-</engineerTo>
+<sourcePk>D6DC8945-6215-5C1B-9755-21E5374B0571</sourcePk>
+<targetPk>94376983-4D20-7F5F-327D-F6D94816F757</targetPk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E61A488F-2ED6-3A65-1080-B04E03A241EE</sourceEntity>

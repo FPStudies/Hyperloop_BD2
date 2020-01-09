@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C485006A-11C9-E261-858C-3519351C9FA2" name="Installed_tube">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>70665114-0026-7291-82B8-9844E915C13D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TS-ID" id="3B2DA59D-10FA-FB8C-43A1-4C3F942183D4">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>7018867F-BE96-3F8F-2D71-EF0C7225B73E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F97FE0B-AC81-6201-7C47-FBC8B2C1CA15" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
+</associations>
+</Column>
+<Column name="Chainage" id="C7DCD3DE-AA57-4A29-91C8-8814D751C6D0">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>3CEC3719-35BD-F9C6-0242-E5396F9F2088</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Altitude" id="CA72DB2A-A6F4-CEE9-5881-35E088D63169">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>13662FF9-BB54-D22E-1C61-C014EB232E12</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="037B8152-E314-FD09-5926-66E3BF5ED80B" name="Installed_tube_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>2F03771B-F7B1-2529-2532-C2D444E87443</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B2DA59D-10FA-FB8C-43A1-4C3F942183D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99EAC992-8A33-7CDB-982C-B478D1F235AE" name="Installed_tube_PKv1">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>28F7EAB4-9B5A-5347-7596-649A25F4B4F1</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="8D7C577B-345A-FE35-A852-859D5D00E7F8" name="Installed_tube_Tube_Segment_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>0D4D0D5C-F85B-6B47-4E78-31B4F38A79AA</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B2DA59D-10FA-FB8C-43A1-4C3F942183D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

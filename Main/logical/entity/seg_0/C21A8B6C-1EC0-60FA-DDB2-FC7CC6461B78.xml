@@ -4,7 +4,7 @@
 <createdTime>2019-12-15 14:04:18 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="S-ID" id="6E5EB41B-3233-487A-82AF-E2CDE612648E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-08 09:00:21 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Station name" id="87DCDB1E-C1C8-9921-3445-158A4BBA7CFA">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:55:07 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="8BF0D582-4371-AD17-8A65-14978414DA0F">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:11:34 UTC</createdTime>
+<generatorID>DD008DA5-DA4F-4769-ECAD-28DBA5F3DB88</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74B69F84-6CCC-88BE-E1D4-0D8DA186A507" name="Station PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:55:16 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E5EB41B-3233-487A-82AF-E2CDE612648E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

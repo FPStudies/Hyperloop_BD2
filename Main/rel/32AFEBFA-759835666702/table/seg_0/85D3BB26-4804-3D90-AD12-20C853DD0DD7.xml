@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85D3BB26-4804-3D90-AD12-20C853DD0DD7" name="Producent_Serial_Number">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>52B428F7-FD87-A146-34B4-BB5E876DDFCC</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<typeID>4</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Serial_Number" id="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>9A270FE0-586F-6726-7531-E101516F7664</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producent_data_PR-ID" id="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:08 UTC</createdTime>
+<generatorID>130629D3-FDFB-463D-0E00-673ADAD14410</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E961C61D-CC90-BE79-97A2-1347DAF1CCDC" referredColumn="F704F66A-AE35-FD97-A585-DA85E5B3A239"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049" name="Producent_Serial_Number_PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+<colUsage columnID="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DFA264C-7D0B-7DA7-6351-245D678AA75A" name="Producent_Serial_Number_Producent_data_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:58:08 UTC</createdTime>
+<generatorID>A22F33F7-B245-A86E-22E7-F3F147D02E0B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="0E92F1D5-EFC0-01F3-5495-A40344F53E9B" containerWithKeyObject="35DCBCF4-EF97-00B5-F55B-0AC83F060A5D" localFKIndex="AD3535AF-84BC-67F5-26B4-CC4A7C357ED4" name="Pressure">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 21:31:56 UTC</createdTime>
+<generatorID>8A40EADE-8466-ED61-E476-D3C880E7DFAE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Measurment_Unit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E545B98-7D0F-ABBD-C348-715C16801DDE</referredTableID>
+<keyObject>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</keyObject>
+<referredKeyID>A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Unit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

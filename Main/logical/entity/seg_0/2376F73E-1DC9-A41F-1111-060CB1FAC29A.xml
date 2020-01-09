@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2376F73E-1DC9-A41F-1111-060CB1FAC29A" name="Route">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2376F73E-1DC9-A41F-1111-060CB1FAC29A" name="Route section">
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:44:19 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,114 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="R-ID" id="9F3BBDD9-D939-8803-99F8-27CB4D1970A5">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 12:02:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="8F36B402-C908-4DFA-20FA-95C76E2816D6">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:11:31 UTC</createdTime>
+<generatorID>C7D071DE-F341-E35F-CD5C-FC7CFA412E5D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Length" id="C814710B-5A96-2D8D-F5C9-00AE73AE43B9">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:40:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Expected duration" id="713682F2-DD3E-526C-4D3D-1FFBFEB377E8">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:41:03 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unit" id="88670A98-A81C-0827-8E95-2ED2B9707337">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:27:34 UTC</createdTime>
+<generatorID>E189DD3D-7141-037A-2EBC-F9066C64F5A2</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C1D75422-4D90-3C97-CA57-869F7C19296E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S-ID" id="827DC2F3-C05D-BEC6-729D-DF34733D3612">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-08 09:00:41 UTC</createdTime>
+<generatorID>F09816CD-3DFD-03A9-5986-29EE628506D4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>6E5EB41B-3233-487A-82AF-E2CDE612648E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S-ID1" id="3EB1B691-EB1A-A013-CFF8-5ABFBB50F2ED">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-08 09:00:41 UTC</createdTime>
+<generatorID>B323E333-A372-ACFC-AAC4-6985E4D79B76</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>6E5EB41B-3233-487A-82AF-E2CDE612648E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A588C43E-A823-F734-19C7-A99D46475681" name="Route PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:00:10 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F3BBDD9-D939-8803-99F8-27CB4D1970A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6B5A5FD5-9F4E-74BD-27B2-63A61BAC6284" containerWithKeyObject="30826F38-A217-8224-0784-6FD9AB88042A" localFKIndex="43E513F3-410A-59D8-EB88-968013D0AA21" name="Airlock_Platform_FK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Platform</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBDFF086-912D-DD93-E5DA-BA318602D856</referredTableID>
+<keyObject>C9076B26-7ED3-46C5-2FAD-C30E71B13B58</keyObject>
+<referredKeyID>C9076B26-7ED3-46C5-2FAD-C30E71B13B58</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Platform_name,Station_Station_name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

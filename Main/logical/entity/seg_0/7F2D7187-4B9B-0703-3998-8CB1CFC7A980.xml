@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F2D7187-4B9B-0703-3998-8CB1CFC7A980" name="Platforms">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F2D7187-4B9B-0703-3998-8CB1CFC7A980" name="Platform">
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:58:37 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,47 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Platform name" id="32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:02:40 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S-ID" id="C0D7AEDA-FCE1-495C-AEE8-4AFBF78B5DDA">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-08 09:00:41 UTC</createdTime>
+<generatorID>4CF1CA3B-D093-1C0F-9F6F-250B99DFAAA3</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>6E5EB41B-3233-487A-82AF-E2CDE612648E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D298D33A-ECF7-7356-550A-0EB5A81BC4DF" name="Platform PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-15 20:53:41 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</attributeRef>
+<attributeRef>C0D7AEDA-FCE1-495C-AEE8-4AFBF78B5DDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

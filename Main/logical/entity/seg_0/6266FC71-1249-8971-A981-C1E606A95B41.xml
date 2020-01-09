@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6266FC71-1249-8971-A981-C1E606A95B41" name="SolarPanel">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6266FC71-1249-8971-A981-C1E606A95B41" name="Solar Panel">
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 15:18:47 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,139 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SP-ID" id="0C4BA168-31EA-39F7-3559-7392EA716B12">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:45:58 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TS-ID" id="513078CE-330E-C74B-0BD1-9225EED26182">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:48:11 UTC</createdTime>
+<generatorID>253E160F-9E2F-6688-17A8-B3A00ED6907B</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7018867F-BE96-3F8F-2D71-EF0C7225B73E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Avg output" id="911CA161-39A8-AB08-C284-D0A76C7D0057">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:20:20 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="9B1BB1C8-F53B-7C73-88F1-BBDFD6353532">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:36:53 UTC</createdTime>
+<generatorID>9AD18D26-778B-A13E-447C-7E9C124478B4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EG-ID" id="BDC04F2E-704C-CF0A-6955-9457FBC8823B">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:23:03 UTC</createdTime>
+<generatorID>20E643DD-4E6B-4C20-27B9-8FB72BB735C4</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6B62051C-3937-9079-DB72-64F24E2CF1BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unit" id="F20BFCCE-02AC-A45D-FBEA-9661DC554B66">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:22:41 UTC</createdTime>
+<generatorID>E8419E46-5845-9637-FC79-6C0A45A9F678</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C1D75422-4D90-3C97-CA57-869F7C19296E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="AB05395B-AE8C-3C97-0D4B-B6890DD61F09">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:49:37 UTC</createdTime>
+<generatorID>23A2CA8C-463E-0241-F473-9C2B49A0B33E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR-ID" id="0D97223B-2B66-2397-0571-1ECA935C8E82">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:54:44 UTC</createdTime>
+<generatorID>23A2CA8C-463E-0241-F473-9C2B49A0B33E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>130629D3-FDFB-463D-0E00-673ADAD14410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3255EAA-5A5E-C763-232C-7D346E0A8183" name="Solar Panel PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:46:03 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C4BA168-31EA-39F7-3559-7392EA716B12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

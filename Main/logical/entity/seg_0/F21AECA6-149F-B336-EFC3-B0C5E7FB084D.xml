@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F21AECA6-149F-B336-EFC3-B0C5E7FB084D" name="Turntable">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:09:33 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="T-ID" id="F2550C28-4CC8-8742-CE9E-66CD388AD7F7">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 17:59:04 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Platform name" id="2B1457B7-8655-32B0-9AEB-9FC95A3B84C6">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 01:02:47 UTC</createdTime>
+<generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="A6184DCF-7D7E-4BCA-7883-8E116E21D34A">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:39:04 UTC</createdTime>
+<generatorID>8CB4AAFE-2752-EFF3-F850-143972E522F3</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Avg turn time" id="FA25EB72-2023-805A-88AF-A1256F08F2B8">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:54:53 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Weight limit" id="63B1C8F4-6FE7-B9FE-1986-77941F4553D2">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 15:55:07 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unit" id="F3A0A0B9-71FC-F9FB-55C1-573FBDDF48B8">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:23:29 UTC</createdTime>
+<generatorID>2C88B11A-347A-D49A-D18E-3096045208DD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C1D75422-4D90-3C97-CA57-869F7C19296E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S-ID" id="01276EDC-4AA5-A1E4-511F-81A3433FBE76">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-08 09:00:41 UTC</createdTime>
+<generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C0D7AEDA-FCE1-495C-AEE8-4AFBF78B5DDA</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A271710-954B-40FD-5D9E-152DD12E4C2E" name="Turntable PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 17:59:14 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2550C28-4CC8-8742-CE9E-66CD388AD7F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

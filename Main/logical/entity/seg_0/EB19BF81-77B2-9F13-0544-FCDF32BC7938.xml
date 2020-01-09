@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB19BF81-77B2-9F13-0544-FCDF32BC7938" name="Energy Grid">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 12:07:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EG-ID" id="6B62051C-3937-9079-DB72-64F24E2CF1BB">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:22:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54949D93-373F-9F34-50A0-CEBC14FC8008" name="Energy Grid PK">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 18:23:02 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B62051C-3937-9079-DB72-64F24E2CF1BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

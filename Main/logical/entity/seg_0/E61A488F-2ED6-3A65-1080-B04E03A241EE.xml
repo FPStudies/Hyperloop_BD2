@@ -4,7 +4,7 @@
 <createdTime>2019-12-15 15:02:38 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <engineerTo>
-<item key="026D4490-D311-667D-B7FC-35678856ACAF" value="true"/>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,79 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="D-ID" id="DC4C5A81-57DE-F49F-4CBB-B87A8AC11AC8">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:47:03 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="195C7FC2-391D-16F4-4AC9-4F81BB207274">
+<createdBy>filip</createdBy>
+<createdTime>2019-12-16 14:37:39 UTC</createdTime>
+<generatorID>F676F7FC-8E07-2CC4-1211-6046D97A1950</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="16922A77-5F84-A44D-FCDE-EA5EE6AD9273">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:49:37 UTC</createdTime>
+<generatorID>FC4B1169-9A60-E03E-1B23-40DE35073AD9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>9A270FE0-586F-6726-7531-E101516F7664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR-ID" id="E42420E5-7844-269E-AF56-97AF752EF250">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:54:44 UTC</createdTime>
+<generatorID>FC4B1169-9A60-E03E-1B23-40DE35073AD9</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>130629D3-FDFB-463D-0E00-673ADAD14410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6DC8945-6215-5C1B-9755-21E5374B0571" name="Damper PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 00:47:14 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC4C5A81-57DE-F49F-4CBB-B87A8AC11AC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -32,6 +32,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Output_Unit" id="28E8203E-676D-53FA-7203-20F7CA86E212">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>C6641572-1356-E844-F007-9DC239E24396</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85531EE7-3DEF-184E-7E20-1DF12FD08BA0" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
 <Column name="Tube_Segment_ID" id="7AAA7E03-A94D-55B0-A265-3C32D42C7778">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -96,22 +112,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9B209008-1A27-AFB7-F3EF-B5920D5681D6" referredColumn="74CAAD39-A4BF-3A11-47C3-9C3FE4428122"/>
-</associations>
-</Column>
-<Column name="Measurment_Unit" id="28E8203E-676D-53FA-7203-20F7CA86E212">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:08:25 UTC</createdTime>
-<generatorID>C6641572-1356-E844-F007-9DC239E24396</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="85531EE7-3DEF-184E-7E20-1DF12FD08BA0" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
 <Column name="Producent_ID" id="9AC3AA1D-5906-BB36-3F3A-78228C1507C6">

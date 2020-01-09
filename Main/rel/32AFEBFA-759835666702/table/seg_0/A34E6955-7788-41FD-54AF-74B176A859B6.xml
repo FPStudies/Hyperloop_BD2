@@ -20,6 +20,43 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Avg pressure" id="50E9E337-3A25-8837-D216-73D6080332E0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:50:16 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Target Pressure" id="40800F2E-4900-CB56-43DA-CE5C2FB5C83E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:56:09 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pressure_Unit" id="20444995-F132-A8D3-DC11-68BD987FDE9E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:59:05 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5D4645B-6FCD-690B-D061-BC824F553C6E" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
 <Column name="Tube_Segment_ID" id="574CB0CF-054A-54EF-722B-8EF84D9624D8">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -37,7 +74,7 @@
 <colAssociation fkAssociation="3D70B536-F09A-E432-E45C-70FD2D421DB7" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
 </associations>
 </Column>
-<Column name="Serial_Number1" id="F20B05B4-7D85-1522-AD13-94212FD21572">
+<Column name="Serial_Number" id="F20B05B4-7D85-1522-AD13-94212FD21572">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>928FDCBE-79B1-0BD2-9DDE-87998A415757</generatorID>
@@ -131,6 +168,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="ABF74301-1042-1903-4EDD-1C66F275260B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5304C1DD-9686-060B-46F5-8F2FBB3190EE" name="Pressure_unit">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:59:05 UTC</createdTime>
+<generatorID>8A40EADE-8466-ED61-E476-D3C880E7DFAE</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20444995-F132-A8D3-DC11-68BD987FDE9E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

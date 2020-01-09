@@ -43,6 +43,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Weight_Unit" id="82F4BB00-7819-CFAB-5B12-5A9964B3ABC2">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>DF11FB5E-A92D-03C9-EE1B-608A33F30F43</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9CBDF08-06CF-F58E-B25E-BFA18B2073A2" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
 <Column name="Platform_name" id="E5E500A6-28EE-BFFD-6F25-9E39D7A5362A">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -89,22 +105,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B904D282-3173-E78D-9234-6E75427FD87F" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
-</associations>
-</Column>
-<Column name="Measurment_Unit" id="82F4BB00-7819-CFAB-5B12-5A9964B3ABC2">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:08:25 UTC</createdTime>
-<generatorID>DF11FB5E-A92D-03C9-EE1B-608A33F30F43</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E9CBDF08-06CF-F58E-B25E-BFA18B2073A2" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
 </columns>

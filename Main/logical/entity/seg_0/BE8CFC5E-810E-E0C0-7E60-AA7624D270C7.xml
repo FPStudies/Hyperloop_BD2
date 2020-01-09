@@ -3,6 +3,9 @@
 <createdBy>mateusz</createdBy>
 <createdTime>2019-12-15 14:59:29 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 17:58:44 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -27,44 +33,55 @@
 <createdTime>2019-12-16 01:02:47 UTC</createdTime>
 <generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>32DBBA8D-3920-E7B1-EA7A-A12E517ADB7D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Station name" id="B4EBC379-ED6B-6E67-BED2-7BCA4F2656F0">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 01:03:04 UTC</createdTime>
-<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<referedAttribute>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Status" id="416F4B62-40BE-9A17-9AF5-109355F5BCEB">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 14:38:53 UTC</createdTime>
 <generatorID>8946CA41-2A5D-F533-540E-38D52111EF1F</generatorID>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Avg (de)pressurization time" id="7DA58CF3-6BA9-D106-1D3F-626864596437">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 15:53:54 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S-ID" id="4CBA776B-C5A3-B503-FA5E-B9E942A6ED14">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-08 09:00:41 UTC</createdTime>
+<generatorID>91AF8596-D307-B7C6-ADE9-A48C9D5F1565</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C0D7AEDA-FCE1-495C-AEE8-4AFBF78B5DDA</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -73,6 +90,9 @@
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 17:58:53 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>BD003709-6EF4-B634-8809-FC147C8BE922</attributeRef>

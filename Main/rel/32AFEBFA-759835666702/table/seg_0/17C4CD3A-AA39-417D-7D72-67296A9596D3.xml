@@ -20,6 +20,19 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Charge" id="CEEF4D92-F0B6-731D-FEB0-DD69DA9E788B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:49:16 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Capacity" id="CD92763C-7564-1496-3237-860C0B79B508">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -30,6 +43,22 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity_Unit" id="B3082375-ADE0-912F-2AA2-7B2FF594226D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>D425DA76-B72E-5C7D-F196-B20CDC64BE61</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EB005D6-0D0A-D7E5-EA2F-4EB5E0AA4D68" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
 </Column>
 <Column name="Serial_Number" id="4B70B043-93A3-352D-09AB-6FC34479ECA0">
 <createdBy>Matizbychu</createdBy>
@@ -78,22 +107,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="BDE3CD5C-ED14-52C0-F6CC-005811EACCBB" referredColumn="74CAAD39-A4BF-3A11-47C3-9C3FE4428122"/>
-</associations>
-</Column>
-<Column name="Measurment_Unit" id="B3082375-ADE0-912F-2AA2-7B2FF594226D">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:08:25 UTC</createdTime>
-<generatorID>D425DA76-B72E-5C7D-F196-B20CDC64BE61</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5EB005D6-0D0A-D7E5-EA2F-4EB5E0AA4D68" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
 <Column name="Producent_ID" id="44CACE51-9140-3A9C-5954-B198F8D67478">

@@ -20,6 +20,17 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Expected_duration" id="B8C24E3B-B135-157D-6805-27AE407DD751">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2019-12-16 19:10:24 UTC</createdTime>
+<generatorID>713682F2-DD3E-526C-4D3D-1FFBFEB377E8</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Length" id="49C5777F-0014-51D3-82F5-B00F202B43EB">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -31,16 +42,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Expected_duration" id="B8C24E3B-B135-157D-6805-27AE407DD751">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>713682F2-DD3E-526C-4D3D-1FFBFEB377E8</generatorID>
+<Column name="Length_Unit" id="990342D0-A0FA-548D-8622-BA1CB016D485">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:33:46 UTC</createdTime>
+<generatorID>88670A98-A81C-0827-8E95-2ED2B9707337</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE576170-807C-15FB-449F-63FF774EE822" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
 </Column>
 <Column name="Status" id="215FC41B-99E7-5948-9F85-442701345096">
 <createdBy>Matizbychu</createdBy>
@@ -56,22 +72,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="6880BC2F-2F57-8D51-BABC-8A1F50D07D12" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
-</associations>
-</Column>
-<Column name="Measurment_Unit" id="990342D0-A0FA-548D-8622-BA1CB016D485">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:33:46 UTC</createdTime>
-<generatorID>88670A98-A81C-0827-8E95-2ED2B9707337</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="AE576170-807C-15FB-449F-63FF774EE822" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
 <Column name="Start" id="6E83C8F9-2986-D3E3-48CF-712889CC1AE4">

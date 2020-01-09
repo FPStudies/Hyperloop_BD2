@@ -28,6 +28,19 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Avg pressure" id="B77DF6D3-D1D9-7496-1468-83F8582717E7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:41:32 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="TS-ID" id="016526B8-524B-EFA2-A0C8-FF8A8B87B4C5">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 00:48:11 UTC</createdTime>
@@ -57,7 +70,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Serial Number" id="1C28E4DD-9AC3-8C9C-E96E-84B1DB3A30E6">
 <createdBy>Admin</createdBy>
@@ -72,7 +85,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PR-ID" id="4B372896-2892-5080-61F6-55212B07FE09">
 <createdBy>Admin</createdBy>
@@ -87,6 +100,21 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unit" id="5E209F16-137A-0578-B9A8-366BD84F3494">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:58:06 UTC</createdTime>
+<generatorID>0F195247-0888-84BE-8278-34AE935A4455</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C1D75422-4D90-3C97-CA57-869F7C19296E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -43,21 +43,6 @@
 <dataTypeSize>63 CHAR</dataTypeSize>
 <ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Station name" id="4BAB954C-46AF-1563-FFF1-714B94536CAE">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 01:03:04 UTC</createdTime>
-<generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
-</engineerTo>
-<referedAttribute>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Status" id="A6184DCF-7D7E-4BCA-7883-8E116E21D34A">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 14:39:04 UTC</createdTime>
@@ -71,7 +56,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Avg turn time" id="FA25EB72-2023-805A-88AF-A1256F08F2B8">
 <createdBy>filip</createdBy>
@@ -111,6 +96,19 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S-ID" id="01276EDC-4AA5-A1E4-511F-81A3433FBE76">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-08 09:00:41 UTC</createdTime>
+<generatorID>D52C029A-791F-0BFA-18B7-934B77DF25A0</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>C0D7AEDA-FCE1-495C-AEE8-4AFBF78B5DDA</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

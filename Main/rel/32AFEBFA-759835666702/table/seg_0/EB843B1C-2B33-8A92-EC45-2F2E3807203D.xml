@@ -30,6 +30,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Length_Unit" id="83EB8F41-72CD-209C-B056-2BF4820751C4">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 20:08:25 UTC</createdTime>
+<generatorID>C7A8D93D-D288-E40E-90BE-960C2D319676</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09738BCC-AC42-4514-A6DB-7893D7A17ABF" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
 <Column name="Damper_ID" id="2DEA123A-F0EC-2858-AE90-2901D867C82B">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -61,22 +77,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="224BF028-805F-B7CC-04C1-C4901923EC89" referredColumn="3B2DA59D-10FA-FB8C-43A1-4C3F942183D4"/>
-</associations>
-</Column>
-<Column name="Measurment_Unit" id="83EB8F41-72CD-209C-B056-2BF4820751C4">
-<createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:08:25 UTC</createdTime>
-<generatorID>C7A8D93D-D288-E40E-90BE-960C2D319676</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="09738BCC-AC42-4514-A6DB-7893D7A17ABF" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
 </columns>

@@ -61,7 +61,7 @@
 <colAssociation fkAssociation="B1930024-734A-3FEA-0AF7-A95013156CF0" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
 </associations>
 </Column>
-<Column name="Serial_Number1" id="7AA2241D-168C-CF74-EED2-788CEEC6F3B2">
+<Column name="Serial_Number" id="7AA2241D-168C-CF74-EED2-788CEEC6F3B2">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>F28F3543-8BA2-E17F-C592-A7F2D815CC29</generatorID>
@@ -109,7 +109,7 @@
 <colAssociation fkAssociation="89159D3F-B3AE-617D-FFCE-1D41B5C369BB" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
 </associations>
 </Column>
-<Column name="Power_Measurment_Unit" id="B93A8BDA-BA4F-54DA-41C5-016458F789E4">
+<Column name="Power_Unit" id="B93A8BDA-BA4F-54DA-41C5-016458F789E4">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 21:31:06 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
@@ -124,7 +124,7 @@
 <colAssociation fkAssociation="2C079F52-FB03-0A89-3C8B-32D39EC9C506" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
-<Column name="Pressure_Measurment_Unit" id="22DE209A-7AF9-1261-0879-6D54E2EA651E">
+<Column name="Pressure_Unit" id="22DE209A-7AF9-1261-0879-6D54E2EA651E">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 21:31:56 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>

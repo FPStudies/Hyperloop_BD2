@@ -16,8 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>63 CHAR</dataTypeSize>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Status" id="EBD57703-7E60-873B-F3A0-201DB26E7F4B">

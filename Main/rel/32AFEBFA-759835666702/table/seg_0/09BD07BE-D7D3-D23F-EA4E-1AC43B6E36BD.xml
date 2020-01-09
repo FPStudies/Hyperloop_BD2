@@ -20,7 +20,7 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Serial_Number1" id="5A6BD7BD-66AD-6270-3FA2-B92FD05C53CB">
+<Column name="Serial_Number" id="5A6BD7BD-66AD-6270-3FA2-B92FD05C53CB">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>9F0EE858-E887-B103-9D76-6D84A220C795</generatorID>

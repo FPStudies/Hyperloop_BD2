@@ -52,7 +52,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Expected duration" id="713682F2-DD3E-526C-4D3D-1FFBFEB377E8">
@@ -91,22 +91,36 @@
 <item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
 </engineerTo>
 <referedAttribute>6E5EB41B-3233-487A-82AF-E2CDE612648E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="S-ID1" id="3EB1B691-EB1A-A013-CFF8-5ABFBB50F2ED">
-<createdBy>Admin</createdBy>
-<createdTime>2020-01-08 09:00:41 UTC</createdTime>
-<generatorID>B323E333-A372-ACFC-AAC4-6985E4D79B76</generatorID>
+<Attribute name="From" id="DED74E43-D0B4-9072-0878-B5F2134CDD8C">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2020-01-13 18:19:11 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <engineerTo>
 <item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
 </engineerTo>
-<referedAttribute>6E5EB41B-3233-487A-82AF-E2CDE612648E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="To" id="2F68C2C9-1588-5810-6586-34C3FCAE4D96">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2020-01-13 18:19:32 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

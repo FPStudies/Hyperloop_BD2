@@ -48,7 +48,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2B59E95D-2269-2F3C-7F12-05760B7A2E34" otype="Entity" vid="1AA24D3E-319E-89D6-9CF3-2548334A609F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1320" y="2350" width="202" height="111"/>
+<bounds x="1324" y="2342" width="202" height="111"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3AE8EB90-461D-2650-20F2-64ABF76E64DD" otype="Entity" vid="D48F445E-3D0E-673B-1FC5-0ED867DBAB7C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -377,8 +377,8 @@ Triggers will decide if type is good or not.</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1320" y="2387"/>
-<point x="1129" y="2387"/>
+<point x="1324" y="2383"/>
+<point x="1129" y="2383"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AE01636A-6686-1B11-6FC4-27CD62EAF567" otype="Relation" vid_source="68314D12-EBA7-54B7-0307-A8C7C7E7D087" vid_target="51EAFB70-3F4E-2201-B202-135848D4F919">

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="268201ED-DFAF-7316-AB41-BD52A8881AD7" containerWithKeyObject="35DCBCF4-EF97-00B5-F55B-0AC83F060A5D" localFKIndex="7830E88F-606C-E97F-C1CB-C6AC6A2BBD30" name="Vacuum_Pump_Element_Data_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:41:28 UTC</createdTime>
+<generatorID>F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Element_Data</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85D3BB26-4804-3D90-AD12-20C853DD0DD7</referredTableID>
+<keyObject>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</keyObject>
+<referredKeyID>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Serial_Number,Producent_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

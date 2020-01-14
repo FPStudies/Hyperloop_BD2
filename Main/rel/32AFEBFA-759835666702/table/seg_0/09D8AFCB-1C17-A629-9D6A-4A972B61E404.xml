@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="TOR-ID" id="7B7D3A0A-5840-AA50-81F7-D7FBD23D9004">
+<Column name="ID" id="7B7D3A0A-5840-AA50-81F7-D7FBD23D9004">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>9600E0F3-9FA1-C21F-5D78-55A3AEE12F06</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Route_R-ID" id="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF">
+<Column name="Route_ID" id="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>57454B4E-201C-9959-F127-8BC2D52DA76E</generatorID>
@@ -29,11 +29,26 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="DF802F62-3F1B-0B52-28F1-EF6987B36E83" referredColumn="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5"/>
+</associations>
+</Column>
+<Column name="Tube_Segment_ID" id="D634BB5E-DA5C-1D04-9C7D-879A502419D3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 22:38:18 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDF85BAE-5C2D-AEA1-07B5-3CCB49E31B79" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
 </associations>
 </Column>
 </columns>
@@ -62,13 +77,16 @@
 <colUsage columnID="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C6AE9C75-39A4-DF9F-E57D-A0FC501150C7" name="Tube_on_route_Installed_tube_FK">
+<ind_PK_UK id="145B17BA-EB60-CBA4-161C-C286F8960869" name="Tube_on_route_Tube_Segment_FK">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:58:57 UTC</createdTime>
-<generatorID>B178BDFB-B6B2-6375-103D-2508240C8838</generatorID>
+<createdTime>2020-01-14 22:38:18 UTC</createdTime>
+<generatorID>2F03771B-F7B1-2529-2532-C2D444E87443</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D634BB5E-DA5C-1D04-9C7D-879A502419D3"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

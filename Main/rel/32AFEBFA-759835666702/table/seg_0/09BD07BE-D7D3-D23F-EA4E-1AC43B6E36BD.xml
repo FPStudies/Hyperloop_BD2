@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="LEM-ID" id="5F6185E5-FE92-7398-9502-7E594A585690">
+<Column name="ID" id="5F6185E5-FE92-7398-9502-7E594A585690">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>455C898D-928C-5EE2-3CB7-E84F89603F56</generatorID>
@@ -20,26 +20,9 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Serial_Number" id="5A6BD7BD-66AD-6270-3FA2-B92FD05C53CB">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>9F0EE858-E887-B103-9D76-6D84A220C795</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A027836A-5E34-D1C6-4409-9FA39A337245" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
-</associations>
-</Column>
-<Column name="Status" id="16DB5350-5B5A-5BFB-FBC0-F0FBCF8FD4EF">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>64B6DE50-0B8C-8EC0-C394-8AE037A48F02</generatorID>
+<Column name="Status" id="7410C2F7-88C2-2F7E-E3B1-330528601898">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:44:14 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +32,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5E0DDB7F-157D-3B6A-AA8C-E0C928CD0402" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
+<colAssociation fkAssociation="AF05F017-0464-613B-08EE-5F3F3A105C47" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
 </associations>
 </Column>
 <Column name="Energy_Grid_ID" id="8CD8A0E2-DEF4-73B5-2847-55D95FA2C4D7">
@@ -69,10 +52,20 @@
 <colAssociation fkAssociation="D13DEFFB-616D-7A45-FE6D-E5E47311E8C4" referredColumn="74CAAD39-A4BF-3A11-47C3-9C3FE4428122"/>
 </associations>
 </Column>
-<Column name="Producent_ID" id="AC711DF2-CC4D-F4F8-031B-0162C5E1BEBF">
+<Column name="Maintenance_date" id="FF92AE4F-36D1-6118-6BB8-F4D221C5A6FC">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:58:08 UTC</createdTime>
-<generatorID>A3DE11BA-4FEB-17FA-B618-8D3BD35ABF9C</generatorID>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>268CB707-13B6-BE36-90F4-A7F3E16D1B87</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serial_Number" id="098A9040-865A-C07F-D8E1-50875EE75F80">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:41:12 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -82,7 +75,22 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A027836A-5E34-D1C6-4409-9FA39A337245" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+<colAssociation fkAssociation="6978B676-811F-577A-2FDC-8B11F822256A" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+</associations>
+</Column>
+<Column name="Producent_ID" id="8BC5C396-4602-5114-9EDA-EF925FCBC835">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:41:12 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6978B676-811F-577A-2FDC-8B11F822256A" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
 </associations>
 </Column>
 </columns>
@@ -110,27 +118,27 @@
 <colUsage columnID="8CD8A0E2-DEF4-73B5-2847-55D95FA2C4D7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3577766C-5E59-CEAE-4754-88A4DB71B42A" name="Linear_Electric_Motor_Producent_Serial_Number_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>2253B4FF-4E1B-8801-54CE-461F6FB22065</generatorID>
+<ind_PK_UK id="2BCB988B-26D4-462C-B0E6-E9EC60AAC6B5" name="Linear_Electric_Motor_Element_Data_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:41:12 UTC</createdTime>
+<generatorID>F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5A6BD7BD-66AD-6270-3FA2-B92FD05C53CB"/>
-<colUsage columnID="AC711DF2-CC4D-F4F8-031B-0162C5E1BEBF"/>
+<colUsage columnID="098A9040-865A-C07F-D8E1-50875EE75F80"/>
+<colUsage columnID="8BC5C396-4602-5114-9EDA-EF925FCBC835"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A127C18B-6894-73D0-6C95-A0067E3AB129" name="Linear_Electric_Motor_Element_Status_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>8FA09340-80CA-08B8-46CA-1C3F5D474FCD</generatorID>
+<ind_PK_UK id="26C14D66-F475-0E5C-D257-DECA74739644" name="Linear_Electric_Motor_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:44:14 UTC</createdTime>
+<generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="16DB5350-5B5A-5BFB-FBC0-F0FBCF8FD4EF"/>
+<colUsage columnID="7410C2F7-88C2-2F7E-E3B1-330528601898"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

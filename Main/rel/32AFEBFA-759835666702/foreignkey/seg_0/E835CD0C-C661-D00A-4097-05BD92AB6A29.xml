@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E835CD0C-C661-D00A-4097-05BD92AB6A29" containerWithKeyObject="DB17546A-C927-AEB8-0A0F-BD530F5E7529" localFKIndex="22B03FF0-183C-ABEC-97FD-C2A7218D8410" name="Damper_Element_Data_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:41:53 UTC</createdTime>
+<generatorID>F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Element_Data</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85D3BB26-4804-3D90-AD12-20C853DD0DD7</referredTableID>
+<keyObject>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</keyObject>
+<referredKeyID>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Serial_Number,Producent_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -8,6 +8,32 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C0E05204-D0E5-6849-EFA4-BF10D9CE7E95">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>6E5EB41B-3233-487A-82AF-E2CDE612648E</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="BB87FF4F-0C94-02DB-8BE6-FB9D80A9A99D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7810D1D7-C60E-6D47-D67E-6A972A062008" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
+</Column>
 <Column name="Station_name" id="87B0D52F-0580-886C-7B5D-D97391EF352C">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -20,22 +46,6 @@
 <ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Status" id="EBD57703-7E60-873B-F3A0-201DB26E7F4B">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>8BF0D582-4371-AD17-8A65-14978414DA0F</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1C8EB8B7-E979-65FB-6B08-55B38F909E36" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="33C76EB2-05E3-7400-3B52-DA33019003E8" name="Station_PK">
@@ -47,18 +57,18 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="87B0D52F-0580-886C-7B5D-D97391EF352C"/>
+<colUsage columnID="C0E05204-D0E5-6849-EFA4-BF10D9CE7E95"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB8E066B-7F23-C97E-779E-3F2877B55016" name="Station_Status_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>DD008DA5-DA4F-4769-ECAD-28DBA5F3DB88</generatorID>
+<ind_PK_UK id="31823265-DFFB-26B0-F7F0-F81F041E984D" name="Station_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:25 UTC</createdTime>
+<generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EBD57703-7E60-873B-F3A0-201DB26E7F4B"/>
+<colUsage columnID="BB87FF4F-0C94-02DB-8BE6-FB9D80A9A99D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

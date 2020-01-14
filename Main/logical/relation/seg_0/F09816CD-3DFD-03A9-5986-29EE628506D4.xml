@@ -14,7 +14,7 @@
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2376F73E-1DC9-A41F-1111-060CB1FAC29A</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>C21A8B6C-1EC0-60FA-DDB2-FC7CC6461B78</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

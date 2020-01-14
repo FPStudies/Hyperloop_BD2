@@ -20,20 +20,34 @@
 <ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Station_name" id="C5165A96-F386-402A-3D57-A530D5CC761F">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>FB338D84-D0F9-3E1A-7A5C-09EDB7D6359A</generatorID>
+<Column name="Status" id="B64422A2-A5BA-F326-BD2D-28A7AA2D13AB">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:31 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F858A514-257C-BC28-6F75-C7D8AA95AC27" referredColumn="87B0D52F-0580-886C-7B5D-D97391EF352C"/>
+<colAssociation fkAssociation="4003CBF0-90D3-F774-3F44-F2EC98A2E260" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
+</Column>
+<Column name="Station_ID" id="1B7DDD7F-369D-6E2E-A860-307522FF0F6D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>C0D7AEDA-FCE1-495C-AEE8-4AFBF78B5DDA</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F858A514-257C-BC28-6F75-C7D8AA95AC27" referredColumn="C0E05204-D0E5-6849-EFA4-BF10D9CE7E95"/>
 </associations>
 </Column>
 </columns>
@@ -48,7 +62,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3D6EF172-EAD6-B92F-8E9D-0CB16E26E12C"/>
-<colUsage columnID="C5165A96-F386-402A-3D57-A530D5CC761F"/>
+<colUsage columnID="1B7DDD7F-369D-6E2E-A860-307522FF0F6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="08556FB6-4496-BA33-765F-DD0D1428D9EA" name="Platform_Station_FK">
@@ -59,7 +73,18 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C5165A96-F386-402A-3D57-A530D5CC761F"/>
+<colUsage columnID="1B7DDD7F-369D-6E2E-A860-307522FF0F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E53F6C03-4475-503A-6818-8AD063888377" name="Platform_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:31 UTC</createdTime>
+<generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B64422A2-A5BA-F326-BD2D-28A7AA2D13AB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

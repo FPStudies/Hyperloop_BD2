@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PR-ID" id="F704F66A-AE35-FD97-A585-DA85E5B3A239">
+<Column name="ID" id="F704F66A-AE35-FD97-A585-DA85E5B3A239">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 20:58:08 UTC</createdTime>
 <generatorID>1B13F8C0-1B4F-56CE-2E6D-069362FD0DED</generatorID>

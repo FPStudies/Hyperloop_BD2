@@ -28,21 +28,6 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Status" id="64B6DE50-0B8C-8EC0-C394-8AE037A48F02">
-<createdBy>filip</createdBy>
-<createdTime>2019-12-16 14:36:45 UTC</createdTime>
-<generatorID>8FA09340-80CA-08B8-46CA-1C3F5D474FCD</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
-</engineerTo>
-<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="EG-ID" id="97F255DB-40FC-BD68-9FE2-E36969D76B4A">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 18:23:03 UTC</createdTime>
@@ -72,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PR-ID" id="A3DE11BA-4FEB-17FA-B618-8D3BD35ABF9C">
 <createdBy>Admin</createdBy>
@@ -87,6 +72,33 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Maintenance date" id="268CB707-13B6-BE36-90F4-A7F3E16D1B87">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2020-01-13 19:39:12 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="6C8B72B4-35A1-898D-A612-2CA6961CF95F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:05:16 UTC</createdTime>
+<generatorID>8FA09340-80CA-08B8-46CA-1C3F5D474FCD</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

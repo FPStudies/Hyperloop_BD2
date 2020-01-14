@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1CB1D72-DCBF-2B8E-92D4-E3B98BCAB91B" containerWithKeyObject="FF4FE357-5069-A58E-D0A2-03115C65734C" localFKIndex="2726508F-7F25-3710-DBC2-DB42D2FEA1A3" name="Tube_Segment_Tube_Type_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:42:48 UTC</createdTime>
+<generatorID>1F5DDD0C-D7C1-BE59-057F-28C40E48BE48</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Tube_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36279210-DBBF-EC41-9AEE-0A611BD905A5</referredTableID>
+<keyObject>3609AF8D-9B8C-0F61-5125-AFA8699D2F12</keyObject>
+<referredKeyID>3609AF8D-9B8C-0F61-5125-AFA8699D2F12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

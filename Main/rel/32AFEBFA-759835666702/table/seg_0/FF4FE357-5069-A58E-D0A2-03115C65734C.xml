@@ -20,6 +20,21 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Status" id="CE7B8878-F5B3-D5BC-A3C4-821FAC8E1B49">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:44:38 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AC11C00-1580-0F1C-4A44-83C3F40100D6" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
+</Column>
 <Column name="Location" id="F943EC86-B79F-00D0-F066-66C658A13D69">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -54,6 +69,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Altitude_Unit" id="301C4FA5-709D-F673-B04A-9B821F731B1E">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 21:33:55 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41CAC211-36FC-50B7-E7B1-62ED6403E941" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+</associations>
+</Column>
 <Column name="Chainage" id="ED930443-4674-1121-F02B-73A0DB0629E8">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 21:34:52 UTC</createdTime>
@@ -65,52 +95,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Terrain_Type" id="6AA4634D-8874-6ECC-CFB3-51A54671FF53">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>331305D8-C1C0-F124-6FB2-4043150A6BE8</generatorID>
+<Column name="Chainage_Unit" id="B20C3ADD-644D-F2FB-5E63-F2117E874B68">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-16 21:34:04 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CE2919DC-42CB-5BDE-EC61-CF78FF67176A" referredColumn="BC50831E-2B12-A690-BB54-7B38F16A637C"/>
-</associations>
-</Column>
-<Column name="Status" id="9E06126B-4B9D-AC43-0E6A-A6537A66150A">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>F0A1977C-663A-9DE8-1A50-A756250DBB73</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="743A65E6-B724-1E7B-0069-80DE1662A6F9" referredColumn="5F9985A0-687E-0A70-0708-6C174DB6B11B"/>
-</associations>
-</Column>
-<Column name="Tube_Type" id="B9A9D719-C80E-A229-0BE6-9CC983F847E7">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>03F71493-5BB8-146D-ACED-87210F1770BB</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4CE41979-8E7A-CD2D-65A7-536588DDC84B" referredColumn="2F567844-7A51-DCB0-8A64-4A47D64DFFAF"/>
+<colAssociation fkAssociation="53454FBB-68C1-5A3E-E7A7-750819EDE85E" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
 <Column name="Linear_Electric_Motor_ID" id="6E71CD1F-E3F9-B31C-4AD7-0546D8E52AF0">
@@ -130,10 +127,23 @@
 <colAssociation fkAssociation="BB5D0639-6337-90EB-EAAC-060494687602" referredColumn="5F6185E5-FE92-7398-9502-7E594A585690"/>
 </associations>
 </Column>
-<Column name="Serial_Number" id="D53BE901-99DD-0DB8-F4E7-2E711FC4277A">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>40D42C44-7EB4-9FC2-9218-34D416BB87AB</generatorID>
+<Column name="Avg_pressure" id="E80A1210-F097-4AB4-8725-9EB2E2135119">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>F76D31CE-030E-FA45-2B05-FDF10BE87C82</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serial_Number" id="15651DB5-A50D-FE79-CEB8-D8C03E6E6D5F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:41:59 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -143,13 +153,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9A678824-9AED-17C0-F300-959B1076FD17" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
+<colAssociation fkAssociation="7D585BF9-AC3C-A1CC-4E6B-B1E088CE2B87" referredColumn="5D1F0432-B3BA-D74F-54AE-C00FC0FFBC3A"/>
 </associations>
 </Column>
-<Column name="Producent_ID" id="D7707E96-DC9A-EE7B-60CB-77806228A743">
+<Column name="Producent_ID" id="C8205612-FF46-67CE-A63E-D5BD6FA26734">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 20:58:08 UTC</createdTime>
-<generatorID>89D355B7-7F35-E5E3-533B-76B45F5A7DB8</generatorID>
+<createdTime>2020-01-14 21:41:59 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -159,37 +168,37 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9A678824-9AED-17C0-F300-959B1076FD17" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+<colAssociation fkAssociation="7D585BF9-AC3C-A1CC-4E6B-B1E088CE2B87" referredColumn="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
 </associations>
 </Column>
-<Column name="Altitude_Unit" id="301C4FA5-709D-F673-B04A-9B821F731B1E">
+<Column name="Tube_Type" id="3F8DC381-EB5A-8F1E-41F2-7EFF06AD490D">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 21:33:55 UTC</createdTime>
+<createdTime>2020-01-14 21:42:48 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="41CAC211-36FC-50B7-E7B1-62ED6403E941" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+<colAssociation fkAssociation="A1CB1D72-DCBF-2B8E-92D4-E3B98BCAB91B" referredColumn="2F567844-7A51-DCB0-8A64-4A47D64DFFAF"/>
 </associations>
 </Column>
-<Column name="Chainage_Unit" id="B20C3ADD-644D-F2FB-5E63-F2117E874B68">
+<Column name="Terrain_Type" id="121D1A35-E53E-9838-6908-938991AF6850">
 <createdBy>Admin</createdBy>
-<createdTime>2019-12-16 21:34:04 UTC</createdTime>
+<createdTime>2020-01-14 21:42:55 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="53454FBB-68C1-5A3E-E7A7-750819EDE85E" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
+<colAssociation fkAssociation="97494F66-9701-F56F-1176-038A0556FB5D" referredColumn="BC50831E-2B12-A690-BB54-7B38F16A637C"/>
 </associations>
 </Column>
 </columns>
@@ -206,39 +215,6 @@
 <colUsage columnID="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="56E68962-DA23-924E-8D49-40F0207B2DDB" name="Tube_Segment_Terrain_Type_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>35733764-B973-6DFD-0929-A3BF90848366</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="6AA4634D-8874-6ECC-CFB3-51A54671FF53"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="1EC5A827-C521-6316-4885-033974447A65" name="Tube_Segment_Element_Status_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>2E246714-3450-B7C5-B9B7-947F43A5F65A</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9E06126B-4B9D-AC43-0E6A-A6537A66150A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="CE9FA29A-CAB2-64D7-9A5A-939D9EDF36B3" name="Tube_Segment_Tube_Type_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>41AA3F3A-FDB2-1F6A-9464-6715A9CE071B</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B9A9D719-C80E-A229-0BE6-9CC983F847E7"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="7479B843-09B9-8435-D484-C86ACCFF73B0" name="Tube_Segment_Linear_Electric_Motor_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -250,19 +226,7 @@
 <colUsage columnID="6E71CD1F-E3F9-B31C-4AD7-0546D8E52AF0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D7ECC5BA-E10F-6E6E-832B-604F04ECB7A3" name="Tube_Segment_Producent_Serial_Number_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>852C925C-02DB-D74A-F4C7-2F7D956EB40F</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D53BE901-99DD-0DB8-F4E7-2E711FC4277A"/>
-<colUsage columnID="D7707E96-DC9A-EE7B-60CB-77806228A743"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BB2A484B-8B2D-F19E-0C33-DFF6FD6B7A27" name="Altitude">
+<ind_PK_UK id="BB2A484B-8B2D-F19E-0C33-DFF6FD6B7A27" name="Altitude_Unit">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 21:33:55 UTC</createdTime>
 <generatorID>8A40EADE-8466-ED61-E476-D3C880E7DFAE</generatorID>
@@ -273,7 +237,7 @@
 <colUsage columnID="301C4FA5-709D-F673-B04A-9B821F731B1E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="91D6E993-6931-0FCE-9B45-049EBDE99B0D" name="Chainage">
+<ind_PK_UK id="91D6E993-6931-0FCE-9B45-049EBDE99B0D" name="Chainage_Unit">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 21:34:04 UTC</createdTime>
 <generatorID>8A40EADE-8466-ED61-E476-D3C880E7DFAE</generatorID>
@@ -282,6 +246,51 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B20C3ADD-644D-F2FB-5E63-F2117E874B68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2727696D-426C-2A73-5CD6-BBC8A32F3FE2" name="Tube_Segment_Element_Data_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:41:59 UTC</createdTime>
+<generatorID>F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15651DB5-A50D-FE79-CEB8-D8C03E6E6D5F"/>
+<colUsage columnID="C8205612-FF46-67CE-A63E-D5BD6FA26734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2726508F-7F25-3710-DBC2-DB42D2FEA1A3" name="Tube_Segment_Tube_Type_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:42:48 UTC</createdTime>
+<generatorID>1F5DDD0C-D7C1-BE59-057F-28C40E48BE48</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F8DC381-EB5A-8F1E-41F2-7EFF06AD490D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DD1CED6-3F1F-D726-1AFC-D5DCE784F8F2" name="Tube_Segment_Terrain_Type_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:42:55 UTC</createdTime>
+<generatorID>567A41FD-EF6D-1834-8A8F-6E7CDBC21E20</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="121D1A35-E53E-9838-6908-938991AF6850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFD64B7F-1873-B260-5A0F-FD7817459B61" name="Tube_Segment_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:44:38 UTC</createdTime>
+<generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE7B8878-F5B3-D5BC-A3C4-821FAC8E1B49"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

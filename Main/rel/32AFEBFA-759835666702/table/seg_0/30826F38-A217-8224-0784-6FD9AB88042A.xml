@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="A-ID" id="786FE401-EBA0-3737-4CF9-9CDAB7AAEBB5">
+<Column name="ID" id="786FE401-EBA0-3737-4CF9-9CDAB7AAEBB5">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>BD003709-6EF4-B634-8809-FC147C8BE922</generatorID>
@@ -19,6 +19,21 @@
 <dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="98C69E86-8D5C-AAD1-6B81-F4E8F6627817">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:39 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97309E95-D136-47BE-91D0-06F3B2F570CA" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
 </Column>
 <Column name="Avg_(de)pressurization_time" id="BB5A2B5D-9944-F57C-5F11-9F20D1E2A74C">
 <createdBy>Matizbychu</createdBy>
@@ -48,37 +63,31 @@
 <colAssociation fkAssociation="6B5A5FD5-9F4E-74BD-27B2-63A61BAC6284" referredColumn="3D6EF172-EAD6-B92F-8E9D-0CB16E26E12C"/>
 </associations>
 </Column>
-<Column name="Station_name" id="86D1AED0-14FD-DE9C-41E6-E954F5C3AF67">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>B4EBC379-ED6B-6E67-BED2-7BCA4F2656F0</generatorID>
+<Column name="Station_ID" id="78FDB438-9CBB-3502-64D6-5B89246A9663">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>4CBA776B-C5A3-B503-FA5E-B9E942A6ED14</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>63 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6B5A5FD5-9F4E-74BD-27B2-63A61BAC6284" referredColumn="C5165A96-F386-402A-3D57-A530D5CC761F"/>
+<colAssociation fkAssociation="6B5A5FD5-9F4E-74BD-27B2-63A61BAC6284" referredColumn="1B7DDD7F-369D-6E2E-A860-307522FF0F6D"/>
 </associations>
 </Column>
-<Column name="Status" id="D36A575F-2AD5-B4BE-92BB-CF02E894519F">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>416F4B62-40BE-9A17-9AF5-109355F5BCEB</generatorID>
+<Column name="Maintenance_date" id="F8199EA7-BD48-B80D-4083-D0AB35566537">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>2A7A5DE0-97AF-FE0E-26B6-B4EA8BA6C552</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BDE36BE6-C5B6-CA9A-DF19-E1408C5F0B84" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -103,18 +112,18 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1044E3D0-2C32-0393-F266-6F911B7FD448"/>
-<colUsage columnID="86D1AED0-14FD-DE9C-41E6-E954F5C3AF67"/>
+<colUsage columnID="78FDB438-9CBB-3502-64D6-5B89246A9663"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="91BFD129-7E22-3855-95CB-6AC371BD70C7" name="Airlock_Status_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>8946CA41-2A5D-F533-540E-38D52111EF1F</generatorID>
+<ind_PK_UK id="F011F090-A9B8-D18E-2897-D97EE0FB784B" name="Airlock_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:39 UTC</createdTime>
+<generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>
 <ownerDesignName>Main</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D36A575F-2AD5-B4BE-92BB-CF02E894519F"/>
+<colUsage columnID="98C69E86-8D5C-AAD1-6B81-F4E8F6627817"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="97494F66-9701-F56F-1176-038A0556FB5D" containerWithKeyObject="FF4FE357-5069-A58E-D0A2-03115C65734C" localFKIndex="6DD1CED6-3F1F-D726-1AFC-D5DCE784F8F2" name="Tube_Segment_Terrain_Type_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:42:55 UTC</createdTime>
+<generatorID>567A41FD-EF6D-1834-8A8F-6E7CDBC21E20</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Terrain_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C58F0AA-6AC7-2403-FB48-0BD4F424DDBB</referredTableID>
+<keyObject>B7C1C84C-0799-CB0D-5071-7DBA1363C0BC</keyObject>
+<referredKeyID>B7C1C84C-0799-CB0D-5071-7DBA1363C0BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

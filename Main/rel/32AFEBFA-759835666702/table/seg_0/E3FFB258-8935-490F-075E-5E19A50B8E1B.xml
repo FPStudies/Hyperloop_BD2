@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3FFB258-8935-490F-075E-5E19A50B8E1B" name="Logs">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>73155A7F-A65A-FFBE-6DE0-0C472E44238D</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="E-ID" id="B8635FE5-2C5D-FAEF-94B0-52B8F6415877">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>7E48AAFA-15FB-CEEE-D664-48015A7B7DC6</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>31 CHAR</dataTypeSize>
+<ownDataTypeParameters>31 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_type" id="C4AD57E4-3F37-0B79-39BA-260DF95A7D20">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>CAED31CD-5AAB-94A2-D33B-BEEC15B41A21</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="B061075D-DC30-0136-89D9-E0ED6DE8EEA9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>BD0A7E60-85C4-33AF-692A-6583D795E91F</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data" id="CAD3AB7C-AEB4-5FAD-B092-C0FF23BF6A75">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>39045B43-A994-C097-01DE-17F1EF17B20C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>2047 CHAR</dataTypeSize>
+<ownDataTypeParameters>2047 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="011D9B29-FFAC-4FF7-70B3-2A4A8CE97607" name="Logs_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>1D261E29-CC61-0906-6544-545AFB3DEF48</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8635FE5-2C5D-FAEF-94B0-52B8F6415877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

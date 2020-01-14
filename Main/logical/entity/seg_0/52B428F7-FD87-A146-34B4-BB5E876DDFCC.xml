@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52B428F7-FD87-A146-34B4-BB5E876DDFCC" name="Producent Serial Number">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52B428F7-FD87-A146-34B4-BB5E876DDFCC" name="Element Data">
 <createdBy>filip</createdBy>
 <createdTime>2019-12-16 13:11:03 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
@@ -43,6 +43,19 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Model name" id="FDCFAB64-C2E1-F2D5-544C-3E8404AB1808">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2020-01-13 20:27:43 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>31 CHAR</dataTypeSize>
+<ownDataTypeParameters>31 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

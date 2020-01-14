@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="P-ID" id="CD3DD97F-C64E-E845-D5E1-A3C15E65AC45">
+<Column name="ID" id="CD3DD97F-C64E-E845-D5E1-A3C15E65AC45">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>F6A15DA8-8F6A-D30A-FCBF-3EC72C8EC61F</generatorID>
@@ -26,8 +26,10 @@
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Length_Unit" id="83EB8F41-72CD-209C-B056-2BF4820751C4">
@@ -46,6 +48,47 @@
 <colAssociation fkAssociation="09738BCC-AC42-4514-A6DB-7893D7A17ABF" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
+<Column name="Status" id="54C04BE8-4FF5-E965-8E83-9034AC4E446C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:44:47 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ABF0314-D5EB-1A26-74E4-3EDB0BB8796D" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
+</Column>
+<Column name="Maintenance_date" id="FF36A5A7-2D6C-E572-A245-CD511727F9C5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>DEEE7C0F-EF32-8499-AF6B-F5FF67AA9E2C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tube_Segment_ID" id="88CE5F04-BEA3-5555-9323-FA4673322F29">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 22:39:47 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8E6F0FE-A66A-2B4D-7458-C4EDDBA71E34" referredColumn="67C39EDE-CC78-1F7A-C2E3-ECFAC7BAF68D"/>
+</associations>
+</Column>
 <Column name="Damper_ID" id="2DEA123A-F0EC-2858-AE90-2901D867C82B">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -60,23 +103,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="CF815FEC-4E6D-E404-9697-501A8CD5C3A0" referredColumn="A3B37855-7B1F-5281-283F-5FA8B72D5405"/>
-</associations>
-</Column>
-<Column name="Tube_ID" id="1EFCA2DC-EEF9-8F8A-4967-2FF028AD8DFA">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>F6A15473-60BF-B3A7-1C66-9C5957290237</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="224BF028-805F-B7CC-04C1-C4901923EC89" referredColumn="3B2DA59D-10FA-FB8C-43A1-4C3F942183D4"/>
 </associations>
 </Column>
 </columns>
@@ -115,17 +141,6 @@
 <colUsage columnID="2DEA123A-F0EC-2858-AE90-2901D867C82B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5969F159-3C19-4A1A-4329-9F41AB34FF01" name="Pylon_Installed_tube_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>6DD64A4A-9B01-A0A7-7DB9-CDED7ADEDE44</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1EFCA2DC-EEF9-8F8A-4967-2FF028AD8DFA"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="DAE0F3FB-97CA-619A-188F-1DC140D88FC9" name="Pylon_Measurment_Unit_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 20:08:25 UTC</createdTime>
@@ -135,6 +150,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="83EB8F41-72CD-209C-B056-2BF4820751C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8AF7769-B1C0-AB29-0C4C-C3427DD083E2" name="Pylon_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:44:47 UTC</createdTime>
+<generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54C04BE8-4FF5-E965-8E83-9034AC4E446C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFD70FDF-50D0-077D-29D9-4AAA524D4D2C" name="Pylon_Tube_Segment_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 22:39:47 UTC</createdTime>
+<generatorID>2F03771B-F7B1-2529-2532-C2D444E87443</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88CE5F04-BEA3-5555-9323-FA4673322F29"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

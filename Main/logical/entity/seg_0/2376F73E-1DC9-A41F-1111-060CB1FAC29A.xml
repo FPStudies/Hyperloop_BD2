@@ -52,7 +52,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Expected duration" id="713682F2-DD3E-526C-4D3D-1FFBFEB377E8">
@@ -81,32 +81,6 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="S-ID" id="827DC2F3-C05D-BEC6-729D-DF34733D3612">
-<createdBy>Admin</createdBy>
-<createdTime>2020-01-08 09:00:41 UTC</createdTime>
-<generatorID>F09816CD-3DFD-03A9-5986-29EE628506D4</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
-</engineerTo>
-<referedAttribute>6E5EB41B-3233-487A-82AF-E2CDE612648E</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="S-ID1" id="3EB1B691-EB1A-A013-CFF8-5ABFBB50F2ED">
-<createdBy>Admin</createdBy>
-<createdTime>2020-01-08 09:00:41 UTC</createdTime>
-<generatorID>B323E333-A372-ACFC-AAC4-6985E4D79B76</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
-</engineerTo>
-<referedAttribute>6E5EB41B-3233-487A-82AF-E2CDE612648E</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

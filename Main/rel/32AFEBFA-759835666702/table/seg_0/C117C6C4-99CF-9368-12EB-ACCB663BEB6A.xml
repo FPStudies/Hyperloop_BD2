@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C117C6C4-99CF-9368-12EB-ACCB663BEB6A" name="Route">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C117C6C4-99CF-9368-12EB-ACCB663BEB6A" name="Route_section">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>2376F73E-1DC9-A41F-1111-060CB1FAC29A</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="R-ID" id="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5">
+<Column name="ID" id="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>9F3BBDD9-D939-8803-99F8-27CB4D1970A5</generatorID>
@@ -19,6 +19,21 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="4CE4B4DB-352E-F266-C261-91F8595105C0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:04 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F339F439-A807-806B-17B6-F0D409D1AAA8" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
+</associations>
 </Column>
 <Column name="Expected_duration" id="B8C24E3B-B135-157D-6805-27AE407DD751">
 <createdBy>Matizbychu</createdBy>
@@ -38,7 +53,7 @@
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -58,35 +73,19 @@
 <colAssociation fkAssociation="AE576170-807C-15FB-449F-63FF774EE822" referredColumn="C233462C-D000-0FC1-6E5D-2A802E77E60C"/>
 </associations>
 </Column>
-<Column name="Status" id="215FC41B-99E7-5948-9F85-442701345096">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>8F36B402-C908-4DFA-20FA-95C76E2816D6</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6880BC2F-2F57-8D51-BABC-8A1F50D07D12" referredColumn="F13374D0-F1D4-BD26-8F1F-0BBE30BC442F"/>
-</associations>
-</Column>
 <Column name="Start" id="6E83C8F9-2986-D3E3-48CF-712889CC1AE4">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 21:37:37 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="795FCFD3-C773-865D-CAC6-F8448ECC49F2" referredColumn="87B0D52F-0580-886C-7B5D-D97391EF352C"/>
+<colAssociation fkAssociation="795FCFD3-C773-865D-CAC6-F8448ECC49F2" referredColumn="C0E05204-D0E5-6849-EFA4-BF10D9CE7E95"/>
 </associations>
 </Column>
 <Column name="End" id="8D35770A-B3C2-18CE-85A4-244D510A1E9F">
@@ -95,13 +94,13 @@
 <ownerDesignName>Main</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>63 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>63 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A1BD5659-920D-C6DC-0623-10BB7EDB5A6E" referredColumn="87B0D52F-0580-886C-7B5D-D97391EF352C"/>
+<colAssociation fkAssociation="A1BD5659-920D-C6DC-0623-10BB7EDB5A6E" referredColumn="C0E05204-D0E5-6849-EFA4-BF10D9CE7E95"/>
 </associations>
 </Column>
 </columns>
@@ -118,16 +117,13 @@
 <colUsage columnID="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="43630678-DAF5-BA21-DEFE-B56015ED8A37" name="Route_Status_FK">
-<createdBy>Matizbychu</createdBy>
-<createdTime>2019-12-16 19:10:24 UTC</createdTime>
-<generatorID>C7D071DE-F341-E35F-CD5C-FC7CFA412E5D</generatorID>
+<ind_PK_UK id="E0F66643-9684-3264-3713-FC2D468BB5EC" name="Route_section__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="215FC41B-99E7-5948-9F85-442701345096"/>
-</indexColumnUsage>
+<relationGeneratorID>F09816CD-3DFD-03A9-5986-29EE628506D4</relationGeneratorID>
 </ind_PK_UK>
 <ind_PK_UK id="66D4E6D2-4148-6738-4D08-D2A77BDF9DDD" name="Route_Measurment_Unit_FK">
 <createdBy>Admin</createdBy>
@@ -160,6 +156,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8D35770A-B3C2-18CE-85A4-244D510A1E9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="212E238A-7B3D-7D12-3194-CDA621F8D6B4" name="Route_section_Status_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:45:04 UTC</createdTime>
+<generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE4B4DB-352E-F266-C261-91F8595105C0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FAAF17D-8B8B-6BB3-DCB5-E0762AF17D4D" containerWithKeyObject="17C4CD3A-AA39-417D-7D72-67296A9596D3" localFKIndex="01D615ED-68CC-DC9D-23B6-1BE4B6DD0794" name="Battery_Element_Data_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 21:39:28 UTC</createdTime>
+<generatorID>F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<referredTableLongName>Element_Data</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85D3BB26-4804-3D90-AD12-20C853DD0DD7</referredTableID>
+<keyObject>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</keyObject>
+<referredKeyID>7C5B6C26-2FB2-FC0F-1B60-7D99FE3CC049</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Serial_Number,Producent_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

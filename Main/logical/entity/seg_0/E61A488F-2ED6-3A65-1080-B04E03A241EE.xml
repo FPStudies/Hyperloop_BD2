@@ -28,21 +28,6 @@
 <dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Status" id="195C7FC2-391D-16F4-4AC9-4F81BB207274">
-<createdBy>filip</createdBy>
-<createdTime>2019-12-16 14:37:39 UTC</createdTime>
-<generatorID>F676F7FC-8E07-2CC4-1211-6046D97A1950</generatorID>
-<ownerDesignName>Main</ownerDesignName>
-<engineerTo>
-<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
-</engineerTo>
-<referedAttribute>156CBD63-A3B9-9684-9BF7-9B1D0CD49337</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Serial Number" id="16922A77-5F84-A44D-FCDE-EA5EE6AD9273">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 20:49:37 UTC</createdTime>
@@ -56,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PR-ID" id="E42420E5-7844-269E-AF56-97AF752EF250">
 <createdBy>Admin</createdBy>
@@ -71,6 +56,33 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Maintenance date" id="A15D7CCE-CFFE-110E-3BA9-1F495A4D3E34">
+<createdBy>Matizbychu</createdBy>
+<createdTime>2020-01-13 19:40:04 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="EBFDBD8C-1C6F-AF7B-DEF3-E91E5CF45693">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:05:16 UTC</createdTime>
+<generatorID>F676F7FC-8E07-2CC4-1211-6046D97A1950</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<engineerTo>
+<item key="32AFEBFA-4E55-62C2-576F-759835666702" value="true"/>
+</engineerTo>
+<referedAttribute>FEA9D947-79E6-C156-A99A-D9EA2A399EE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

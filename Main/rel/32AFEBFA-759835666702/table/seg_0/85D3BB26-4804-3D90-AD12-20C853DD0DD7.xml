@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85D3BB26-4804-3D90-AD12-20C853DD0DD7" name="Producent_Serial_Number">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85D3BB26-4804-3D90-AD12-20C853DD0DD7" name="Element_Data">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>52B428F7-FD87-A146-34B4-BB5E876DDFCC</generatorID>
@@ -21,7 +21,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Producent_data_PR-ID" id="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2">
+<Column name="Producent_ID" id="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 20:58:08 UTC</createdTime>
 <generatorID>130629D3-FDFB-463D-0E00-673ADAD14410</generatorID>
@@ -36,6 +36,18 @@
 <associations>
 <colAssociation fkAssociation="E961C61D-CC90-BE79-97A2-1347DAF1CCDC" referredColumn="F704F66A-AE35-FD97-A585-DA85E5B3A239"/>
 </associations>
+</Column>
+<Column name="Model_name" id="AC25DB45-1560-09B5-7CB5-EFD568810F67">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-14 20:07:17 UTC</createdTime>
+<generatorID>FDCFAB64-C2E1-F2D5-544C-3E8404AB1808</generatorID>
+<ownerDesignName>Main</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

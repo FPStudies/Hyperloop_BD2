@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Tube_Type" directorySegmentName="seg_0" id="36279210-DBBF-EC41-9AEE-0A611BD905A5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Type" id="2F567844-7A51-DCB0-8A64-4A47D64DFFAF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Tube_Type_PK" id="3609AF8D-9B8C-0F61-5125-AFA8699D2F12">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

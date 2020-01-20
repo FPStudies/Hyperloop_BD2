@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Measurment_Unit" directorySegmentName="seg_0" id="4E545B98-7D0F-ABBD-C348-715C16801DDE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Unit" id="C233462C-D000-0FC1-6E5D-2A802E77E60C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Measurment_Unit_PK" id="A0AC96EA-1598-C0BA-8A26-08CDBB9B94E7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

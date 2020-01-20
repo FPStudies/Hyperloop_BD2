@@ -16,8 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Status" id="4CE4B4DB-352E-F266-C261-91F8595105C0">
@@ -124,6 +124,9 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>F09816CD-3DFD-03A9-5986-29EE628506D4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5"/>
+</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="66D4E6D2-4148-6738-4D08-D2A77BDF9DDD" name="Route_Measurment_Unit_FK">
 <createdBy>Admin</createdBy>

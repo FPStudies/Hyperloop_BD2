@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Pylon" directorySegmentName="seg_0" id="EB843B1C-2B33-8A92-EC45-2F2E3807203D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Damper_ID" id="2DEA123A-F0EC-2858-AE90-2901D867C82B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Status" id="54C04BE8-4FF5-E965-8E83-9034AC4E446C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Length" id="728EBC26-8CC9-2807-2BC9-909B74451B44">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Length_Unit" id="83EB8F41-72CD-209C-B056-2BF4820751C4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Tube_Segment_ID" id="88CE5F04-BEA3-5555-9323-FA4673322F29">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="CD3DD97F-C64E-E845-D5E1-A3C15E65AC45">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Maintenance_date" id="FF36A5A7-2D6C-E572-A245-CD511727F9C5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Pylon__IDX" id="4AB40D59-B90B-0C2E-AA08-3670738E66AF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pylon_Damper_FK" id="079AD9C1-80E7-C29E-EF6F-C2D9605441DD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pylon_Tube_Segment_FK" id="BFD70FDF-50D0-077D-29D9-4AAA524D4D2C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pylon_Status_FK" id="C8AF7769-B1C0-AB29-0C4C-C3427DD083E2">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pylon_Measurment_Unit_FK" id="DAE0F3FB-97CA-619A-188F-1DC140D88FC9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Pylon_PK" id="5E126F94-3D70-0DD7-E1CA-DF43DA5A3809">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

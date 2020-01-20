@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Terrain_Type" directorySegmentName="seg_0" id="7C58F0AA-6AC7-2403-FB48-0BD4F424DDBB">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Type" id="BC50831E-2B12-A690-BB54-7B38F16A637C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Terrain_Type_PK" id="B7C1C84C-0799-CB0D-5071-7DBA1363C0BC">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

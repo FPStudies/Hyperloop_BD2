@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF05F017-0464-613B-08EE-5F3F3A105C47" containerWithKeyObject="09BD07BE-D7D3-D23F-EA4E-1AC43B6E36BD" localFKIndex="26C14D66-F475-0E5C-D257-DECA74739644" name="Linear_Electric_Motor_Status_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF05F017-0464-613B-08EE-5F3F3A105C47" containerWithKeyObject="09BD07BE-D7D3-D23F-EA4E-1AC43B6E36BD" localFKIndex="26C14D66-F475-0E5C-D257-DECA74739644" name="Motor_Status_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-14 21:44:14 UTC</createdTime>
 <generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>

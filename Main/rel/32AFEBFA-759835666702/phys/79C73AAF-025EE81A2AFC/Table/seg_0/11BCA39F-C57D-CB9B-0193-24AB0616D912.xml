@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Solar_Panel" directorySegmentName="seg_0" id="11BCA39F-C57D-CB9B-0193-24AB0616D912">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Serial_Number" id="12FD4FBA-0E73-97F7-3396-FE780ABF97A3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Avg_output" id="14887565-952D-0A29-F6BC-54417F97DDA9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Status" id="1532FD63-8EB0-AC13-E998-2680ACE3667C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Output_Unit" id="28E8203E-676D-53FA-7203-20F7CA86E212">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Energy_Grid_ID" id="37CDF737-6E80-FC7B-5CE0-1FDF1973F891">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Tube_Segment_ID" id="7AAA7E03-A94D-55B0-A265-3C32D42C7778">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Producent_ID" id="A79F5774-A1CD-658F-0A64-4C03DF624F16">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Maintenance_date" id="B025069D-23FA-D3B1-C520-787B2635E262">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="D03F2288-5F39-2686-8341-0927382AFFE1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Solar_Panel_Measurment_Unit_FK" id="00F36EDB-3856-5F67-6BC9-74547DAEFC1E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Solar_Panel_Energy_Grid_FK" id="3A5C9F9A-F497-6072-9F87-EE45509E3001">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Solar_Panel_Tube_Segment_FK" id="4B75DA3E-6A09-8528-B696-69E4A15C5121">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Solar_Panel_Status_FK" id="4E74DDDD-F4C5-F51C-F186-4D9A3CFB93C0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Solar_Panel_Element_Data_FK" id="AA4A1267-B031-DE07-08E3-F9413C4E3B99">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Solar_Panel_PK" id="6C633EBA-CE9C-4B4B-DA2A-2AB3FFD11ED8">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 19:37:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

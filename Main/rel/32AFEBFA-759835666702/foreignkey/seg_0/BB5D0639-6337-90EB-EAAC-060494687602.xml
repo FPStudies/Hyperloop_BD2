@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB5D0639-6337-90EB-EAAC-060494687602" containerWithKeyObject="FF4FE357-5069-A58E-D0A2-03115C65734C" localFKIndex="7479B843-09B9-8435-D484-C86ACCFF73B0" name="Tube_Segment_Linear_Electric_Motor_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB5D0639-6337-90EB-EAAC-060494687602" containerWithKeyObject="FF4FE357-5069-A58E-D0A2-03115C65734C" localFKIndex="7479B843-09B9-8435-D484-C86ACCFF73B0" name="Tube_Segment_Motor_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>48700E66-9AC0-C578-4BC0-6EFF763E2C08</generatorID>
@@ -10,7 +10,7 @@
 <keyObject>27C9A937-FE94-9050-9297-ACE986E5EADD</keyObject>
 <referredKeyID>27C9A937-FE94-9050-9297-ACE986E5EADD</referredKeyID>
 <mandatory>false</mandatory>
-<refColNames>LEM-ID</refColNames>
+<refColNames>ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

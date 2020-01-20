@@ -16,8 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Status" id="7410C2F7-88C2-2F7E-E3B1-330528601898">
@@ -44,7 +44,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -107,7 +107,7 @@
 <colUsage columnID="5F6185E5-FE92-7398-9502-7E594A585690"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3510D526-FCB7-ECB1-3B89-D1B867ADCE0D" name="Linear_Electric_Motor_Energy_Grid_FK">
+<ind_PK_UK id="3510D526-FCB7-ECB1-3B89-D1B867ADCE0D" name="Motor_Energy_Grid_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <generatorID>E1BA7526-4A84-4B6D-9DDD-7DD9DDBF227A</generatorID>
@@ -118,7 +118,7 @@
 <colUsage columnID="8CD8A0E2-DEF4-73B5-2847-55D95FA2C4D7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2BCB988B-26D4-462C-B0E6-E9EC60AAC6B5" name="Linear_Electric_Motor_Element_Data_FK">
+<ind_PK_UK id="2BCB988B-26D4-462C-B0E6-E9EC60AAC6B5" name="Motor_Element_Data_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-14 21:41:12 UTC</createdTime>
 <generatorID>F7CA601A-DEF8-C5C6-9FC5-080A0B5CFF08</generatorID>
@@ -130,7 +130,7 @@
 <colUsage columnID="8BC5C396-4602-5114-9EDA-EF925FCBC835"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="26C14D66-F475-0E5C-D257-DECA74739644" name="Linear_Electric_Motor_Status_FK">
+<ind_PK_UK id="26C14D66-F475-0E5C-D257-DECA74739644" name="Motor_Status_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-14 21:44:14 UTC</createdTime>
 <generatorID>5682D6E7-D55D-5D6E-0894-11AEFFF0439C</generatorID>

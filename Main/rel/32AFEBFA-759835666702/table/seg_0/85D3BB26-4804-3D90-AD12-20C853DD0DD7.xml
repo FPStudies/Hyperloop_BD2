@@ -45,8 +45,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -64,7 +64,7 @@
 <colUsage columnID="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3DFA264C-7D0B-7DA7-6351-245D678AA75A" name="Producent_Serial_Number_Producent_data_FK">
+<ind_PK_UK id="3DFA264C-7D0B-7DA7-6351-245D678AA75A" name="Producent_ID_Serial_Number_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 20:58:08 UTC</createdTime>
 <generatorID>A22F33F7-B245-A86E-22E7-F3F147D02E0B</generatorID>

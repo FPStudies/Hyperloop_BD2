@@ -117,7 +117,7 @@
 <colUsage columnID="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E0F66643-9684-3264-3713-FC2D468BB5EC" name="Route_section__IDX">
+<ind_PK_UK id="E0F66643-9684-3264-3713-FC2D468BB5EC" name="Route_sec__IDX">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-14 20:07:17 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
@@ -126,6 +126,33 @@
 <relationGeneratorID>F09816CD-3DFD-03A9-5986-29EE628506D4</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="69D6C6F3-190E-CF8A-1E4F-395AACA65EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EBF287E-7714-BD4D-1754-98936F6ACF60" name="Route_sec_Stat__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:33:51 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE4B4DB-352E-F266-C261-91F8595105C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="448C38BE-13C6-137F-BECD-10641F5A3F46" name="Route_sec_Start__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:33:51 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E83C8F9-2986-D3E3-48CF-712889CC1AE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A323BB2-34A3-7F51-0F13-61AA3D1D972F" name="Route_sec_End__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:33:51 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D35770A-B3C2-18CE-85A4-244D510A1E9F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="66D4E6D2-4148-6738-4D08-D2A77BDF9DDD" name="Route_Measurment_Unit_FK">
@@ -173,4 +200,36 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Route_section_CK_STATUS" directorySegmentName="seg_0" id="3C27466D-F34C-85F4-2348-7C80F53B6CEE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:28:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Status='In planning' or Status='Open' or Status='Closed']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Route_section_CK_Len_U" directorySegmentName="seg_0" id="28287300-4342-1CFD-1C64-5F236954C01C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:30:31 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Length_Unit='lea' or Length_Unit='mi' or Length_Unit='fur' or Length_Unit='ch' or Length_Unit='yd' or Length_Unit='ft' or Length_Unit='in' or Length_Unit='km' or Length_Unit='m' or Length_Unit='cm']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Route_section_CK_Dur" directorySegmentName="seg_0" id="5A244D8D-B63E-5FDF-E606-F1CE60A0207C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:32:01 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Expected_duration>0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Route_section_CK_Len" directorySegmentName="seg_0" id="BB23C4D6-915C-7335-71A9-814A7FAB444E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:33:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Length>0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Route_section_CK_Direction" directorySegmentName="seg_0" id="29996A3B-1604-33D8-10BF-27CC1CB2E08F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:33:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Start != End]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

@@ -25,6 +25,13 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Element_Producent__IDX" id="65EAE7C5-6F8F-9A7E-96D6-C60547E4A887">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:18:15 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Producent_ID_Serial_Number_FK" id="3DFA264C-7D0B-7DA7-6351-245D678AA75A">
 <createdBy>Admin</createdBy>

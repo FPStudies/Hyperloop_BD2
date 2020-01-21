@@ -103,6 +103,33 @@
 <colUsage columnID="786FE401-EBA0-3737-4CF9-9CDAB7AAEBB5"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="E5BFEC19-3EE7-1E97-EB63-3ED7C6BE7FE4" name="Airlock_Stat__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:35:45 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98C69E86-8D5C-AAD1-6B81-F4E8F6627817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9E5B4EC-1ED2-EC6A-A2D9-46C12A5321F7" name="Airlock_Station__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:35:45 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78FDB438-9CBB-3502-64D6-5B89246A9663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="911B96EC-8CB3-2C39-36DB-F5C12CEE017A" name="Airlock_Platform__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:35:45 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1044E3D0-2C32-0393-F266-6F911B7FD448"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="43E513F3-410A-59D8-EB88-968013D0AA21" name="Airlock_Platform_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -127,4 +154,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Airlock_CK_STATUS" directorySegmentName="seg_0" id="6FCAF8A3-5311-F7F1-A13A-C989C31794B5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:38:09 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[STATUS='Broken' or STATUS='Working' or STATUS='Decomissioned' or STATUS='In maintanance' or STATUS='In production' or STATUS='In transit']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

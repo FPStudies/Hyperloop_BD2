@@ -116,7 +116,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -152,6 +152,51 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D03F2288-5F39-2686-8341-0927382AFFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98183F18-476C-F1D5-3615-55C0428FE995" name="Solar_Pane_Statl__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1532FD63-8EB0-AC13-E998-2680ACE3667C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF1025F-68D1-BB45-5100-DF4592C30478" name="Solar_Panel_S_NR__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12FD4FBA-0E73-97F7-3396-FE780ABF97A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ECD491A-3BB1-FEE8-A13D-85DF018FD58E" name="Solar_Panel_Prod_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A79F5774-A1CD-658F-0A64-4C03DF624F16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="885F2611-1E1F-E441-A7CA-9123D1340455" name="Solar_Panel_Tub_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAA7E03-A94D-55B0-A265-3C32D42C7778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762EF1F2-0F2B-EAB2-6ACB-995148EE8738" name="Solar_Panel_EG_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37CDF737-6E80-FC7B-5CE0-1FDF1973F891"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="3A5C9F9A-F497-6072-9F87-EE45509E3001" name="Solar_Panel_Energy_Grid_FK">
@@ -211,4 +256,18 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Solar_Panel_CK_STATUS" directorySegmentName="seg_0" id="F456832D-A5FC-5298-B6A2-0072B6C02499">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:55:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[STATUS='Broken' or STATUS='Working' or STATUS='Decomissioned' or STATUS='In maintanance' or STATUS='In production' or STATUS='In transit']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Solar_Panel_CK_OUTPUT_U" directorySegmentName="seg_0" id="5520D8A7-9067-005F-B634-13EBC60F0055">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:55:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Output_Unit='W' or Output_Unit='kW']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

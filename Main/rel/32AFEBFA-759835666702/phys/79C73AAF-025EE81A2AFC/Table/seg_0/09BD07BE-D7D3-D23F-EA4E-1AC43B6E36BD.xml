@@ -40,6 +40,28 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Motor_Prod_ID__IDX" id="0D70A27B-4A1B-2463-6771-F0D06DA2415B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Motor_EG_ID__IDX" id="129846DE-90D8-D9B4-7AD2-AC83E9A042EC">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Motor_Stat__IDX" id="C9E6D249-727C-5919-224C-689C4B090D6D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Motor_S_NR__IDX" id="E37E6CA9-074A-3C2C-51D4-2FAAE360640C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Motor_Status_FK" id="26C14D66-F475-0E5C-D257-DECA74739644">
 <createdBy>Admin</createdBy>
@@ -65,4 +87,11 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Motor_CK_STATUS" id="9A28F38A-0094-934D-47A7-595842568897">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:57:33 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

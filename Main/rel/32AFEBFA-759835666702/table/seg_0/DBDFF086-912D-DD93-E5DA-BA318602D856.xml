@@ -65,6 +65,24 @@
 <colUsage columnID="1B7DDD7F-369D-6E2E-A860-307522FF0F6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="04D36A80-5B0A-B934-7005-0231531BA710" name="Platform_Stat__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:34:57 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B64422A2-A5BA-F326-BD2D-28A7AA2D13AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D892A66-12A3-5B26-BB9A-3936BA5CD530" name="Platform_Stacion__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:34:57 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B7DDD7F-369D-6E2E-A860-307522FF0F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="08556FB6-4496-BA33-765F-DD0D1428D9EA" name="Platform_Station_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -88,4 +106,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Platform_CK_STATUS" directorySegmentName="seg_0" id="47F508B2-C5D5-CD38-4425-CE84B0232434">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:35:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Status='In planning' or Status='Open' or Status='Closed']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

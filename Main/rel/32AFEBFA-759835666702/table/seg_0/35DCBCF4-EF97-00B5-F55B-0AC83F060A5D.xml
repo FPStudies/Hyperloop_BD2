@@ -165,6 +165,42 @@
 <colUsage columnID="0CE4F690-346C-6AC8-5950-D5B8DEA94A0B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="F97A5FC1-A6BF-1699-B27A-4A5309DEE7F4" name="Vacuum_Pump_Stat__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="362006DF-5AE7-08A7-1099-AB3597AF4395"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85A0A830-B232-BFB1-1989-A5B17A4D1E98" name="Vacuum_Pump_Tube__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90C9ECFA-81D2-28C7-0755-3CD471132904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28D718DB-6B25-B65D-F215-583256640896" name="Vacuum_Pump_S_NR__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E29CB8A1-DBA3-CD7B-7C3A-5D23C8303EA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CD498C7-DBB9-2C0E-321C-53528342E1AF" name="Vacuum_Pump_Prod_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFBEB3F8-777E-252D-B17F-1B28759DADEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="CCCB847E-6EDB-FC05-9E1B-444F287C4DC7" name="Vacuum_Pump_Tube_Segment_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -222,4 +258,24 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Vacuum_Pump_CK_STATUS" directorySegmentName="seg_0" id="D9B49EEF-B6D5-F5CB-760A-0E10EFA8497C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:58:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[STATUS='Broken' or STATUS='Working' or STATUS='Decomissioned' or STATUS='In maintanance' or STATUS='In production' or STATUS='In transit']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Vacuum_Pump_CK_Pow_U" directorySegmentName="seg_0" id="920497D9-2EE6-FB17-2797-9BF90ADBC111">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:03:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Power_Unit='W' or Power_Unit='kW']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Vacuum_Pump_CK_Pres_U" directorySegmentName="seg_0" id="F8C47931-3381-0BA6-5B3F-8FA703AFE1BF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:03:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Pressure_Unit='Pa' or Pressure_Unit='hPa' or Pressure_Unit='atm' or Pressure_Unit='torr']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

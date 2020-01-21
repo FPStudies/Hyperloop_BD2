@@ -64,6 +64,15 @@
 <colUsage columnID="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="65EAE7C5-6F8F-9A7E-96D6-C60547E4A887" name="Element_Producent__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:18:15 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EAD36F8-8E64-B2E8-B88F-33FDBF8412B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3DFA264C-7D0B-7DA7-6351-245D678AA75A" name="Producent_ID_Serial_Number_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2019-12-16 20:58:08 UTC</createdTime>

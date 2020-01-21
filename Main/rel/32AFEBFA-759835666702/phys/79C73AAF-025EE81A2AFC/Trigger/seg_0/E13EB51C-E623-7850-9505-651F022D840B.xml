@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Pylon_status_TR" directorySegmentName="seg_0" id="E13EB51C-E623-7850-9505-651F022D840B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 01:45:12 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+CASE
+WHEN NEW.STATUS LIKE "Broken" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 0, SYSDATE, CONCAT('Pylon ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "In maintanance" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 3, SYSDATE, CONCAT('Pylon ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Working" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 4, SYSDATE, CONCAT('Pylon ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Decomissioned" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 5, SYSDATE, CONCAT('Pylon ', NEW.ID, ' is now ', NEW.STATUS)
+ELSE INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 6, SYSDATE, CONCAT('Pylon ', NEW.ID, ' is now ', NEW.STATUS)
+END
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Status!=OLD.Status]]></condition>
+<table>EB843B1C-2B33-8A92-EC45-2F2E3807203D</table>
+</TriggerOraclev10g>

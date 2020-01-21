@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Solar_Panel_Status_TR" directorySegmentName="seg_0" id="C67173BA-AFFC-478D-9634-36CEF8C3F76D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 01:47:10 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+CASE
+WHEN NEW.STATUS LIKE "Broken" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 0, SYSDATE, CONCAT('Solar Panel ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "In maintanance" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 3, SYSDATE, CONCAT('Solar Panel ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Working" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 4, SYSDATE, CONCAT('Solar Panel ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Decomissioned" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 5, SYSDATE, CONCAT('Solar Panel ', NEW.ID, ' is now ', NEW.STATUS)
+ELSE INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 6, SYSDATE, CONCAT('Solar Panel ', NEW.ID, ' is now ', NEW.STATUS)
+END
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Status!=OLD.Status]]></condition>
+<table>11BCA39F-C57D-CB9B-0193-24AB0616D912</table>
+</TriggerOraclev10g>

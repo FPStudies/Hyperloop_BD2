@@ -81,7 +81,10 @@
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="66DA985E-5E76-D9C1-804C-1F4A1681B78C" otype="Note" vid="2780E7C5-EE01-BB51-1535-3CA8C8B6E4C6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1168" y="90" width="167" height="96"/>
-<comment>For triggers.</comment>
+<comment>For triggers.
+
+0 - closing, 1 - breaking down, 2 - warning, 3 - maintanance,
+4 - installed/opened, 5 - decomissioned, 6 - others</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="70665114-0026-7291-82B8-9844E915C13D" otype="Entity" vid="A23C0D47-3573-7AF6-80B9-4A6CE61057BE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

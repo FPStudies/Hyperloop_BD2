@@ -55,6 +55,28 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Battery_Prod_ID__IDX" id="5DC0F0B7-512D-697D-6295-0A6E9629E4F4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:22:52 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Battery_S_NR__IDX" id="8A1A745F-B1A6-CA8F-0F7C-0163E5E7CA98">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:22:52 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Battery_EG_ID__IDX" id="A9F8B606-4A8E-25C2-7776-88A52FF495E1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:22:06 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Battery_Status__IDX" id="C54D49EC-12B9-C6F8-70B9-638F929505F4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:19:55 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Battery_Element_Data_FK" id="01D615ED-68CC-DC9D-23B6-1BE4B6DD0794">
 <createdBy>Admin</createdBy>
@@ -85,4 +107,21 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Battery_CK_STATUS" id="45D7C383-96E5-7B9D-3160-23C995CBFC45">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:48:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Battery_CK_CAP_U" id="4EFBD68F-87D7-1308-D2B1-5019007BF2FA">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:53:39 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Battery_CK_CHARGE" id="7B4B66F5-8668-D96E-C3D1-F148E4CE2C5F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:50:38 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Damper_Status_TR" directorySegmentName="seg_0" id="511AE5FA-AC79-4284-BCA6-E5F8340DE4AD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 01:38:39 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+CASE
+WHEN NEW.STATUS LIKE "Broken" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 0, SYSDATE, CONCAT('Damper ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "In maintanance" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 3, SYSDATE, CONCAT('Damper ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Working" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 4, SYSDATE, CONCAT('Damper ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Decomissioned" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 5, SYSDATE, CONCAT('Damper ', NEW.ID, ' is now ', NEW.STATUS)
+ELSE INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 6, SYSDATE, CONCAT('Damper ', NEW.ID, ' is now ', NEW.STATUS)
+END
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Status!=OLD.Status]]></condition>
+<table>DB17546A-C927-AEB8-0A0F-BD530F5E7529</table>
+</TriggerOraclev10g>

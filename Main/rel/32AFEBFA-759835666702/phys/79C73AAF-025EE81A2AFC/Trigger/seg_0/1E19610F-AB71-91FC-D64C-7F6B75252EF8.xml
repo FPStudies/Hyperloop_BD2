@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Station_Status_TR" directorySegmentName="seg_0" id="1E19610F-AB71-91FC-D64C-7F6B75252EF8">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 01:48:11 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+CASE
+WHEN NEW.STATUS LIKE "Closed" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 0, SYSDATE, CONCAT('Station ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Open" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 4, SYSDATE, CONCAT('Station ', NEW.ID, ' is now ', NEW.STATUS)
+ELSE INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 6, SYSDATE, CONCAT('Station ', NEW.ID, ' is now ', NEW.STATUS)
+END
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Status!=OLD.Status]]></condition>
+<table>BEF71257-8798-8032-BC72-7AA0789440C9</table>
+</TriggerOraclev10g>

@@ -60,6 +60,15 @@
 <colUsage columnID="C0E05204-D0E5-6849-EFA4-BF10D9CE7E95"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C8CB8124-0BBE-0189-E79B-54C996AB090D" name="Station_Stat__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:34:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB87FF4F-0C94-02DB-8BE6-FB9D80A9A99D"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="31823265-DFFB-26B0-F7F0-F81F041E984D" name="Station_Status_FK">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-14 21:45:25 UTC</createdTime>
@@ -72,4 +81,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Station_CK_STATUS" directorySegmentName="seg_0" id="5A01A4A1-9323-8175-6C24-6518971CBB48">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:34:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Status='In planning' or Status='Open' or Status='Closed']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

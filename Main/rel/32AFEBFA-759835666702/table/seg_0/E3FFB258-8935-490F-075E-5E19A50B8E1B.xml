@@ -68,5 +68,33 @@
 <colUsage columnID="B8635FE5-2C5D-FAEF-94B0-52B8F6415877"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="9B4A2EA4-A349-6D93-6703-405676EA72C3" name="Logs_Type__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:05:22 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4AD57E4-3F37-0B79-39BA-260DF95A7D20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BFED965-5FAA-B119-DB02-FC891EC24329" name="Logs_Date__IDXv1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:05:22 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B061075D-DC30-0136-89D9-E0ED6DE8EEA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="619B85B2-3DF8-6B37-F04D-F7BC06DF3B0F" name="Logs_Type_Date__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:05:22 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4AD57E4-3F37-0B79-39BA-260DF95A7D20"/>
+<colUsage columnID="B061075D-DC30-0136-89D9-E0ED6DE8EEA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

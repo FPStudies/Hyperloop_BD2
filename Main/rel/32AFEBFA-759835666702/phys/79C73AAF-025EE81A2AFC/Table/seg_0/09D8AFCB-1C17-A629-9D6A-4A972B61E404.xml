@@ -25,6 +25,18 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_on_route_Route__IDX" id="429C39E6-89EB-C2CC-34EC-BB2B6FC35202">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:32:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_on_route_Tube__IDX" id="BE04E441-F94F-BEA8-A42D-E441BD4C456A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:32:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Tube_on_route_Tube_Segment_FK" id="145B17BA-EB60-CBA4-161C-C286F8960869">
 <createdBy>Admin</createdBy>

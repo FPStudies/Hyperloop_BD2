@@ -30,6 +30,23 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Logs_Date__IDXv1" id="0BFED965-5FAA-B119-DB02-FC891EC24329">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:05:22 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Logs_Type_Date__IDX" id="619B85B2-3DF8-6B37-F04D-F7BC06DF3B0F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:05:22 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Logs_Type__IDX" id="9B4A2EA4-A349-6D93-6703-405676EA72C3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:05:22 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Logs_PK" id="011D9B29-FFAC-4FF7-70B3-2A4A8CE97607">
 <createdBy>Admin</createdBy>

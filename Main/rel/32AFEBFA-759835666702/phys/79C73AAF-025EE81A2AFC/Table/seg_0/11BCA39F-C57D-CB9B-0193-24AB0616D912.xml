@@ -55,6 +55,33 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Solar_Panel_S_NR__IDX" id="4AF1025F-68D1-BB45-5100-DF4592C30478">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Solar_Panel_EG_ID__IDX" id="762EF1F2-0F2B-EAB2-6ACB-995148EE8738">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Solar_Panel_Tub_ID__IDX" id="885F2611-1E1F-E441-A7CA-9123D1340455">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Solar_Panel_Prod_ID__IDX" id="8ECD491A-3BB1-FEE8-A13D-85DF018FD58E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Solar_Pane_Statl__IDX" id="98183F18-476C-F1D5-3615-55C0428FE995">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:24:42 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Solar_Panel_Measurment_Unit_FK" id="00F36EDB-3856-5F67-6BC9-74547DAEFC1E">
 <createdBy>Admin</createdBy>
@@ -90,4 +117,16 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Solar_Panel_CK_OUTPUT_U" id="5520D8A7-9067-005F-B634-13EBC60F0055">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:55:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Solar_Panel_CK_STATUS" id="F456832D-A5FC-5298-B6A2-0072B6C02499">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:55:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

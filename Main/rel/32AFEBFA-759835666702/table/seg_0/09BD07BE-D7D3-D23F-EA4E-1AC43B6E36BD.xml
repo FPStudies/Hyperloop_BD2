@@ -107,6 +107,42 @@
 <colUsage columnID="5F6185E5-FE92-7398-9502-7E594A585690"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C9E6D249-727C-5919-224C-689C4B090D6D" name="Motor_Stat__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7410C2F7-88C2-2F7E-E3B1-330528601898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="129846DE-90D8-D9B4-7AD2-AC83E9A042EC" name="Motor_EG_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD8A0E2-DEF4-73B5-2847-55D95FA2C4D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E37E6CA9-074A-3C2C-51D4-2FAAE360640C" name="Motor_S_NR__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098A9040-865A-C07F-D8E1-50875EE75F80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D70A27B-4A1B-2463-6771-F0D06DA2415B" name="Motor_Prod_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:26:23 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BC5C396-4602-5114-9EDA-EF925FCBC835"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3510D526-FCB7-ECB1-3B89-D1B867ADCE0D" name="Motor_Energy_Grid_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -142,4 +178,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Motor_CK_STATUS" directorySegmentName="seg_0" id="9A28F38A-0094-934D-47A7-595842568897">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:57:33 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[STATUS='Broken' or STATUS='Working' or STATUS='Decomissioned' or STATUS='In maintanance' or STATUS='In production' or STATUS='In transit']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

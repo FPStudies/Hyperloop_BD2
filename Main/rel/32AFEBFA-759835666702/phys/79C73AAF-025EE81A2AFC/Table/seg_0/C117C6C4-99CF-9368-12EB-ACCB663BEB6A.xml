@@ -46,7 +46,22 @@
 </ColumnProxy>
 </columnProxies>
 <indexProxies>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Route_section__IDX" id="E0F66643-9684-3264-3713-FC2D468BB5EC">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Route_sec_Stat__IDX" id="2EBF287E-7714-BD4D-1754-98936F6ACF60">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:33:51 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Route_sec_Start__IDX" id="448C38BE-13C6-137F-BECD-10641F5A3F46">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:33:51 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Route_sec_End__IDX" id="4A323BB2-34A3-7F51-0F13-61AA3D1D972F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:33:51 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Route_sec__IDX" id="E0F66643-9684-3264-3713-FC2D468BB5EC">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-20 19:37:11 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
@@ -82,4 +97,31 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Route_section_CK_Len_U" id="28287300-4342-1CFD-1C64-5F236954C01C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:30:31 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Route_section_CK_Direction" id="29996A3B-1604-33D8-10BF-27CC1CB2E08F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:33:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Route_section_CK_STATUS" id="3C27466D-F34C-85F4-2348-7C80F53B6CEE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:28:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Route_section_CK_Dur" id="5A244D8D-B63E-5FDF-E606-F1CE60A0207C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:32:01 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Route_section_CK_Len" id="BB23C4D6-915C-7335-71A9-814A7FAB444E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:33:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

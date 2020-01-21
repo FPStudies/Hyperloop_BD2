@@ -25,6 +25,13 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Station_Stat__IDX" id="C8CB8124-0BBE-0189-E79B-54C996AB090D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:34:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Station_Status_FK" id="31823265-DFFB-26B0-F7F0-F81F041E984D">
 <createdBy>Admin</createdBy>
@@ -40,4 +47,11 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Station_CK_STATUS" id="5A01A4A1-9323-8175-6C24-6518971CBB48">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:34:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

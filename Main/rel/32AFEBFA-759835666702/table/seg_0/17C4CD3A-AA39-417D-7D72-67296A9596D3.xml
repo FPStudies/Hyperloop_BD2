@@ -149,6 +149,42 @@
 <colUsage columnID="60D31008-D765-FD53-A495-50A01E50E41A"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C54D49EC-12B9-C6F8-70B9-638F929505F4" name="Battery_Status__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:19:55 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6286063-7A82-314A-77C3-F832B8BA83EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9F8B606-4A8E-25C2-7776-88A52FF495E1" name="Battery_EG_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:22:06 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8260F5CE-CFA7-E6C9-20E0-58FD44A9CFC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A1A745F-B1A6-CA8F-0F7C-0163E5E7CA98" name="Battery_S_NR__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:22:52 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18EEBFF1-B527-C61D-1C1C-6DC3D2DDB519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DC0F0B7-512D-697D-6295-0A6E9629E4F4" name="Battery_Prod_ID__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:22:52 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B3B084-35DC-A704-4A3F-F640EC93ACE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="96298CC6-9448-6FDC-383D-EE7863CFDA52" name="Battery_Energy_Grid_FK">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
@@ -195,4 +231,24 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Battery_CK_STATUS" directorySegmentName="seg_0" id="45D7C383-96E5-7B9D-3160-23C995CBFC45">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:48:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[STATUS='Broken' or STATUS='Working' or STATUS='Decomissioned' or STATUS='In maintanance' or STATUS='In production' or STATUS='In transit']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Battery_CK_CHARGE" directorySegmentName="seg_0" id="7B4B66F5-8668-D96E-C3D1-F148E4CE2C5F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:50:38 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Charge >= 0 and Charge <= 100]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Battery_CK_CAP_U" directorySegmentName="seg_0" id="4EFBD68F-87D7-1308-D2B1-5019007BF2FA">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:53:39 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Capacity_Unit='Wh' or Capacity_Unit='kWh' or Capacity_Unit='Ah' or Capacity_Unit='kAh']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

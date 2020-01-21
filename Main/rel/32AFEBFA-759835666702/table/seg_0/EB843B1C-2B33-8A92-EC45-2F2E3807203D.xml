@@ -119,7 +119,7 @@
 <colUsage columnID="CD3DD97F-C64E-E845-D5E1-A3C15E65AC45"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4AB40D59-B90B-0C2E-AA08-3670738E66AF" name="Pylon__IDX">
+<ind_PK_UK id="4AB40D59-B90B-0C2E-AA08-3670738E66AF" name="Pylon_Damper__IDX">
 <createdBy>Matizbychu</createdBy>
 <createdTime>2019-12-16 19:10:24 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
@@ -128,6 +128,24 @@
 <relationGeneratorID>428797A7-8696-4D58-E785-04B9270744D8</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="2DEA123A-F0EC-2858-AE90-2901D867C82B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2E123EA-4B47-9707-710B-73EE2B1D72EA" name="Pylon_Stat__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:31:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54C04BE8-4FF5-E965-8E83-9034AC4E446C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFAFE2BB-0486-4BC7-F54A-01D1460E56D0" name="Pylon_Tube__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:31:46 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88CE5F04-BEA3-5555-9323-FA4673322F29"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="079AD9C1-80E7-C29E-EF6F-C2D9605441DD" name="Pylon_Damper_FK">
@@ -175,4 +193,18 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Pylon_CK_STATUS" directorySegmentName="seg_0" id="08436A0C-49CD-A81F-B460-F62DDFD05B34">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:26:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[STATUS='Broken' or STATUS='Working' or STATUS='Decomissioned' or STATUS='In maintanance' or STATUS='In production' or STATUS='In transit']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Pylon_CK_Len_U" directorySegmentName="seg_0" id="EE7A5A7D-D80B-B8B0-FF13-BE4B73922F5D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:26:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<rule><![CDATA[Length_Unit='lea' or Length_Unit='mi' or Length_Unit='fur' or Length_Unit='ch' or Length_Unit='yd' or Length_Unit='ft' or Length_Unit='in' or Length_Unit='km' or Length_Unit='m' or Length_Unit='cm']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

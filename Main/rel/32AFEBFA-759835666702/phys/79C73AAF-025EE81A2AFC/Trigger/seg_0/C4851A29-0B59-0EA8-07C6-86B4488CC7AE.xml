@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Station_Close_Platform_TR" directorySegmentName="seg_0" id="C4851A29-0B59-0EA8-07C6-86B4488CC7AE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 01:54:34 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+UPDATE PLATFORM SET PLATFORM.STATUS='Closed'
+FROM STATION JOIN PLATFORM ON STATION.ID=PLATFORM.STATION_ID;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Status!=OLD.Status and NEW.Status='Closed']]></condition>
+<table>30826F38-A217-8224-0784-6FD9AB88042A</table>
+</TriggerOraclev10g>

@@ -60,6 +60,28 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Vacuum_Pump_S_NR__IDX" id="28D718DB-6B25-B65D-F215-583256640896">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Vacuum_Pump_Tube__IDX" id="85A0A830-B232-BFB1-1989-A5B17A4D1E98">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Vacuum_Pump_Prod_ID__IDX" id="8CD498C7-DBB9-2C0E-321C-53528342E1AF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Vacuum_Pump_Stat__IDX" id="F97A5FC1-A6BF-1699-B27A-4A5309DEE7F4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:27:29 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Vacuum_Pump_Status_FK" id="50E1A9E3-2746-328F-EAB3-75BB1D5ABA51">
 <createdBy>Admin</createdBy>
@@ -95,4 +117,21 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Vacuum_Pump_CK_Pow_U" id="920497D9-2EE6-FB17-2797-9BF90ADBC111">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:03:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Vacuum_Pump_CK_STATUS" id="D9B49EEF-B6D5-F5CB-760A-0E10EFA8497C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:58:26 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Vacuum_Pump_CK_Pres_U" id="F8C47931-3381-0BA6-5B3F-8FA703AFE1BF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:03:49 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Tube_Close_Route_TR" directorySegmentName="seg_0" id="F1E25D3D-7E9C-856F-8E22-F0A46F333219">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:46:22 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+UPDATE ROUTE_SECTION SET ROUTE_SECTION.STATUS='Closed'
+FROM (TUBE_SEGMENT JOIN TUBE_ON_ROUTE ON TUBE_SEGMENT.TS-ID=TUBE_ON_ROUTE.TUBE_SEGMENT_ID)
+JOIN ROUTE_SECTION ON TUBE_ON_ROUTE.ROUTE_ID=ROUTE_SECTION.ID;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Status!=OLD.Status and (NEW.Status='Broken' or NEW.Status='Decomissioned' or NEW.Status='In maintanance')]]></condition>
+<table>FF4FE357-5069-A58E-D0A2-03115C65734C</table>
+</TriggerOraclev10g>

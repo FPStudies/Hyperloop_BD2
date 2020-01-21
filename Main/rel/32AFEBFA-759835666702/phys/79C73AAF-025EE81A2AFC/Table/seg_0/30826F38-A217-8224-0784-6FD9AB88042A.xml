@@ -40,6 +40,23 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Airlock_Platform__IDX" id="911B96EC-8CB3-2C39-36DB-F5C12CEE017A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:35:45 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Airlock_Station__IDX" id="C9E5B4EC-1ED2-EC6A-A2D9-46C12A5321F7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:35:45 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Airlock_Stat__IDX" id="E5BFEC19-3EE7-1E97-EB63-3ED7C6BE7FE4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:35:45 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Airlock_Platform_FK" id="43E513F3-410A-59D8-EB88-968013D0AA21">
 <createdBy>Admin</createdBy>
@@ -60,4 +77,11 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Airlock_CK_STATUS" id="6FCAF8A3-5311-F7F1-A13A-C989C31794B5">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:38:09 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

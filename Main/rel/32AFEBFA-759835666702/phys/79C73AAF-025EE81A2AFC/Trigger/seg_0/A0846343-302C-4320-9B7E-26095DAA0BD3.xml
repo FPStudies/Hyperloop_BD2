@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Battery_Low_TR" directorySegmentName="seg_0" id="A0846343-302C-4320-9B7E-26095DAA0BD3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 01:50:39 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 2, SYSDATE, CONCAT('Battery ', NEW.ID, ' is running low on power.')
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Charge<10]]></condition>
+<table>17C4CD3A-AA39-417D-7D72-67296A9596D3</table>
+</TriggerOraclev10g>

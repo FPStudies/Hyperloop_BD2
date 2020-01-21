@@ -39,6 +39,11 @@
 <createdTime>2020-01-20 19:37:11 UTC</createdTime>
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Pressure_Unit" id="880007FD-07AD-9865-61BD-04910CE54F2C">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:17:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="Chainage_Unit" id="B20C3ADD-644D-F2FB-5E63-F2117E874B68">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-20 19:37:11 UTC</createdTime>
@@ -80,7 +85,44 @@
 <ownerDesignName>Main</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_Segment_Terr__IDX" id="2F412AD1-EFEB-1B7A-30FE-51C36D031F30">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:30:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_Segment_S_NR__IDX" id="36AE7B45-36DA-DC1B-A62D-842B08444377">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:30:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_Segment_Type__IDX" id="380EF258-6017-D5C8-AFC1-AD442EC50D58">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:30:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_Segment_Motor__IDX" id="B6628A4F-E86F-A3D3-634C-31AA63B4A841">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:30:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_Segment_Stat__IDX" id="C159DDB5-A29E-A223-47B1-B2E48130AD21">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:30:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Tube_Segment_Prod_ID__IDX" id="ED454F25-48EA-F56D-1B83-C2215F7DB56E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:30:25 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pressure_Unitv2" id="12B86E47-6524-5378-1955-C1D78BD40234">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:17:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Tube_Segment_Tube_Type_FK" id="2726508F-7F25-3710-DBC2-DB42D2FEA1A3">
 <createdBy>Admin</createdBy>
 <createdTime>2020-01-20 19:37:11 UTC</createdTime>
@@ -125,4 +167,31 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Tube_Segment_CK_Press_U" id="71255484-34CB-D46E-4C24-3E889FE05875">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:19:53 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Tube_Segment_CK_EXIT_BOOL" id="7F7162A4-2435-D257-51ED-1FE953C11820">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:16:20 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Tube_Segment_CK_STATUS" id="87171AD6-D376-0C70-EC88-9E9687B31936">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:08:37 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Tube_Segment_CK_Chain_U" id="BD00AFA4-983E-A7BF-67F7-14EE180558E6">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:16:20 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Tube_Segment_CK_Alt_U" id="C5AED1B3-A350-7439-0444-04EDD67653E1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 00:16:20 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev12c>

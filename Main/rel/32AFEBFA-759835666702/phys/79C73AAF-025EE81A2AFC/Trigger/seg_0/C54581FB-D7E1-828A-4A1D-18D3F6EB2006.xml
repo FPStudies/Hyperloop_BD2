@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Airlock_Status_TR" directorySegmentName="seg_0" id="C54581FB-D7E1-828A-4A1D-18D3F6EB2006">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-21 01:28:10 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+CASE
+WHEN NEW.STATUS LIKE "Broken" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 0, SYSDATE, CONCAT('Airlock ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "In maintanance" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 3, SYSDATE, CONCAT('Airlock ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Working" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 4, SYSDATE, CONCAT('Airlock ', NEW.ID, ' is now ', NEW.STATUS)
+WHEN NEW.STATUS LIKE "Decomissioned" THEN INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 5, SYSDATE, CONCAT('Airlock ', NEW.ID, ' is now ', NEW.STATUS)
+ELSE INSERT INTO LOGS VALUES (Sq_LOGS.nextval, 6, SYSDATE, CONCAT('Airlock ', NEW.ID, ' is now ', NEW.STATUS)
+END
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<condition><![CDATA[NEW.Status!=OLD.Status]]></condition>
+<table>30826F38-A217-8224-0784-6FD9AB88042A</table>
+</TriggerOraclev10g>

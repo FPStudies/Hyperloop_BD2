@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -64,6 +64,24 @@
 <indexColumnUsage>
 <colUsage columnID="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF"/>
 <colUsage columnID="7B7D3A0A-5840-AA50-81F7-D7FBD23D9004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="429C39E6-89EB-C2CC-34EC-BB2B6FC35202" name="Tube_on_route_Route__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:32:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C17F83D-14ED-CC9D-6E81-0F29A0A7FADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE04E441-F94F-BEA8-A42D-E441BD4C456A" name="Tube_on_route_Tube__IDX">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-20 23:32:24 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D634BB5E-DA5C-1D04-9C7D-879A502419D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="30D738D5-0D17-0B97-FBBD-1074661E4438" name="Tube_on_route_Route_FK">
